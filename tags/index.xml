@@ -19,9 +19,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/hugo-starter/tags/</link>
+    <link>https://ksu-cs-textbooks.github.io/intro-python/tags/</link>
     <description>Recent content in Tags on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/hugo-starter/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
