@@ -1,0 +1,107 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basic Python on Introduction to Python</title>
+    <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/</link>
+    <description>Recent content in Basic Python on Introduction to Python</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning to Program</title>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/</guid>
+      <description>YouTube Video
+We&amp;rsquo;ve chosen Python because it is very easy to learn, easy to use, and it is used in many different places, from scientific computing and data analysis to web servers and even artificial intelligence. It is a very useful language to learn, and it makes a great first programming language.
+Learning to program involves learning not only the syntax and rules of a new language, but also a new way of thinking.</description>
+    </item>
+    <item>
+      <title>Working in the Terminal</title>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/</guid>
+      <description>YouTube Video
+First, let&amp;rsquo;s start with the basics of writing Python code in a file and running those files. This is the first major step toward actually writing a real program, but it can definitely be difficult the first time without prior experience to rely on. So, let&amp;rsquo;s go through it step by step and make sure we know how to run our programs in Python.
+At this point, we should already have Python installed on our system.</description>
+    </item>
+    <item>
+      <title>Print Statement</title>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/</guid>
+      <description>YouTube Video
+First, let&amp;rsquo;s start by introducing some important vocabulary terms:
+string: A string in programming is any text that is stored as a value. We typically represent strings by placing them inside double quotes &amp;quot;&amp;quot; in our code and elsewhere. value: A value is a piece of data that our program is storing and manipulating. In our pseudocode, values consist of either numbers or strings. keyword: A keyword is a reserved word in a programming language that defines a particular statement, expression, structure, or other use.</description>
+    </item>
+    <item>
+      <title>Using Print</title>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/</guid>
+      <description>YouTube Video
+The print(expression) statement in Python works in much the same way as the DISPLAY(expression) statement in pseudocode, but with one major difference. In pseudocode, the DISPLAY(expression) statement will print the value from the expression to the user, but it won&amp;rsquo;t add anything like a space or newline to the end. In Python, however, the print(expression) statement will add a newline to the end of the output by default. This means that multiple print(expression) statements will print on multiple lines.</description>
+    </item>
+    <item>
+      <title>Print Practice Problems</title>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice-problems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice-problems/</guid>
+      <description>YouTube Video
+Let&amp;rsquo;s try some simple practice problems. These problems are not graded - they are just for you to practice before doing the real exercises in the lab itself.
+1 Write the output that is displayed to the user after running the following Python code:
+print(&amp;#34;Kansas State University&amp;#34;) print(&amp;#34;Manhattan &amp;#34;, end=&amp;#34;&amp;#34;) print(&amp;#34;KS&amp;#34;, end=&amp;#34; &amp;#34;) print(&amp;#34;66506&amp;#34;) print(&amp;#34;KSU!\nGo Cats!&amp;#34;) 2 Construct a program using the Python statements below that will produce the following output:</description>
+    </item>
+  </channel>
+</rss>

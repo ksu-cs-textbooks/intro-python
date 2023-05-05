@@ -57,10 +57,13 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.101.0">
     <meta name="generator" content="Relearn 5.2.0+tip">
-    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="Introduction to Python">
     <meta name="author" content="K-State CS Faculty">
-    <title>Outline :: Introduction to Python</title>
+    <title>Print Statement :: Introduction to Python</title>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/index.print.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/tele.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/embed.html" rel="alternate" type="text/html" title="Introduction to Python">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1683318493" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1683318493" rel="stylesheet"></noscript>
     <link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1683318493" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1683318493" rel="stylesheet"></noscript>
@@ -94,35 +97,35 @@
     <script src="https://ksu-cs-textbooks.github.io/intro-python/js/jquery.min.js?1683318493" defer></script>
 
   </head>
-  <body class="mobile-support html disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/a-hidden/01-outline/">
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
       <nav id="topbar" class="highlightable">
         <div>
           <div class="navigation">
-             <a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/intro-python/00-introduction/" title="Introduction (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+             <a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/" title="Using Print (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
           <div class="navigation">
-             <a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/intro-python/a-hidden/" title="Hidden Pages (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+             <a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/" title="Working in the Terminal (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
           </div>
           <div id="top-print-link">
-            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="https://ksu-cs-textbooks.github.io/intro-python/a-hidden/01-outline/index.print.html">
+            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/index.print.html">
               <i class="fas fa-print fa-fw"></i>
             </a>
           </div>
           <div id="top-tele-link">
-            <a class="print-link" title='Teleprompter View' href="https://ksu-cs-textbooks.github.io/intro-python/a-hidden/01-outline/tele.html">
+            <a class="print-link" title='Teleprompter View' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/tele.html">
               <i class="fas fa-tv fa-fw"></i>
             </a>
           </div>
           <div id="top-embed-link">
-            <a class="print-link" title='Embeddable Version' href="https://ksu-cs-textbooks.github.io/intro-python/a-hidden/01-outline/embed.html">
+            <a class="print-link" title='Embeddable Version' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/embed.html">
               <i class="fas fa-expand-arrows-alt fa-fw"></i>
             </a>
           </div>
           <div id="top-github-link">
-            <a class="github-link" title='Edit (CTRL+ALT+e)' href="https://gitlab.cs.ksu.edu/-/ide/project/cs-textbooks/intro-python/edit/master/-/content/a-hidden/01-outline.md" target="blank">
+            <a class="github-link" title='Edit (CTRL+ALT+e)' href="https://gitlab.cs.ksu.edu/-/ide/project/cs-textbooks/intro-python/edit/master/-/content/01-basic-python/03-print-statement.md" target="blank">
               <i class="fas fa-pen fa-fw"></i>
             </a>
           </div>
@@ -134,23 +137,16 @@
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <meta itemprop="itemListOrder" content="Descending" />
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/"><span itemprop="name">Introduction to Python</span></a> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/a-hidden/"><span itemprop="name">Hidden Pages</span></a> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/a-hidden/01-outline/" aria-disabled="true"><span itemprop="name">Outline</span></a></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/"><span itemprop="name">Basic Python</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/" aria-disabled="true"><span itemprop="name">Print Statement</span></a></li>
             </ol>
           </div>
           <div class="default-animation progress">
             <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#ap-alignment">AP Alignment</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#ap-alignment-1">AP Alignment</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#ap-alignment-2">AP Alignment</a></li>
+    <li><a href="#writing-a-python-program">Writing a Python Program</a></li>
+    <li><a href="#running-a-python-program">Running a Python Program</a></li>
   </ul>
 </nav>
             </div>
@@ -162,107 +158,50 @@
           <div id="head-tags">
           </div>
           <article class="default">
-<h1>Outline</h1>
-<h1 id="week-1---basic-python">Week 1 - Basic Python</h1>
+<h1>Print Statement</h1>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/yveXTTVXzZ0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<!-- TODO rewrite -->
+<p>First, let&rsquo;s start by introducing some important vocabulary terms:</p>
 <ul>
-<li>Using the Terminal
-<ul>
-<li>File Systems?</li>
+<li><strong>string</strong>: A <strong>string</strong> in programming is any text that is stored as a value. We typically represent strings by placing them inside double quotes <code>&quot;&quot;</code> in our code and elsewhere.</li>
+<li><strong>value</strong>: A <strong>value</strong> is a piece of data that our program is storing and manipulating. In our pseudocode, values consist of either numbers or strings.</li>
+<li><strong>keyword</strong>: A <strong>keyword</strong> is a reserved word in a programming language that defines a particular statement, expression, structure, or other use. As we&rsquo;ll learn later, we cannot use these keywords as variable or procedure names.</li>
+<li><strong>statement</strong>: A <strong>statement</strong> refers to a piece of code that performs an action, but doesn&rsquo;t result in any value. Most complete lines of code are considered statements.</li>
+<li><strong>expression</strong>: An <strong>expression</strong>, on the other hand, is a piece of code that, when evaluated, will result in a value that can be used or stored. An expression can even contain multiple expressions inside of it!</li>
 </ul>
-</li>
-<li>Hello World
-<ul>
-<li>Print statement</li>
-<li>Saving, running</li>
-<li>Python Tutor</li>
-<li>(other tools?)</li>
-</ul>
-</li>
-<li>Print Statement
-<ul>
-<li>Multiple lines</li>
-<li>Newline Character</li>
-<li>Suppressing newline (end=&quot;&quot;)</li>
-</ul>
-</li>
-<li>Variables
-<ul>
-<li>String variables only?</li>
-<li>assignment statements</li>
-<li>variable naming rules &amp; conventions</li>
-<li>swap?</li>
-</ul>
-</li>
-<li>Input
-<ul>
-<li>Prompt for input and store in variable</li>
-</ul>
-</li>
-<li>Reading Code?</li>
-<li>Code Tracing?
-<ul>
-<li>Expressions?</li>
-</ul>
-</li>
-</ul>
-<h2 id="ap-alignment">AP Alignment</h2>
-<ul>
-<li>CRD - 1.2 Program Function &amp; Purpose, 1.3 Program Design &amp; Development, 1.4 Identifying &amp; Correcting Errors</li>
-<li>AAP - 3.1 Variables &amp; Assignments, 3.2 Data Abstraction, 3.4 Strings, 3.12 Calling Procedures</li>
-</ul>
-<h1 id="week-2---numbers--math">Week 2 - Numbers &amp; Math</h1>
-<ul>
-<li>Numerical values
-<ul>
-<li>Integers</li>
-<li>Floating point</li>
-<li>Converting (to/from strings and values)</li>
-</ul>
-</li>
-<li>Operators
-<ul>
-<li>Basic Math</li>
-<li>Introduce %, // and **</li>
-<li>Operands and resulting data types</li>
-<li>Order of Operations</li>
-</ul>
-</li>
-</ul>
-<h2 id="ap-alignment-1">AP Alignment</h2>
-<ul>
-<li>CRD - 1.2 Program Function &amp; Purpose, 1.3 Program Design &amp; Development, 1.4 Identifying &amp; Correcting Errors</li>
-<li>DAT - 2.1 Binary Numbers, 2.4 Using Programs with Data</li>
-<li>AAP - 3.1 Variables &amp; Assignments, 3.3 Mathematical Expressions, 3.12 Calling Procedures, 3.13 Developing Procedures</li>
-</ul>
-<h1 id="week-3---hw-1-interest-calculator">Week 3 - HW 1 Interest Calculator</h1>
-<h1 id="week-4---strings">Week 4 - Strings</h1>
-<ul>
-<li>More Complex Inputs</li>
-<li>String Operators
-<ul>
-<li>Concatenation</li>
-<li>f strings</li>
-</ul>
-</li>
-</ul>
-<h2 id="ap-alignment-2">AP Alignment</h2>
-<ul>
-<li>CRD - 1.2 Program Function &amp; Purpose, 1.3 Program Design &amp; Development, 1.4 Identifying &amp; Correcting Errors</li>
-<li>DAT - 2.4 Using Programs with Data</li>
-<li>AAP - 3.1 Variables &amp; Assignments, 3.3 Mathematical Expressions, 3.4 Strings, 3.12 Calling Procedures</li>
-</ul>
-<h1 id="week-5---conditionals">Week 5 - Conditionals</h1>
-<h1 id="week-6---hw-2-cash-register">Week 6 - HW 2 Cash Register</h1>
-<h1 id="week-7---nested-conditionals">Week 7 - Nested Conditionals</h1>
-<h1 id="week-8---loops">Week 8 - Loops</h1>
-<h1 id="week-9---hw-3-finite-state-machine">Week 9 - HW 3 Finite State Machine?</h1>
-<h1 id="week-10---nested-loops">Week 10 - Nested Loops</h1>
-<h1 id="week-11---functions">Week 11 - Functions</h1>
-<h1 id="week-12---hw-4-decision-tree">Week 12 - HW 4 Decision Tree</h1>
-<h1 id="week-13---lists--loops">Week 13 - Lists &amp; Loops</h1>
-<h1 id="week-14---dictionaries">Week 14 - Dictionaries</h1>
-<h1 id="week-15---hw-5-shift-cipher">Week 15 - HW 5 Shift Cipher</h1>
-<h1 id="week-16---classes">Week 16 - Classes?</h1>
+<p>Now that we have learned a few of the important terms used in programming, we can start to discuss the various statements in Python.</p>
+<p>The first statement that we&rsquo;ll cover in the Python programming language is the <code>print(expression)</code> statement. This statement is used to display output to the user via the terminal. So, when Python runs this statement, it will evaluate the <code>expression</code> to a single value, and then print that value to the terminal.</p>
+<p>For example, the simplest Python code would be a simple Hello World program, where we use the <code>print(expression)</code> statement to display the text <code>&quot;Hello World&quot;</code> to the user:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Hello World&#34;</span>)
+</span></span></code></pre></div><p>Notice that the <code>expression</code> part of the statement contains <code>&quot;Hello World&quot;</code> in quotation marks? That is because <code>&quot;Hello World&quot;</code> is text, so we should put it in quotes and make it into a string in our code. Also, since the string <code>&quot;Hello World&quot;</code> can be treated like a value, we can also say it is an expression, and therefore we can use it in the <code>expression</code> part of the statement. This may seem pretty straightforward now, but as our programs become more complex it is important to think about what pieces of code can be treated as values, expressions, and statements.</p>
+<p>When we run that program in Python, we&rsquo;ll see the following output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>Hello World
+</span></span></code></pre></div><p>If you look at the output, you might notice something strange - the text on our user interface doesn&rsquo;t include the quotation marks <code>&quot;&quot;</code> that the expression <code>&quot;Hello World&quot;</code> contained. When we display text to the user, Python will remove the quotation marks from the beginning and the end of the string, and just display the text inside. Pretty handy!</p>
+<p>Let&rsquo;s go through the full process of writing and running that program in Python!</p>
+<h2 id="writing-a-python-program">Writing a Python Program</h2>
+<p>The first step to create a program in Python is to create a text file to store the code. This file should have the file extension <code>.py</code> to indicate that it is a Python program. So, we&rsquo;ll need to create that file either on our computers or in Codio or another tool if we are using one. For example, in Codio we can create the file in the <code>python</code> folder by right-clicking on it and selecting the <strong>New File</strong> option. We&rsquo;ll name the file <code>hello.py</code>:</p>
+<p><img src=".guides/img/new_file.png" alt="New File"></p>
+<p>Once we&rsquo;ve created that file, we can then open it by clicking on it. In Codio and in other online tools, it will open in the built-in editor. On a computer, we&rsquo;ll need to open it in a text editor specifically designed for programming. We recommend either 
+
+<a href="https://atom.io/" target="_blank" rel="noopener">Atom</a> or 
+
+<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">Visual Studio Code</a>, which are available on all platforms. Tools like the built-in Notepad tool on Windows, or a word processor like Word or Pages do not work for this task.</p>
+<p>In that file, we&rsquo;ll simply place the code shown above, like this:</p>
+<p><img src=".guides/img/code.png" alt="Code"></p>
+<p>That&rsquo;s all there is to it!</p>
+<h2 id="running-a-python-program">Running a Python Program</h2>
+<p>Once we&rsquo;ve written the code, we can open the <strong>Terminal</strong> and navigate to where the code is stored in order to run the program. On Codio, we&rsquo;ll just use the <code>cd python</code> command to enter the <code>python</code> directory. On a computer, we&rsquo;ll need to navigate the file system to find the location where we placed our code. We highly recommend creating a folder directly within the home directory and placing all of our code there - that will make it easy to find!</p>
+<p>Once we are in the correct directory, we can use the <code>ls</code> command to see the contents of that directory. If we see our <code>hello.py</code> file, we are in the correct location:</p>
+<p><img src=".guides/img/file.png" alt="Show Python File"></p>
+<p>If we don&rsquo;t see our file, we should make sure we&rsquo;ve saved it and that our current working directory is the same location as where the file is stored.</p>
+<p>Finally, we can execute the file in Python using the <code>python3</code> command, followed by the name of the file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 hello.py
+</span></span></code></pre></div><p>If everything works correctly, we should see output similar to this:</p>
+<p><img src=".guides/img/hello.png" alt="Hello World Output"></p>
+<p>There we go! We&rsquo;ve just run our first program in Python! That&rsquo;s a great first step to take.</p>
+<p>Of course, there are lots of ways that this could go wrong. So, if you run into any issues getting this to work, please take the time to contact an instructor and ask for assistance. This process can be daunting the first time, since there are so many things to learn and so many intricacies we simply don&rsquo;t have time to cover up front. Don&rsquo;t be afraid to ask for help!</p>
 
             <footer class="footline">
             </footer>
@@ -304,14 +243,12 @@
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics collapsible-menu">
-          <li data-nav-id="/01-basic-python/" title="Basic Python" class="dd-item"><input type="checkbox" id="section-82e303f7fc65347508d8ce87c5e811b8" class="toggle"/><label for="section-82e303f7fc65347508d8ce87c5e811b8" ></label><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/"><b>1. </b>Basic Python</a><ul>
+          <li data-nav-id="/01-basic-python/" title="Basic Python" class="dd-item parent"><input type="checkbox" id="section-82e303f7fc65347508d8ce87c5e811b8" class="toggle" checked/><label for="section-82e303f7fc65347508d8ce87c5e811b8" ></label><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/"><b>1. </b>Basic Python</a><ul>
           <li data-nav-id="/01-basic-python/01-learning-to-program/" title="Learning to Program" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/">1. Learning to Program</a></li>
           <li data-nav-id="/01-basic-python/02-working-in-terminal/" title="Working in the Terminal" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/">2. Working in the Terminal</a></li>
-          <li data-nav-id="/01-basic-python/03-print-statement/" title="Print Statement" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/">3. Print Statement</a></li>
+          <li data-nav-id="/01-basic-python/03-print-statement/" title="Print Statement" class="dd-item active"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/">3. Print Statement</a></li>
           <li data-nav-id="/01-basic-python/04-using-print/" title="Using Print" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/">4. Using Print</a></li>
           <li data-nav-id="/01-basic-python/05-print-practice-problems/" title="Print Practice Problems" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice-problems/">5. Print Practice Problems</a></li></ul></li>
-          <li data-nav-id="/a-hidden/" title="Hidden Pages" class="dd-item parent"><input type="checkbox" id="section-a1bf1e18dc7394a482a00de21487fe93" class="toggle" checked/><label for="section-a1bf1e18dc7394a482a00de21487fe93" ></label><a href="https://ksu-cs-textbooks.github.io/intro-python/a-hidden/"><b>H. </b>Hidden Pages</a><ul>
-          <li data-nav-id="/a-hidden/01-outline/" title="Outline" class="dd-item active"><a href="https://ksu-cs-textbooks.github.io/intro-python/a-hidden/01-outline/">1. Outline</a></li></ul></li>
           <li data-nav-id="/00-introduction/" title="Introduction" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/00-introduction/"><b>0. </b>Introduction</a></li>
         </ul>
         <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>

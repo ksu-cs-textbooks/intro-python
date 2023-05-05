@@ -1,0 +1,361 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="Introduction to Python">
+    <meta name="author" content="K-State CS Faculty">
+    <title>Working in the Terminal :: Introduction to Python</title>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/" rel="canonical" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/tele.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/embed.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1683318493" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1683318493" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1683318493" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1683318493" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1683318493" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1683318493" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/perfect-scrollbar.min.css?1683318493" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/nucleus.css?1683318493" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1683318493" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1683318493" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme.css?1683318493" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme-light-theme.css?1683318493" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/ie.css?1683318493" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/variant.css?1683318493" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/print.css?1683318493" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/format-print.css?1683318493" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/variant.js?1683318493"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/intro-python/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/intro-python/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/intro-python/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/custom.css?1683318493" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/jquery.min.js?1683318493" defer></script>
+
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+             <a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/" title="Print Statement (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+             <a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/" title="Learning to Program (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-tele-link">
+            <a class="print-link" title='Teleprompter View' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/tele.html">
+              <i class="fas fa-tv fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-embed-link">
+            <a class="print-link" title='Embeddable Version' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/embed.html">
+              <i class="fas fa-expand-arrows-alt fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-github-link">
+            <a class="github-link" title='Edit (CTRL+ALT+e)' href="https://gitlab.cs.ksu.edu/-/ide/project/cs-textbooks/intro-python/edit/master/-/content/01-basic-python/02-working-in-terminal.md" target="blank">
+              <i class="fas fa-pen fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/"><span itemprop="name">Introduction to Python</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/"><span itemprop="name">Basic Python</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/" aria-disabled="true"><span itemprop="name">Working in the Terminal</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#navigating-in-the-terminal">Navigating in the Terminal</a>
+      <ul>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+    
+    
+    
+    
+    
+    
+          <article class="default">
+<h1>Working in the Terminal</h1>
+<p><a href="https://www.youtube.com/watch?v=H0ZDBdT1Opw">YouTube Video</a></p>
+<!-- TODO rewrite -->
+<p>First, let&rsquo;s start with the basics of writing Python code in a file and running those files. This is the first major step toward actually writing a real program, but it can definitely be difficult the first time without prior experience to rely on. So, let&rsquo;s go through it step by step and make sure we know how to run our programs in Python.</p>
+<p>At this point, we should already have Python installed on our system. For students using Codio, this is taken care of already. For students using their own computers, refer to an earlier lab to find instructions for installing Python on your system, or contact the instructors for assistance.</p>
+<p>To make sure that Python is installed and working, we&rsquo;ll need to open a terminal in our operating system. In Codio, this can be found by clicking the <strong>Tools</strong> menu at the top, and then choosing <strong>Terminal</strong>. More information can be found in the 
+
+<a href="https://docs.codio.com/develop/develop/ide/boxes/terminal.html" target="_blank" rel="noopener">Codio Documentation</a>. There may also already be one open for you if you are reading this content from within Codio.</p>
+<p>If you are working on your own computer, you&rsquo;ll need to open a terminal on your operating system. This should have been covered in the previous lab when you installed Python. On Windows, look for <strong>Windows Terminal</strong> or <strong>Windows PowerShell</strong> (not the old Command Prompt, which requires different commands). On Mac or Linux, look for an application called <strong>Terminal</strong>. Throughout this course, we&rsquo;ll call these windows the <strong>terminal</strong>, even though they may have slightly different names in each operating system.</p>
+<p>Once we have the terminal open, we should see something like one of these examples:</p>
+<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/01/terminal_linux.png" alt="Linux Terminal"></p>
+<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/01/terminal_win.png" alt="Windows Terminal"></p>
+<p>At this point, we should see a place with a blinking cursor, where we can type our commands. This is called the <strong>command prompt</strong> in the terminal. The first thing we can do is check to make sure Python is properly installed, and we can also confirm that it is the correct version. To do this, we&rsquo;ll enter the following command and press enter to execute it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 --version
+</span></span></code></pre></div><p>Hopefully, that command should produce some output that looks like this:</p>
+<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/01/python_version.png" alt="Python Version"></p>
+<p>Here, we see that the currently installed Python version is 3.6.9. As long as your Python version number begins with a 3, you have correctly installed Python and are able to run it from the terminal. So, we can continue to the next part of this lab.</p>
+<p>If you aren&rsquo;t able to run Python or aren&rsquo;t sure that you have the correct version, contact the instructor for assistance!</p>
+
+  
+  
+<div class="box notices cstyle info">
+    <div class="box-label"><i class="fa-fw fas fa-info-circle"></i> Python 2 vs. Python 3</div>
+    <div class="box-content">
+<p>Notice that we have to use the command <code>python3</code>, including the version number, instead of the simpler <code>python</code> command here. This is because some systems may also have Python version 2, an outdated version of Python, installed alongside version 3. In that case, the simple <code>python</code> command will be Python version 2, while <code>python3</code> will be Python version 3. Unfortunately, most programs written in Python 3 will not run properly in Python 2, so it is important for us to make sure we are using the correct Python version when running our programs.</p>
+<p>Thankfully, the command <code>python3</code> should always work, and using that command is a good habit to learn. So, throughout this course, we will use the command <code>python3</code> to run Python programs.</p>
+    </div>
+</div>
+<h2 id="navigating-in-the-terminal">Navigating in the Terminal</h2>
+<p>When we open a terminal, it will usually start in our user&rsquo;s home folder. This may mean different locations for different operating systems. For example, if our current user&rsquo;s name is <code>&lt;username&gt;</code>, the terminal will usually start in this location for each operating system:</p>
+<ul>
+<li><strong>Windows</strong>: <code>C:\Users\&lt;username&gt;</code></li>
+<li><strong>Linux</strong>: <code>/home/&lt;username&gt;</code></li>
+<li><strong>Mac</strong>: <code>/Users/&lt;username&gt;</code></li>
+<li><strong>Codio</strong>: <code>/home/codio/workspace</code></li>
+</ul>
+<p>The directory that is open in the terminal is known as the <strong>working directory</strong>. We can use the <code>pwd</code> command to determine what our current directory is:</p>
+<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/01/pwd.png" alt="Print Working Directory"></p>
+<p>In this example, we are looking at the Codio terminal, so our working directory is <code>/home/codio/workspace</code>.</p>
+<p>Next, we can see the files and directories contained in that directory using the <code>ls</code> command. Here&rsquo;s the output of running this command in Codio:</p>
+<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/01/ls.png" alt="List Directory Command"></p>
+<p>In the output, we can see that there is a file named <code>README.txt</code> and a directory named <code>python</code>. In Codio, we&rsquo;ll place all of our files in the <code>python</code> directory, so we can open that using the <code>cd python</code> command:</p>
+<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/01/cd.png" alt="Change Directory Command"></p>
+<p>Notice how the <code>python</code> directory is now included in the command prompt in the terminal. Most terminals will show the working directory in the command prompt in some way.</p>
+<p>That&rsquo;s the basics of navigating in the terminal, but there is much more to learn. If you&rsquo;d like to know more, consider checking out some of the resources linked below!</p>
+<h3 id="resources">Resources</h3>
+<ul>
+<li>
+
+<a href="https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management" target="_blank" rel="noopener">Basic Linux Navigation &amp; File Management</a> from DigitalOcean</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=oxuRxtrO2Ag" target="_blank" rel="noopener">Beginner&rsquo;s Guide to the Bash Terminal</a> by Joe Collins on YouTube</li>
+</ul>
+
+  
+  
+<div class="box notices cstyle note">
+    <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Windows &amp; Mac Terminal</div>
+    <div class="box-content">
+<p>Most of the content in this course will focus on using the commands that are present in the Linux terminal, since they are the most widely-used commands across all platforms. In general, these commands should work well on both Windows and Mac, with a few caveats:</p>
+<ul>
+<li>On Windows, there is an older Command Prompt tool that does not support the newer Linux commands. Therefore, we won&rsquo;t be using it. Instead, we only want to use <strong>Windows PowerShell</strong>, which supports most of the basic Linux commands via aliases to similar PowerShell commands. We can also install the 
+
+<a href="https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701" target="_blank" rel="noopener">Windows Terminal</a> application for a more modern interface.</li>
+<li>Windows users may also choose to install the 
+
+<a href="https://docs.microsoft.com/en-us/windows/wsl/about" target="_blank" rel="noopener">Windows Subsystem for Linux (WSL)</a> to run Linux (such as Ubuntu) directly within Windows. Many developers choose to pursue this option, as it provides a clean and easy to use development environment that is compatible with the Linux operating system.</li>
+<li>The Mac operating system includes a terminal that uses either ZSH (since OS X 10.15) or Bash (OS X 10.14 and below). This terminal is very similar to the Linux terminal when it comes to navigating the file system and executing programs, which is sufficient for this course.</li>
+</ul>
+<p>Fully learning how to use these tools is outside of the scope of this class, but we need to know enough to navigate the filesystem and execute the <code>python3</code> command. If you need assistance getting started with this step, your best bet is to contact the instructors. Each student&rsquo;s computer is a bit different, so it is difficult to cover all possible cases here.</p>
+    </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </div>
+      </main>
+    
+<div class="git-footer">
+<p>Last modified by: 
+            <i class='fas fa-user'></i> Russell Feldhausen
+            <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cs-textbooks/intro-python/-/commit/51e8d25843f103c2e618c45f0818601f166105e4">May 5, 2023</a>
+</p>
+</div>
+
+    
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+
+<a id="logo" href="https://ksu-cs-textbooks.github.io/intro-python/">
+  Introduction to Python
+</a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/auto-complete.js?1683318494" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.min.js?1683318494" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.stemmer.support.min.js?1683318494" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.multi.min.js?1683318494" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.en.min.js?1683318494" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/search.js?1683318494" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics collapsible-menu">
+          <li data-nav-id="/01-basic-python/" title="Basic Python" class="dd-item parent"><input type="checkbox" id="section-82e303f7fc65347508d8ce87c5e811b8" class="toggle" checked/><label for="section-82e303f7fc65347508d8ce87c5e811b8" ></label><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/"><b>1. </b>Basic Python</a><ul>
+          <li data-nav-id="/01-basic-python/01-learning-to-program/" title="Learning to Program" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/">1. Learning to Program</a></li>
+          <li data-nav-id="/01-basic-python/02-working-in-terminal/" title="Working in the Terminal" class="dd-item active"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/">2. Working in the Terminal</a></li>
+          <li data-nav-id="/01-basic-python/03-print-statement/" title="Print Statement" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/">3. Print Statement</a></li>
+          <li data-nav-id="/01-basic-python/04-using-print/" title="Using Print" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/">4. Using Print</a></li>
+          <li data-nav-id="/01-basic-python/05-print-practice-problems/" title="Print Practice Problems" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice-problems/">5. Print Practice Problems</a></li></ul></li>
+          <li data-nav-id="/00-introduction/" title="Introduction" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/00-introduction/"><b>0. </b>Introduction</a></li>
+        </ul>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="light-theme" value="light-theme" selected>Light Theme</option>
+                    <option id="dark-theme" value="dark-theme">Dark Theme</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter"><style>
+#footer {
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2rem 1rem;
+	min-width: 230px;
+	max-width: 300px;
+}
+#footer p {
+	margin: 0;
+}
+</style>
+
+<p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a></p>
+
+        </div>
+      </div>
+    </aside>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/clipboard.min.js?1683318494" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/perfect-scrollbar.min.js?1683318494" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/featherlight.min.js?1683318494" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/theme.js?1683318494" defer></script>
+  </body>
+</html>

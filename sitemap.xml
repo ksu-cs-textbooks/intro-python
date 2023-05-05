@@ -15,6 +15,26 @@
 	
 		
 		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
 		
 
 	
@@ -24,11 +44,48 @@
 	
 	
 		
+		
+		
+
+	
+	
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/</loc>
+    <lastmod>2023-05-05T15:27:49-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/</loc>
+    <lastmod>2023-05-05T15:27:49-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/</loc>
+    <lastmod>2023-05-05T15:27:49-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/</loc>
+    <lastmod>2023-05-05T15:27:49-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/</loc>
+    <lastmod>2023-05-05T15:27:49-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice-problems/</loc>
+    <lastmod>2023-05-05T15:27:49-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/categories/</loc>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/</loc>
+    <lastmod>2023-05-05T15:27:49-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/</loc>
+    <lastmod>2023-05-05T15:27:49-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/tags/</loc>

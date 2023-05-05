@@ -1,0 +1,352 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="Introduction to Python">
+    <meta name="author" content="K-State CS Faculty">
+    <title>Using Print :: Introduction to Python</title>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/index.print.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/tele.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/embed.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1683318493" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1683318493" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1683318493" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1683318493" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1683318493" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1683318493" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/perfect-scrollbar.min.css?1683318493" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/nucleus.css?1683318493" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1683318493" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1683318493" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme.css?1683318493" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme-light-theme.css?1683318493" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/ie.css?1683318493" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/variant.css?1683318493" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/print.css?1683318493" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/variant.js?1683318493"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/intro-python/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/intro-python/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/intro-python/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/custom.css?1683318493" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/jquery.min.js?1683318493" defer></script>
+
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+             <a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice-problems/" title="Print Practice Problems (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+             <a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/" title="Print Statement (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-tele-link">
+            <a class="print-link" title='Teleprompter View' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/tele.html">
+              <i class="fas fa-tv fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-embed-link">
+            <a class="print-link" title='Embeddable Version' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/embed.html">
+              <i class="fas fa-expand-arrows-alt fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-github-link">
+            <a class="github-link" title='Edit (CTRL+ALT+e)' href="https://gitlab.cs.ksu.edu/-/ide/project/cs-textbooks/intro-python/edit/master/-/content/01-basic-python/04-using-print.md" target="blank">
+              <i class="fas fa-pen fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/"><span itemprop="name">Introduction to Python</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/"><span itemprop="name">Basic Python</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/" aria-disabled="true"><span itemprop="name">Using Print</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#example-1---multiple-statements">Example 1 - Multiple Statements</a></li>
+    <li><a href="#example-2---multiple-lines">Example 2 - Multiple Lines</a></li>
+    <li><a href="#example-3---multiple-statements-on-multiple-lines">Example 3 - Multiple Statements on Multiple Lines</a></li>
+    <li><a href="#multiple-lines">Multiple Lines</a></li>
+    <li><a href="#printing-on-the-same-line">Printing On the Same Line</a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>Using Print</h1>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/BhpTb-i4ELg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<!-- TODO rewrite -->
+<p>The <code>print(expression)</code> statement in Python works in much the same way as the <code>DISPLAY(expression)</code> statement in pseudocode, but with one major difference. In pseudocode, the <code>DISPLAY(expression)</code> statement will print the value from the expression to the user, but it won&rsquo;t add anything like a space or newline to the end. In Python, however, the <code>print(expression)</code> statement will add a newline to the end of the output by default. This means that multiple <code>print(expression)</code> statements will print on multiple lines. Let&rsquo;s look at some examples!</p>
+<p>Throughout this course, we&rsquo;ll show many different code examples and their output here in the lab. To test them out, feel free to copy the code examples to a Python file and run it yourself. You can even tweak them to do something new and see how Python interprets different pieces of code. In the end, the best way to learn programming is to explore, and running these examples on your own is a great way to get started!</p>
+<h2 id="example-1---multiple-statements">Example 1 - Multiple Statements</h2>
+<p>First, let&rsquo;s write a simple program that prints 4 letters separated by spaces:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>DISPLAY(&#34;a b c d&#34;)
+</span></span></code></pre></div><p>Just like our &ldquo;Hello World&rdquo; program, when we run this program, we&rsquo;ll see that string printed in the user interface:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>a b c d
+</span></span></code></pre></div><p>Ok, that makes sense based on what we&rsquo;ve previously seen. The <code>DISPLAY(expression)</code> statement will simply display any string expression in our user interface.</p>
+<p>Of course, programs can consist of multiple statements or lines of code. So, what if we write a program that contains multiple <code>DISPLAY(expression)</code> statements, like this one:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>DISPLAY(&#34;one&#34;)
+</span></span><span style="display:flex;"><span>DISPLAY(&#34;two&#34;)
+</span></span><span style="display:flex;"><span>DISPLAY(&#34;three&#34;)
+</span></span><span style="display:flex;"><span>DISPLAY(&#34;four&#34;)
+</span></span></code></pre></div><p>What do you think will happen when we try to execute this program on our &ldquo;mental model?&rdquo; Have we learned a rule that tells us what should happen yet? Recall on the previous page we learned that it will print the value on the user interface, but that&rsquo;s it. So, when we execute this program, we&rsquo;ll see the following output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>onetwothreefour
+</span></span></code></pre></div><p>That&rsquo;s a very interesting result! We might expect that four lines of code would produce four lines of output, but in fact they are all printed on the same line! This is very helpful, since we can use this to construct more complex sentences of output by using multiple <code>DISPLAY(expression)</code> statements.</p>
+<p>If we want to add spaces between each line, we&rsquo;ll need to include that in our expressions somehow. For example, we could rewrite the program like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>DISPLAY(&#34;one &#34;)
+</span></span><span style="display:flex;"><span>DISPLAY(&#34;two &#34;)
+</span></span><span style="display:flex;"><span>DISPLAY(&#34;three &#34;)
+</span></span><span style="display:flex;"><span>DISPLAY(&#34;four&#34;)
+</span></span></code></pre></div><p>Notice that there is now a space inside of the quotation marks on the first three statements? That will result in this output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>one two three four
+</span></span></code></pre></div><p>There are many other ways we could accomplish this, but this is probably the simplest to learn.</p>
+<h2 id="example-2---multiple-lines">Example 2 - Multiple Lines</h2>
+<p>What if we want to print output on multiple lines? How can we do that? In this case, we need to introduce a special symbol, the <strong>newline</strong> symbol. In our pseudocode, as in most programming languages, the newline symbol is represented by a backslash followed by the letter &ldquo;n&rdquo;, like <code>\n</code>, in a string. When our user interface sees a newline symbol, it will move to the next line before printing the rest of the string. The newline symbol itself won&rsquo;t appear in our output.</p>
+<p>For example, we can update our previous program to contain newline symbols between each letter:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>DISPLAY(&#34;a<span style="color:#66d9ef">\nb\nc\nd</span>&#34;)
+</span></span></code></pre></div><p>This might be a bit difficult to read at first, but as we become more and more familiar with reading code, we&rsquo;ll start to see special symbols like the newline symbol just like any other letter. For now, we&rsquo;ll just have to read closely and make sure we are on the lookout for special symbols in our text.</p>
+<p>When we run this program in our &ldquo;mental model&rdquo; of a computer, we should see the following output on our user interface:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>a
+</span></span><span style="display:flex;"><span>b
+</span></span><span style="display:flex;"><span>c
+</span></span><span style="display:flex;"><span>d
+</span></span></code></pre></div><p>There we go! We&rsquo;ve now figured out how to print text on multiple lines.</p>
+<h2 id="example-3---multiple-statements-on-multiple-lines">Example 3 - Multiple Statements on Multiple Lines</h2>
+<p>We can even extend this to multiple statements! For example, we can update another one of our previous programs to print each statement on a new line by simply adding a newline character to the end of each string:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>DISPLAY(&#34;one<span style="color:#66d9ef">\n</span>&#34;)
+</span></span><span style="display:flex;"><span>DISPLAY(&#34;two<span style="color:#66d9ef">\n</span>&#34;)
+</span></span><span style="display:flex;"><span>DISPLAY(&#34;three<span style="color:#66d9ef">\n</span>&#34;)
+</span></span><span style="display:flex;"><span>DISPLAY(&#34;four&#34;)
+</span></span></code></pre></div><p>When we execute this program, we&rsquo;ll get the following output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>one
+</span></span><span style="display:flex;"><span>two
+</span></span><span style="display:flex;"><span>three
+</span></span><span style="display:flex;"><span>four
+</span></span></code></pre></div><p>That&rsquo;s pretty much all we need to know in order to use the <code>DISPLAY(expression)</code> statement to do all sorts of things in our programs!</p>
+<h2 id="multiple-lines">Multiple Lines</h2>
+<p>In Python, we can print multiple lines of output simply by using multiple <code>print(expression)</code> statements:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;a&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;b&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;c&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;d&#34;</span>)
+</span></span></code></pre></div><p>will result in this output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>a
+</span></span><span style="display:flex;"><span>b
+</span></span><span style="display:flex;"><span>c
+</span></span><span style="display:flex;"><span>d
+</span></span></code></pre></div><p>We can also include a newline symbol <code>\n</code> in a <code>print(expression)</code> statement in Python. This will add a newline to the output, and then the <code>print(expression)</code> statement will add an additional newline at the end of the value that is printed:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;one</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">two&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;three</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">four&#34;</span>)
+</span></span></code></pre></div><p>will produce this output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>one
+</span></span><span style="display:flex;"><span>two
+</span></span><span style="display:flex;"><span>three
+</span></span><span style="display:flex;"><span>four
+</span></span></code></pre></div><h2 id="printing-on-the-same-line">Printing On the Same Line</h2>
+<p>What if we want to display multiple <code>print(expression)</code> statements on the same line? To do that, we must add an additional option to the <code>print(expression)</code> statement - the <code>end</code> option.</p>
+<p>For example, the following code will produce output all on the same line:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Hello &#34;</span>, end<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;World!&#34;</span>)
+</span></span></code></pre></div><p>In this example, we set <code>end</code> to be an empty string <code>&quot;&quot;</code>. When we run this program, we&rsquo;ll get the following output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>Hello World!
+</span></span></code></pre></div><p>In fact, in Python, the <code>print(expression)</code> statement is an example of a <strong>function</strong> in Python. <strong>Functions</strong> in Python are like procedures in pseudocode - when we call them, we write the name of the function, followed by a set of parentheses and then arguments separated by commas within the parentheses. So, in actuality, the <code>expression</code> in the <code>print(expression)</code> statement is just the first argument when we call the <code>print</code> function.</p>
+<p>Therefore, the <code>end</code> option that we showed above is just a second argument that is optional - it simply let&rsquo;s us choose what to put at the end of the output. By default, the <code>end</code> parameter is set to the newline symbol <code>\n</code>, so if we don&rsquo;t provide an argument for <code>end</code> it will just add a newline at the end of the value.</p>
+<p>We can set the value of <code>end</code> to be any string. If we want to include a space at the end of the output, we can add <code>end=&quot; &quot;</code> to the <code>print</code> function call.</p>
+<p>In this course, we won&rsquo;t spend much time talking about optional parameters and default values in Python functions, but it is important to understand that statements like <code>print</code> are actually just Python functions behind the scenes!</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    
+<div class="git-footer">
+<p>Last modified by: 
+            <i class='fas fa-user'></i> Russell Feldhausen
+            <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cs-textbooks/intro-python/-/commit/51e8d25843f103c2e618c45f0818601f166105e4">May 5, 2023</a>
+</p>
+</div>
+
+    
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+
+<a id="logo" href="https://ksu-cs-textbooks.github.io/intro-python/">
+  Introduction to Python
+</a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/auto-complete.js?1683318493" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.min.js?1683318493" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.stemmer.support.min.js?1683318493" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.multi.min.js?1683318493" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.en.min.js?1683318493" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/search.js?1683318493" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics collapsible-menu">
+          <li data-nav-id="/01-basic-python/" title="Basic Python" class="dd-item parent"><input type="checkbox" id="section-82e303f7fc65347508d8ce87c5e811b8" class="toggle" checked/><label for="section-82e303f7fc65347508d8ce87c5e811b8" ></label><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/"><b>1. </b>Basic Python</a><ul>
+          <li data-nav-id="/01-basic-python/01-learning-to-program/" title="Learning to Program" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/">1. Learning to Program</a></li>
+          <li data-nav-id="/01-basic-python/02-working-in-terminal/" title="Working in the Terminal" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/">2. Working in the Terminal</a></li>
+          <li data-nav-id="/01-basic-python/03-print-statement/" title="Print Statement" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/">3. Print Statement</a></li>
+          <li data-nav-id="/01-basic-python/04-using-print/" title="Using Print" class="dd-item active"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/">4. Using Print</a></li>
+          <li data-nav-id="/01-basic-python/05-print-practice-problems/" title="Print Practice Problems" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice-problems/">5. Print Practice Problems</a></li></ul></li>
+          <li data-nav-id="/00-introduction/" title="Introduction" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/00-introduction/"><b>0. </b>Introduction</a></li>
+        </ul>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="light-theme" value="light-theme" selected>Light Theme</option>
+                    <option id="dark-theme" value="dark-theme">Dark Theme</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter"><style>
+#footer {
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2rem 1rem;
+	min-width: 230px;
+	max-width: 300px;
+}
+#footer p {
+	margin: 0;
+}
+</style>
+
+<p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a></p>
+
+        </div>
+      </div>
+    </aside>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/clipboard.min.js?1683318493" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/perfect-scrollbar.min.js?1683318493" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/featherlight.min.js?1683318493" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/theme.js?1683318493" defer></script>
+  </body>
+</html>
