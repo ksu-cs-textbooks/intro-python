@@ -1,0 +1,101 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/intro-python/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/intro-python/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/intro-python/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/intro-python/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/intro-python/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <h3>Modulo (Remainder)</h3>
+    <div style="float: right; width: 50%">
+        <h6>Output</h6>
+        <pre class="language-plaintext stretch" style="font-size: 60px; line-height: 70px"><code><br><br><br>4</code></pre>
+    </div>
+    <div style="float: left; width: 50%">
+        <h6>Code</h6>
+        <pre class="python stretch" style="font-size: 60px; line-height: 70px"><code>x = 19
+y = 5
+z = x % y
+print(z)</code></pre>
+    </div>
+</section>
+<section>
+    <h3>Exponentiation</h3>
+    <div style="float: right; width: 50%">
+        <h6>Output</h6>
+        <pre class="language-plaintext stretch" style="font-size: 60px; line-height: 70px"><code><br>125
+&lt;class 'int'></code></pre>
+    </div>
+    <div style="float: left; width: 50%">
+        <h6>Code</h6>
+        <pre class="python stretch" style="font-size: 60px; line-height: 70px"><code>x = 5 ** 3
+print(x)
+print(type(x))</code></pre>
+    </div>
+</section>
+<section>
+    <h3>Integer Division</h3>
+    <div style="float: right; width: 50%">
+        <h6>Output</h6>
+        <pre class="language-plaintext stretch" style="font-size: 60px; line-height: 70px"><code><br>3.0
+&lt;class 'float'></code></pre>
+    </div>
+    <div style="float: left; width: 50%">
+        <h6>Code</h6>
+        <pre class="python stretch" style="font-size: 60px; line-height: 70px"><code>a = 17.5 // 4.5
+print(a)
+print(type(a))</code></pre>
+    </div>
+</section>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/intro-python/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/intro-python/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/intro-python/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/intro-python/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

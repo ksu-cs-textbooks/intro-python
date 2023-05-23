@@ -1,0 +1,314 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="Introduction to Python">
+    <meta name="author" content="K-State CS Faculty">
+    <title>Floats :: Introduction to Python</title>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/02-floats/" rel="canonical" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/02-floats/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/02-floats/index.print.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/02-floats/embed.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1684871393" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1684871393" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1684871393" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1684871393" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1684871393" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1684871393" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/perfect-scrollbar.min.css?1684871393" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/nucleus.css?1684871393" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1684871393" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1684871393" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme.css?1684871393" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme-light-theme.css?1684871393" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/ie.css?1684871393" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/variant.css?1684871393" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/print.css?1684871393" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/variant.js?1684871393"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/intro-python/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/intro-python/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/intro-python/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/custom.css?1684871393" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/jquery.min.js?1684871393" defer></script>
+
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/02-floats/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>Floats</h1>
+<p><a href="https://www.youtube.com/watch?v=">YouTube Video</a></p>
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/02-floats/slides/" target="_blank">Slides</a></li>
+</ul>
+<p>The other type of number we can store in Python is a <strong>floating-point</strong> number. We won&rsquo;t go into too much detail about floating-point values here, since you&rsquo;ll learn about them elsewhere in this class. For the purposes of programming, the only thing to know about floating-point numbers is that they are used to represent numbers that include a fractional or decimal portion. In Python, these values are stored in the <strong><code>float</code></strong> data type.</p>
+<p>To create a variable that stores a floating-point value in Python, we can use an assignment statement that includes a value with a decimal point, like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>a <span style="color:#f92672">=</span> <span style="color:#ae81ff">5.8</span>
+</span></span></code></pre></div><p>We can also create negative values using the negative symbol <code>-</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>b <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">7.987</span>
+</span></span></code></pre></div><p>Finally, it is possible to store a whole number in a floating-point value by simply adding a decimal point and a <code>0</code> at the end of the value, as in this example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>c <span style="color:#f92672">=</span> <span style="color:#ae81ff">42.0</span>
+</span></span></code></pre></div><p>Later in this lab, we&rsquo;ll see a couple of situations where that may be useful.</p>
+<p>For now, we&rsquo;re just going to assume that Python can easily handle any reasonable number we want it to store in a <code>float</code> variable, but there are some limits to the size and accuracy of those numbers. To reach these limits, we usually have to be dealing with numbers that have 
+<span class="math align-center">$ 100 $</span> or more digits, either before or after the decimal place. So, for the purposes of this class, those limits really won&rsquo;t apply to what we&rsquo;re doing. You&rsquo;ll learn about these limits in detail in later programming classes.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+  </div>
+    
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/clipboard.min.js?1684871393" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/perfect-scrollbar.min.js?1684871393" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/featherlight.min.js?1684871393" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://ksu-cs-textbooks.github.io/intro-python/js/mathjax/tex-mml-chtml.js?1684871393"></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/theme.js?1684871393" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/tele-scroll.js?1684871393 defer"></script>
+    
+  </body>
+</html>
