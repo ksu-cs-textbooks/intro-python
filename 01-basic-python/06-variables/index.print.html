@@ -1,0 +1,437 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="Introduction to Python">
+    <meta name="author" content="K-State CS Faculty">
+    <title>Variables :: Introduction to Python</title>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/" rel="canonical" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/tele.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/embed.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1684862352" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1684862352" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1684862352" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1684862352" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1684862352" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1684862352" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/perfect-scrollbar.min.css?1684862352" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/nucleus.css?1684862352" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1684862352" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1684862352" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme.css?1684862352" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme-light-theme.css?1684862352" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/ie.css?1684862352" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/variant.css?1684862352" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/print.css?1684862352" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/format-print.css?1684862352" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/variant.js?1684862352"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/intro-python/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/intro-python/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/intro-python/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/custom.css?1684862352" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/jquery.min.js?1684862352" defer></script>
+
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+             <a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/07-code-tracing/" title="Code Tracing (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+             <a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/" title="Using Print (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-tele-link">
+            <a class="print-link" title='Teleprompter View' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/tele.html">
+              <i class="fas fa-tv fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-embed-link">
+            <a class="print-link" title='Embeddable Version' href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/embed.html">
+              <i class="fas fa-expand-arrows-alt fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-github-link">
+            <a class="github-link" title='Edit (CTRL+ALT+e)' href="https://gitlab.cs.ksu.edu/-/ide/project/cs-textbooks/intro-python/edit/master/-/content/01-basic-python/06-variables/_index.md" target="blank">
+              <i class="fas fa-pen fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/"><span itemprop="name">Introduction to Python</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/"><span itemprop="name">Basic Python</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/" aria-disabled="true"><span itemprop="name">Variables</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#creating-variables">Creating Variables</a></li>
+    <li><a href="#using-variables">Using Variables</a></li>
+    <li><a href="#updating-variable-values">Updating Variable Values</a></li>
+    <li><a href="#variable-names">Variable Names</a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          <article class="default">
+<h1>Variables</h1>
+<p><a href="https://www.youtube.com/watch?v=_iuCFOGvtP0">YouTube Video</a></p>
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/slides/" target="_blank">Slides</a></li>
+</ul>
+<p>Now that we&rsquo;ve learned how to use the <code>print(expression)</code> statement, let&rsquo;s focus on the next major concept in Python, as well as any other programming language: <strong>variables</strong>.</p>
+<p>The word <strong>variable</strong> is traditionally defined as a value that can change. We&rsquo;ve seen variables like $x$ used in Algebraic equations like $x + 4 = 7$ to represent unknown values that we can try to work out. In programming a <strong>variable</strong> is defined as a way to store a value in a computer&rsquo;s memory so we can retrieve it later. One common way to think of variables is like a box in the real world. We can put something in the box, representing our value. Likewise, we can write a name on the side of the box, corresponding to our variable&rsquo;s name. When we want to use the variable, we can get the value that it currently stores, and even change it to a different value. It&rsquo;s a pretty handy mental metaphor to keep in mind!</p>
+<p>In a later lab, we&rsquo;ll learn how to use operators to manipulate the values stored in variables, but for right now we&rsquo;re just going to focus on storing and retrieving data using variables.</p>
+<h2 id="creating-variables">Creating Variables</h2>
+<p>To use a variable, we must first create one. In Python, we create a variable in a special type of statement called an <strong>assignment statement</strong>. The basic structure for an assignment statement is <code>a = expression</code>. When our Python interpreter runs this statement, it will first evaluate <code>expression</code> into a single value. Then, it will store that value in the variable named <code>a</code>.</p>
+<p>For example, let&rsquo;s consider the Python statement:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>
+</span></span></code></pre></div><p>In that statement, we are storing the string value <code>&quot;Hello World&quot;</code> in the variable named <code>x</code>. Pretty handy!</p>
+<p>Now, let&rsquo;s cover some important rules related to assignment statements:</p>
+<ol>
+<li>Assignment statements are always written with the variable on the left, and an expression on the right. We cannot reverse the statement and say <code>expression = x</code> in programming like we can in math. In mathematical terms, this means an assignment statement is not commutative.</li>
+<li>The left side of an assignment statement must be a location where a value can be stored. For now, we&rsquo;re just going to work with single variables, so we don&rsquo;t have to worry about this yet. In a later lab, we&rsquo;ll introduce lists as another way to store data, and we&rsquo;ll revisit this rule.</li>
+<li>The right side of an assignment statement must be an expression that evaluates to a value that can be stored in the location given on the left side. Right now we&rsquo;re only working with string values, so we don&rsquo;t have to worry about this rule yet. We&rsquo;ll come back to it in a future lab.</li>
+</ol>
+<h2 id="using-variables">Using Variables</h2>
+<p>Once we&rsquo;ve created a variable, we can use it in any <strong>expression</strong> to recall the current value stored in the variable. So, we can extend our previous example to store a value in a variable, and then use the <code>print(expression)</code> statement to display it&rsquo;s value. Here&rsquo;s what that would look like in Python:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>
+</span></span><span style="display:flex;"><span>print(x)
+</span></span></code></pre></div><p>Notice that we don&rsquo;t put quotation marks <code>&quot;</code> around the variable <code>x</code> in the <code>print(expression)</code> statement. This is because we want to display the value stored in the variable <code>x</code>, not the string value <code>&quot;x&quot;</code>. So, when we run this code, we should get this output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>Hello World
+</span></span></code></pre></div><p>To confirm, feel free to try it yourself! Copy the code above into a Python file, then use the <code>python3</code> command in the terminal to run the file and see what it does. Running these examples is a great way to learn how a computer actually executes code, and it helps to confirm that your &ldquo;mental model&rdquo; of a computer matches how a real computer operates.</p>
+<h2 id="updating-variable-values">Updating Variable Values</h2>
+<p>Python also allows us to change the value stored in a variable using another <strong>assignment statement</strong>. For example, we can write some Python code that uses the same variable to print multiple outputs:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>a <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Output 1&#34;</span>
+</span></span><span style="display:flex;"><span>print(a)
+</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Output 2&#34;</span>
+</span></span><span style="display:flex;"><span>print(a)
+</span></span></code></pre></div><p>When we run this code, we&rsquo;ll see the following output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>Output 1
+</span></span><span style="display:flex;"><span>Ouptut 2
+</span></span></code></pre></div><p>So, just like we learned above, when we evaluate a variable in code, it will result in the value currently stored in that variable at the time it is evaluated. So, even though we are printing the same variable twice, each time it is storing a different value. Recall that this is why we call items like <code>a</code> a <strong>variable</strong> - their value can change!</p>
+<h2 id="variable-names">Variable Names</h2>
+<p>Finally, Python has a few simple rules that determine what names can be used for variables in our code. Let&rsquo;s quickly review those rules, as well as some conventions that most Python developers follow when naming variables.</p>
+<p>First, the <strong>rules</strong> that must be followed:</p>
+<ol>
+<li>Variable names must begin with either a letter or an underscore <code>_</code>.</li>
+<li>Variable names may only contain letters, numbers, and underscores <code>_</code>.</li>
+<li>Variable names are case sensitive.</li>
+</ol>
+<p>Next, here are the <strong>conventions</strong> that most Python developers follow for variable names, which we will also follow in this course:</p>
+<ol>
+<li>Variable names beginning with an underscore <code>_</code> have a special meaning. So, we won&rsquo;t create any variables beginning with an underscore right now, but later we&rsquo;ll learn about what they mean and start using them.</li>
+<li>Variables should have a descriptive name, like total or average, that makes it clear what the variable is used for.</li>
+<li>Variables should be named using 
+
+<a href="https://en.wikipedia.org/wiki/Snake_case" target="_blank" rel="noopener">Snake Case</a>. This means that spaces are represented by underscores <code>_</code>, as in <code>number_of_inputs</code></li>
+<li>Try to use traditional variable names only for their specific uses. Some examples of traditional variable names:
+<ol>
+<li><code>tmp</code> or <code>temp</code> are temporary variables.</li>
+<li><code>i</code>, <code>j</code>, and <code>k</code> are iterator variables (we&rsquo;ll learn about those later).</li>
+<li><code>x</code>, <code>y</code>, and <code>z</code> are coordinates in a coordinate plane.</li>
+<li><code>r</code>, <code>g</code>, <code>b</code>, <code>a</code> are colors in an RGB color system.</li>
+</ol>
+</li>
+<li>Variables should not have the same name as keywords or any built-in statements or expressions in the language.
+<ol>
+<li>For example, Python has a <code>print</code> statement, so we should not name a variable <code>print</code> in our language.</li>
+</ol>
+</li>
+<li>In general, longer variable names are more useful than short ones, even if they are more difficult to type.</li>
+</ol>
+<p>These conventions are not strict requirements enforced by the Python language itself, but they are general rules to help us write code that is meaningful and easy to read.</p>
+<p>Finally, don&rsquo;t forget that some of the code examples in this course will <strong>NOT</strong> follow these conventions, mainly because long, descriptive variable names might give away the purpose of the code itself. We&rsquo;ll still follow the <strong>rules</strong> that are required, but in many cases we&rsquo;ll use simple variable names so that the focus is learning to read the structure of the code, not inferring what it does based solely on the names of the variables.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+    
+    
+          </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </div>
+      </main>
+    
+<div class="git-footer">
+<p>Last modified by: 
+            <i class='fas fa-user'></i> Russell Feldhausen
+            <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cs-textbooks/intro-python/-/commit/65aa2341f18da03b0d210fcb89cb900f8092d29d">May 23, 2023</a>
+</p>
+</div>
+
+    
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+
+<a id="logo" href="https://ksu-cs-textbooks.github.io/intro-python/">
+  Introduction to Python
+</a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/auto-complete.js?1684862352" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.min.js?1684862352" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.stemmer.support.min.js?1684862352" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.multi.min.js?1684862352" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.en.min.js?1684862352" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/search.js?1684862352" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics collapsible-menu">
+          <li data-nav-id="/01-basic-python/" title="Basic Python" class="dd-item parent"><input type="checkbox" id="section-82e303f7fc65347508d8ce87c5e811b8" class="toggle" checked/><label for="section-82e303f7fc65347508d8ce87c5e811b8" ></label><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/"><b>1. </b>Basic Python</a><ul>
+          <li data-nav-id="/01-basic-python/01-learning-to-program/" title="Learning to Program" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/">1. Learning to Program</a></li>
+          <li data-nav-id="/01-basic-python/02-working-in-terminal/" title="Working in the Terminal" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/">2. Working in the Terminal</a></li>
+          <li data-nav-id="/01-basic-python/03-print-statement/" title="Print Statement" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/">3. Print Statement</a></li>
+          <li data-nav-id="/01-basic-python/04-using-print/" title="Using Print" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/">4. Using Print</a></li>
+          <li data-nav-id="/01-basic-python/05-print-practice/" title="Print Practice" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice/">5. Print Practice</a></li>
+          <li data-nav-id="/01-basic-python/06-variables/" title="Variables" class="dd-item active"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/">6. Variables</a></li>
+          <li data-nav-id="/01-basic-python/07-code-tracing/" title="Code Tracing" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/07-code-tracing/">7. Code Tracing</a></li>
+          <li data-nav-id="/01-basic-python/08-variables-practice/" title="Variables Practice" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/08-variables-practice/">8. Variables Practice</a></li>
+          <li data-nav-id="/01-basic-python/09-summary/" title="Summary" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/09-summary/">9. Summary</a></li></ul></li>
+          <li data-nav-id="/00-introduction/" title="Introduction" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/00-introduction/"><b>0. </b>Introduction</a></li>
+        </ul>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="light-theme" value="light-theme" selected>Light Theme</option>
+                    <option id="dark-theme" value="dark-theme">Dark Theme</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter"><style>
+#footer {
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2rem 1rem;
+	min-width: 230px;
+	max-width: 300px;
+}
+#footer p {
+	margin: 0;
+}
+</style>
+
+<p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a></p>
+
+        </div>
+      </div>
+    </aside>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/clipboard.min.js?1684862352" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/perfect-scrollbar.min.js?1684862352" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/featherlight.min.js?1684862352" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/theme.js?1684862352" defer></script>
+  </body>
+</html>
