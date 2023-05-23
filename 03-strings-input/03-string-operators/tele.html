@@ -1,0 +1,405 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="Introduction to Python">
+    <meta name="author" content="K-State CS Faculty">
+    <title>String Operators :: Introduction to Python</title>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/" rel="canonical" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/index.print.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/embed.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1684881452" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1684881452" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1684881452" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1684881452" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1684881452" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1684881452" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/perfect-scrollbar.min.css?1684881452" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/nucleus.css?1684881452" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1684881452" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1684881452" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme.css?1684881452" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme-light-theme.css?1684881452" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/ie.css?1684881452" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/variant.css?1684881452" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/print.css?1684881452" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/variant.js?1684881452"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/intro-python/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/intro-python/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/intro-python/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/custom.css?1684881452" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/jquery.min.js?1684881452" defer></script>
+
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>String Operators</h1>
+<p><a href="https://www.youtube.com/watch?v=">YouTube Video</a></p>
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/slides/" target="_blank">Slides</a></li>
+</ul>
+<h2 id="concatenate">Concatenate</h2>
+<p>Python includes an operator that can be used to concatenate two strings together. We can use the plus symbol <code>+</code> between two strings to concatenate them together into a single string, making it much simpler to build more complex strings and outputs.</p>
+<p>A simple example is shown below:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>first <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello&#34;</span>
+</span></span><span style="display:flex;"><span>second <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;World&#34;</span>
+</span></span><span style="display:flex;"><span>print(first <span style="color:#f92672">+</span> second)
+</span></span></code></pre></div><p>When executed, this code will display this output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>Hello World
+</span></span></code></pre></div><p>As we can see, using the <code>+</code> operator in Python to concatenate two strings together is a quick and easy way to simplify our print statements.</p>
+<h2 id="concatenating-numbers">Concatenating Numbers</h2>
+<p>Python also requires both sides of the <code>+</code> operator to be strings in order for concatenation to work. So, if we want to concatenate a string with a numeric value, we&rsquo;ll have to convert it to a string using the special <code>str()</code> function. Here&rsquo;s an example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Your total is $&#34;</span>
+</span></span><span style="display:flex;"><span>value <span style="color:#f92672">=</span> <span style="color:#ae81ff">2.75</span>
+</span></span><span style="display:flex;"><span>print(text <span style="color:#f92672">+</span> str(value))
+</span></span></code></pre></div><p>When we run this program, we&rsquo;ll receive the following output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>Your total is <span style="color:#e6db74">$</span><span style="color:#ae81ff">2</span>.<span style="color:#ae81ff">75</span>
+</span></span></code></pre></div><p>However, if we forget to convert the <code>value</code> variable to a string, as in this example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Your total is $&#34;</span>
+</span></span><span style="display:flex;"><span>value <span style="color:#f92672">=</span> <span style="color:#ae81ff">2.75</span>
+</span></span><span style="display:flex;"><span>print(text <span style="color:#f92672">+</span> value)
+</span></span></code></pre></div><p>we&rsquo;ll receive an error instead:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>Traceback (most recent call last):
+</span></span><span style="display:flex;"><span>  File &#34;tutor.py&#34;, line 3, in &lt;module&gt;
+</span></span><span style="display:flex;"><span>    print(text + value)
+</span></span><span style="display:flex;"><span>TypeError: must be str, not float
+</span></span></code></pre></div><p>So, we&rsquo;ll have to be careful and make sure that we convert all of our numbers to strings before trying to concatenate them together. Of course, if both sides of the <code>+</code> operator are numbers, then it will perform addition instead of concatenation!</p>
+<h2 id="repeat">Repeat</h2>
+<p>Python also includes an operator that allows us to quickly repeat strings. We can use the asterisk <code>*</code> operator to effectively &ldquo;multiply&rdquo; a string. Consider this example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>word <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;repeat&#34;</span>
+</span></span><span style="display:flex;"><span>print(word <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>print(word <span style="color:#f92672">*</span> <span style="color:#ae81ff">4</span>)
+</span></span></code></pre></div><p>When we run this program, we&rsquo;ll see the following output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>repeatrepeat
+</span></span><span style="display:flex;"><span>repeatrepeatrepeatrepeat
+</span></span></code></pre></div><p>This allows us to build outputs that consist of repeated strings. We can also use this to quickly format our output into various shapes and structures!</p>
+<h2 id="escape">Escape</h2>
+<p>Finally, we can also use the escape operator <code>\</code> to handle some certain special characters in Python strings. We&rsquo;ve already seen this used in the newline character, which is simply the escape operator <code>\</code> followed by the letter <code>n</code>, as in <code>\n</code>.</p>
+<p>However, we can also use it to include quotation marks in our string itself. Consider the following example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>sentence <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello from &#34;</span>the little apple<span style="color:#960050;background-color:#1e0010">!</span><span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>print(sentence)
+</span></span></code></pre></div><p>When we try to run this code, we&rsquo;ll get the following error:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>  File test.py, line 1
+</span></span><span style="display:flex;"><span>    sentence = &#34;Hello from &#34;the little apple!&#34;&#34;
+</span></span><span style="display:flex;"><span>                            ^
+</span></span><span style="display:flex;"><span>SyntaxError: invalid syntax
+</span></span></code></pre></div><p>This is because the double quotation mark <code>&quot;</code> is used to show which part of the code is a string value, but the Python interpreter gets confused when we try to include quotation marks inside of our strings. So, we can use the escape operator <code>\</code> to tell it to treat those quotation marks as part of the string value itself, and not part of the Python code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>sentence <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello from </span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">the little apple!</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>print(sentence)
+</span></span></code></pre></div><p>This program will execute properly and produce the following output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>Hello from &#34;the little apple!&#34;
+</span></span></code></pre></div><p>Notice that the quotation marks now appear correctly in the output, but the escape operators are not shown. There are many other special ways to use the escape operator in Python, all of which can be found in the 
+
+<a href="https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals" target="_blank" rel="noopener">Python Documentation</a>.</p>
+
+  
+  
+<div class="box notices cstyle tip">
+    <div class="box-label"><i class="fa-fw fas fa-lightbulb"></i> Single and Double Quotes</div>
+    <div class="box-content">
+<p>Python also allows us to mix single and double quotes in a string, as long as we use them consistently, So, we can change the previous example to use single quotes around the string itself, and remove the escape operator from the double quotes, which will result in this code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>sentence <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Hello from &#34;the little apple!&#34;&#39;</span>
+</span></span><span style="display:flex;"><span>print(sentence)
+</span></span></code></pre></div><p>This code will also produce the desired output. However, in this class we won&rsquo;t use single quotes around strings, just for consistency. Many other programming languages don&rsquo;t allow this, so we encourage you to learn how to use the escape operator to handle these situations.</p>
+    </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+  </div>
+    
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/clipboard.min.js?1684881452" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/perfect-scrollbar.min.js?1684881452" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/featherlight.min.js?1684881452" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/theme.js?1684881452" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/tele-scroll.js?1684881452 defer"></script>
+    
+  </body>
+</html>

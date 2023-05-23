@@ -1,0 +1,417 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="Introduction to Python">
+    <meta name="author" content="K-State CS Faculty">
+    <title>Input Practice :: Introduction to Python</title>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/06-input-practice/" rel="canonical" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/06-input-practice/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/06-input-practice/index.print.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/06-input-practice/embed.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1684881452" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1684881452" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1684881452" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1684881452" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1684881452" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1684881452" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/perfect-scrollbar.min.css?1684881452" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/nucleus.css?1684881452" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1684881452" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1684881452" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme.css?1684881452" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme-light-theme.css?1684881452" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/ie.css?1684881452" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/variant.css?1684881452" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/print.css?1684881452" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/variant.js?1684881452"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/intro-python/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/intro-python/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/intro-python/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/custom.css?1684881452" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/jquery.min.js?1684881452" defer></script>
+
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/06-input-practice/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>Input Practice</h1>
+<p>Let&rsquo;s try some simple practice problems. These problems are not graded - they are just for you to practice before doing the real exercises in the lab itself. You can find the answers below each question by clicking the button below each question.</p>
+<h4 id="31-reading-code">3.1 Reading Code</h4>
+<p>Write the output that is displayed to the user after running the following Python code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter a number: &#34;</span>)
+</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> x <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;00&#34;</span>
+</span></span><span style="display:flex;"><span>z <span style="color:#f92672">=</span> int(y)
+</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> int(z <span style="color:#f92672">+</span> (z <span style="color:#f92672">/</span> <span style="color:#ae81ff">100</span>))
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;The result is </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><p>Assume the user inputs the string <code>&quot;4&quot;</code> when prompted.</p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        Answer
+    </a>
+    <div class="expand-content" style="display: none;">
+<div class="box notices cstyle primary">
+    <div class="box-label"><i class="fa-fw fas fa-check"></i> 3.1 Answer</div>
+    <div class="box-content">
+<p>The correct answer is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>The result is 404
+</span></span></code></pre></div>    </div>
+</div>
+
+    </div>
+</div>
+<h4 id="32-reading-code">3.2 Reading Code</h4>
+<p>Write the output that is displayed to the user after running the following Python code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Enter a number: &#34;</span>))
+</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> x <span style="color:#f92672">//</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">+</span> x <span style="color:#f92672">%</span> <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;The answer twice is </span><span style="color:#e6db74">{</span>x <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><p>Assume the user inputs the string <code>&quot;121&quot;</code> when prompted.</p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        Answer
+    </a>
+    <div class="expand-content" style="display: none;">
+<div class="box notices cstyle primary">
+    <div class="box-label"><i class="fa-fw fas fa-check"></i> 3.2 Answer</div>
+    <div class="box-content">
+<p>The correct answer is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>The answer twice is 202
+</span></span></code></pre></div><p>Notice that the <code>x * 2</code> expression results in the value 202 instead of the string <code>&quot;101101&quot;</code>. This is because <code>x</code> is an integer value, not a string. So, the <code>*</code> operator is interpreted as multiplication, not string repetition. We have to carefully keep track of what data type each variable is storing in order to truly understand what the code will do.</p>
+    </div>
+</div>
+
+    </div>
+</div>
+<h4 id="33-writing-code">3.3 Writing Code</h4>
+<p>Write a Python program that prompts the user to input a verb and a noun that will be stored in separate variables. Then, use those two words to create a simple compliment for the user and print it to the terminal. The compliment should be in the form of:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>You &#34;&lt;verb&gt;&#34; my &#34;&lt;noun&gt;&#34;? That&#39;s awesome!
+</span></span></code></pre></div><p>For example, if the user inputs <code>&quot;love&quot;</code> and <code>&quot;food&quot;</code>, then the string printed by the program should be:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>You &#34;love&#34; my &#34;food&#34;? That&#39;s awesome!
+</span></span></code></pre></div><p><em>Hint: Notice that the output includes quotation marks around the two words provided by the user, and an apostrophe (single quote) as well. You&rsquo;ll need to account for this in your code!</em></p>
+<p>You can expand on this program to prompt the user for additional inputs, and use f-strings to create a 
+
+<a href="https://en.wikipedia.org/wiki/Mad_Libs" target="_blank" rel="noopener">Mad Libs</a> style game!</p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        Answer
+    </a>
+    <div class="expand-content" style="display: none;">
+<div class="box notices cstyle primary">
+    <div class="box-label"><i class="fa-fw fas fa-check"></i> 3.3 Answer</div>
+    <div class="box-content">
+<p>One possible answer is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>verb <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter a verb: &#34;</span>)
+</span></span><span style="display:flex;"><span>noun <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter a noun: &#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;You </span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">{</span>verb<span style="color:#e6db74">}</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74"> my </span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">{</span>noun<span style="color:#e6db74">}</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">? That&#39;s awesome!&#34;</span>)
+</span></span></code></pre></div><p>The biggest point to remember is that quotation marks need to be escaped. If you try to use single quotes instead of double quotes around the f-string, you&rsquo;ll need to escape the apostrophe (single quote) instead.</p>
+    </div>
+</div>
+
+    </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+  </div>
+    
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/clipboard.min.js?1684881452" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/perfect-scrollbar.min.js?1684881452" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/featherlight.min.js?1684881452" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/theme.js?1684881452" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/tele-scroll.js?1684881452 defer"></script>
+    
+  </body>
+</html>

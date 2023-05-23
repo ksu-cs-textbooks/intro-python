@@ -179,6 +179,71 @@
 	
 	
 		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 		
 
@@ -196,6 +261,14 @@
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/</loc>
+    <lastmod>2023-05-23T17:37:01-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/01-input/</loc>
+    <lastmod>2023-05-23T17:37:01-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/01-integers/</loc>
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
   </url>
@@ -208,12 +281,20 @@
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/02-number-input/</loc>
+    <lastmod>2023-05-23T17:37:01-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/</loc>
     <lastmod>2023-05-23T12:18:46-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/</loc>
     <lastmod>2023-05-23T12:18:46-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/</loc>
+    <lastmod>2023-05-23T17:37:01-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/03-types/</loc>
@@ -224,8 +305,16 @@
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/04-f-strings/</loc>
+    <lastmod>2023-05-23T17:37:01-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/</loc>
     <lastmod>2023-05-23T12:18:46-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/05-complex-statements/</loc>
+    <lastmod>2023-05-23T17:37:01-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/05-new-operators/</loc>
@@ -234,6 +323,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice/</loc>
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/06-input-practice/</loc>
+    <lastmod>2023-05-23T17:37:01-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/06-resulting-types/</loc>
@@ -250,6 +343,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/07-order-of-operations/</loc>
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/07-summary/</loc>
+    <lastmod>2023-05-23T17:37:01-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/08-math-practice/</loc>
