@@ -250,6 +250,151 @@
 		
 		
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
 		
 
 	
@@ -280,6 +425,10 @@
     <lastmod>2023-05-23T17:37:01-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/01-input/</loc>
     <lastmod>2023-05-23T17:37:01-05:00</lastmod>
   </url>
@@ -288,8 +437,16 @@
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/01-intro/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/</loc>
     <lastmod>2023-05-23T12:18:46-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/02-booleans/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/02-floats/</loc>
@@ -302,6 +459,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/</loc>
     <lastmod>2023-05-23T12:18:46-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/03-operators/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/</loc>
@@ -320,12 +481,20 @@
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/04-comparators/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/04-f-strings/</loc>
     <lastmod>2023-05-23T17:37:01-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/</loc>
     <lastmod>2023-05-23T12:18:46-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/05-boolean-practice/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/05-complex-statements/</loc>
@@ -338,6 +507,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice/</loc>
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/06-if/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/06-input-practice/</loc>
@@ -353,7 +526,11 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/07-code-tracing/</loc>
-    <lastmod>2023-05-23T12:18:46-05:00</lastmod>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/07-if-else/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/07-order-of-operations/</loc>
@@ -368,8 +545,16 @@
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/08-variables-practice/</loc>
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/09-conditionals-practice/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/09-summary/</loc>
@@ -378,6 +563,34 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/09-summary/</loc>
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/10-linear/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/11-chaining/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/12-nesting/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/13-blocks-scope/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/14-example/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/15-nesting-practice/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/16-summary/</loc>
+    <lastmod>2023-05-25T17:08:18-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/categories/</loc>

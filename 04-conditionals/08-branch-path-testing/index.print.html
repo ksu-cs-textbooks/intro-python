@@ -1,0 +1,1094 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="Introduction to Python">
+    <meta name="author" content="K-State CS Faculty">
+    <title>Testing Branches &amp; Paths :: Introduction to Python</title>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/" rel="canonical" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/tele.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/embed.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1685052523" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1685052523" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1685052523" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1685052523" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1685052523" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1685052523" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/perfect-scrollbar.min.css?1685052523" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/nucleus.css?1685052523" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1685052523" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1685052523" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme.css?1685052523" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme-light-theme.css?1685052523" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/ie.css?1685052523" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/variant.css?1685052523" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/print.css?1685052523" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/format-print.css?1685052523" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/variant.js?1685052523"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/intro-python/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/intro-python/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/intro-python/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/custom.css?1685052523" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/jquery.min.js?1685052523" defer></script>
+
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+             <a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/09-conditionals-practice/" title="Conditionals Practice (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+             <a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/07-if-else/" title="If-Else (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-tele-link">
+            <a class="print-link" title='Teleprompter View' href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/tele.html">
+              <i class="fas fa-tv fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-embed-link">
+            <a class="print-link" title='Embeddable Version' href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/embed.html">
+              <i class="fas fa-expand-arrows-alt fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-github-link">
+            <a class="github-link" title='Edit (CTRL+ALT+e)' href="https://gitlab.cs.ksu.edu/-/ide/project/cs-textbooks/intro-python/edit/master/-/content/04-conditionals/08-branch-path-testing/_index.md" target="blank">
+              <i class="fas fa-pen fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/"><span itemprop="name">Introduction to Python</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/"><span itemprop="name">Conditionals</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/" aria-disabled="true"><span itemprop="name">Testing Branches &amp; Paths</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#simple-example">Simple Example</a>
+      <ul>
+        <li><a href="#branch-coverage">Branch Coverage</a></li>
+        <li><a href="#path-coverage">Path Coverage</a></li>
+        <li><a href="#edge-cases">Edge Cases</a></li>
+      </ul>
+    </li>
+    <li><a href="#complex-example">Complex Example</a>
+      <ul>
+        <li><a href="#branch-coverage-1">Branch Coverage</a></li>
+        <li><a href="#path-coverage-1">Path Coverage</a></li>
+        <li><a href="#edge-cases-1">Edge Cases</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          <article class="default">
+<h1>Testing Branches &amp; Paths</h1>
+
+<a href="https://www.youtube.com/watch?v=h_-XwAh74bc">YouTube Video</a>
+
+<p><a href="https://www.youtube.com/watch?v=hbIWocoRY4U">YouTube Video</a></p>
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/slides/" target="_blank">Slides</a></li>
+</ul>
+<p>One important concept to understand when writing if statements and if-else statements is the <strong>control flow</strong> of the program. Before we learned about conditional statements, our programs had a linear control flow - there was exactly one pathway through the program, no matter what. Each time we ran the program, the same code would be executed each time in the same order. However, with the introduction of conditional statements, this is no longer the case.</p>
+<p>Because of this, testing our programs becomes much more complicated. We cannot simply test it once or twice, but instead we should plan on testing our programs multiple times to make sure they work exactly the way we want. So, let&rsquo;s go through some of the various ways we can test our programs that include conditional statements.</p>
+<h2 id="simple-example">Simple Example</h2>
+<p>First, let&rsquo;s consider this example program:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Enter a number: &#34;</span>))
+</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Enter a number: &#34;</span>))
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> x <span style="color:#f92672">+</span> y <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">10</span>:
+</span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">&#34;Branch 1&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">&#34;Branch 2&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> x <span style="color:#f92672">-</span> y <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">10</span>:
+</span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">&#34;Branch 3&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">&#34;Branch 4&#34;</span>)
+</span></span></code></pre></div><p>We can represent the two if-else statements in this program in the following flowchart as well:</p>
+<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/04/control.png?classes=border,shadow" alt="Control Flow Flowchart"></p>
+<h3 id="branch-coverage">Branch Coverage</h3>
+<p>First, let&rsquo;s consider how we can achieve <strong>branch coverage</strong> by executing all of the branches in this program. This means that we should test the program using different sets of inputs that will run different branches in the code. Our goal is to execute the code in each branch at least once. In this example, we see that there are four branches, helpfully labeled with the numbers one through four in the <code>print()</code> statements included in each branch.</p>
+<p>So, let&rsquo;s start with a simple set of inputs, which will store 
+<span class="math align-center">$ 6 $</span> in both <code>x</code> and <code>y</code>. Which branches will be executed in this case? Before reading ahead, see if you can work through the code above and determine which branches are executed?</p>
+<p>In the first if-else statement, we&rsquo;ll see the <code>x + y</code> is equal to 
+<span class="math align-center">$ 12 $</span>, which is greater than 
+<span class="math align-center">$ 10 $</span>, making that Boolean statement <code>True</code>. So, we&rsquo;ll execute the code in branch 1 this time through. When we reach the second if-else statement, we&rsquo;ll compute the value of <code>x - y</code> to be 
+<span class="math align-center">$ 0 $</span>, which is less than 
+<span class="math align-center">$ 10 $</span>. In this case, that makes the Boolean statement <code>False</code>, so we&rsquo;ll execute branch 4. Therefore, by providing the inputs <code>6</code> and <code>6</code>, we&rsquo;ve executed the code in branches 1 and 4.</p>
+<p>So, can we think of a second set of inputs that will execute the code in branches 2 and 3? That can be a bit tricky - we want to come up with a set of numbers that add to a value less than 
+<span class="math align-center">$ 10 $</span>, but with a difference that is greater than 
+<span class="math align-center">$ 10 $</span>. However, we can easily do this using negative numbers! So, let&rsquo;s assume that the user inputs 
+<span class="math align-center">$ 6 $</span> for <code>x</code> and 
+<span class="math align-center">$ -6 $</span> for <code>y</code>. When we reach the first if-else statement, we can compute the result of <code>x + y</code>, which is 
+<span class="math align-center">$ 0 $</span>. That is less than 
+<span class="math align-center">$ 10 $</span>, so the Boolean statement is <code>False</code> and we&rsquo;ll execute the code in branch 2. So far, so good!</p>
+<p>Next, we&rsquo;ll reach the second if-else statement. Here, we&rsquo;ll compute the result of <code>x - y</code>. This time, we know that 
+<span class="math align-center">$ 6 - -6 $</span> is actually 
+<span class="math align-center">$ 12 $</span>, which is greater than 
+<span class="math align-center">$ 10 $</span>. So, since that Boolean expression is <code>True</code>, we&rsquo;ll run the code in branch 3. That&rsquo;s exactly what we wanted!</p>
+<p>Therefore, if we want to test this program and try to execute all the branches, we only have to provide two pairs of inputs:</p>
+<ul>
+<li>
+<span class="math align-center">$ 6 $</span> and 
+<span class="math align-center">$ 6 $</span></li>
+<li>
+<span class="math align-center">$ 6 $</span> and 
+<span class="math align-center">$ -6 $</span></li>
+</ul>
+<p>However, that&rsquo;s only one way we can test our program. There are many other methods we can follow!</p>
+<h3 id="path-coverage">Path Coverage</h3>
+<p>A more thorough way to test our programs is to achieve <strong>path coverage</strong>. In this method, our goal is to execute all possible paths through the program. This means that we want to execute every possible ordering of branches! So, since our program has 4 branches in two different if-else statements, the possible orderings of branches are listed below:</p>
+<ol>
+<li>Branch 1 -&gt; Branch 3</li>
+<li>Branch 1 -&gt; Branch 4</li>
+<li>Branch 2 -&gt; Branch 3</li>
+<li>Branch 2 -&gt; Branch 4</li>
+</ol>
+<p>As we can see, there are twice as many paths as there are branches in this case! We&rsquo;ve already covered ordering 2 and 3 from this list, so let&rsquo;s see if we can find inputs that will cover the other two orderings.</p>
+<p>First, we want to find a set of inputs that will execute branch 1 followed by branch 3. So, we&rsquo;ll need two numbers that add to a value greater than 10, but their difference is also greater than 10. So, let&rsquo;s try the value 
+<span class="math align-center">$ 12 $</span> for <code>x</code> and 
+<span class="math align-center">$ 0 $</span> for <code>y</code>. In that case, their sum is greater than 
+<span class="math align-center">$ 10 $</span>, so we&rsquo;ll execute branch 1 in the first if-else statement. When we reach the second if-else statement, we can evaluate <code>x - y</code> and find that it is also 
+<span class="math align-center">$ 12 $</span>, which is greater than 
+<span class="math align-center">$ 10 $</span> and we&rsquo;ll execute branch 3. So, we&rsquo;ve covered the first ordering!</p>
+<p>The last ordering can be done in a similar way - we need a pair of inputs with a sum less than 
+<span class="math align-center">$ 10 $</span> and also a difference less than 
+<span class="math align-center">$ 10 $</span>. A simple answer would be to input 
+<span class="math align-center">$ 4 $</span> for both <code>x</code> and <code>y</code>. In this case, their sum is 
+<span class="math align-center">$ 8 $</span> and their difference is 
+<span class="math align-center">$ 0 $</span>, so we&rsquo;ll end up executing branch 2 of the first if-else statement, and branch 4 of the second if-else statement. So, that covers the last ordering.</p>
+<p>As we can see, path coverage will also include branch coverage, but it is a bit more difficult to achieve. If we want to cover all possible paths, we should test our program with these 4 sets of inputs now:</p>
+<ul>
+<li>
+<span class="math align-center">$ 6 $</span> and 
+<span class="math align-center">$ 6 $</span></li>
+<li>
+<span class="math align-center">$ 6 $</span> and 
+<span class="math align-center">$ -6 $</span></li>
+<li>
+<span class="math align-center">$ 12 $</span> and 
+<span class="math align-center">$ 0 $</span></li>
+<li>
+<span class="math align-center">$ 4 $</span> and 
+<span class="math align-center">$ 4 $</span></li>
+</ul>
+<p>There&rsquo;s still one more way we can test our program, so let&rsquo;s try that out as well.</p>
+<h3 id="edge-cases">Edge Cases</h3>
+<p>Finally, we should also use a set of inputs that test the &ldquo;edges&rdquo; of the Boolean expressions used in each if-else statement. An <strong>edge</strong> is a value that is usually the smallest or largest value before the Boolean expression&rsquo;s output would change. So, an <strong>edge case</strong> is simply a set of input values that are specifically created to be edges for the Boolean expressions in our code.</p>
+<p>For example, let&rsquo;s look at the first Boolean logic statement, <code>x + y &gt; 10</code>. If we are simply considering whole numbers, then the possible edge cases for this Boolean expression are when the sum of <code>x + y</code> is exactly 
+<span class="math align-center">$ 10 $</span> and 
+<span class="math align-center">$ 11 $</span>. When it is 
+<span class="math align-center">$ 10 $</span> or below, the result of the Boolean expression is <code>False</code>, but when the result is 
+<span class="math align-center">$ 11 $</span> or higher, then the Boolean expression is <code>true</code>. So, 
+<span class="math align-center">$ 10 $</span> and 
+<span class="math align-center">$ 11 $</span> represent the <strong>edge</strong> between <code>True</code> values and <code>False</code> values. The same applies to the Boolean expression in the second if-else statement.</p>
+<p>So, to truly test the edge cases in this example, we should come up with a set of values with the sum and difference of exactly 
+<span class="math align-center">$ 10 $</span> and exactly 
+<span class="math align-center">$ 11 $</span>. For the first one, a very easy solution would be to set <code>x</code> to 
+<span class="math align-center">$ 10 $</span> and <code>y</code> to 
+<span class="math align-center">$ 0 $</span>. In this case, both the sum and the difference is 
+<span class="math align-center">$ 10 $</span>, so we&rsquo;re on the <code>False</code> side of the edge. Our program will correctly execute branches 2 and 4.</p>
+<p>For the other edge, we can use a similar set of inputs where <code>x</code> is 
+<span class="math align-center">$ 11 $</span> and <code>y</code> is still 
+<span class="math align-center">$ 0 $</span>. In this case, both the sum and difference is 
+<span class="math align-center">$ 11 $</span>, so each Boolean expression will evaluate to <code>True</code> and we&rsquo;ll execute branches 1 and 3.</p>
+<p>Why is this important? To understand that, we must think a bit about what was intended by this program. What if the program should execute branches 1 and 3 if the value is greater than or equal to 
+<span class="math align-center">$ 10 $</span>? In that case, both of our chosen edge cases should execute branches 1 and 3, but instead we saw that the edge case 
+<span class="math align-center">$ 10 $</span> executed branches 2 and 4 instead. This is a simple <strong>logic error</strong> that happens all the time in programming - we simply forgot to use the greater than or equal to symbol <code>&gt;=</code> instead of the simple greater than symbol <code>&gt;</code> in our code. So, a minor typo like that can change the entire execution of our program, and we wouldn&rsquo;t have noticed it in <em>any</em> of our previous tests. This is why it is important to test the edge cases along with other inputs.</p>
+<p>In fact, it would probably be a good idea to add a third edge case, where the sum and difference equal 
+<span class="math align-center">$ 9 $</span>, just to be safe. That way, we can clearly see the difference between <code>True</code> and <code>False</code> values in this program.</p>
+<p>So, the final set of values we may want to test this program with are listed below:</p>
+<ul>
+<li>
+<span class="math align-center">$ 6 $</span> and 
+<span class="math align-center">$ 6 $</span> (branch coverage 1 and 4)</li>
+<li>
+<span class="math align-center">$ 6 $</span> and 
+<span class="math align-center">$ -6 $</span> (branch coverage 2 and 3)</li>
+<li>
+<span class="math align-center">$ 12 $</span> and 
+<span class="math align-center">$ 0 $</span> (path coverage 1 and 3)</li>
+<li>
+<span class="math align-center">$ 4 $</span> and 
+<span class="math align-center">$ 4 $</span> (path coverage 2 and 4)</li>
+<li>
+<span class="math align-center">$ 9 $</span> and 
+<span class="math align-center">$ 0 $</span> (edge case 2 and 4)</li>
+<li>
+<span class="math align-center">$ 10 $</span> and 
+<span class="math align-center">$ 0 $</span> (edge case 2 and 4)</li>
+<li>
+<span class="math align-center">$ 11 $</span> and 
+<span class="math align-center">$ 0 $</span> (edge case 1 and 3)</li>
+</ul>
+<p>As we can see, even a simple program with just a few lines of code can require substantial testing to really be sure it works correctly! This doesn&rsquo;t even include other types of testing, where we make sure it works properly with invalid input values, decimal numbers, and other situations. That type of testing is really outside of the scope of this lab, but we&rsquo;ll learn more about some of those topics later in this course.</p>
+<h2 id="complex-example">Complex Example</h2>
+<p>Let&rsquo;s go through one more example to get some more practice with creating test inputs for conditional statements. For this example, let&rsquo;s consider the following program in Python:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>a <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Enter a number: &#34;</span>))
+</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Enter a number: &#34;</span>))
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> a <span style="color:#f92672">//</span> b <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">5</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Branch 1</span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74"> goes into </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74"> at least 5 times&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Branch 2</span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74"> is less than 5 times </span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> a <span style="color:#f92672">%</span> b <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Branch 3</span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74"> evenly divides </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Branch 4</span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74"> / </span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74"> has a remainder&#34;</span>)
+</span></span></code></pre></div><p>This program is a bit trickier to evaluate. First, it accepts two numbers as input. Then, it will check to see if the first number is at least 5 times the second number. It will print an appropriate message in either case. Then, it will check to see if the first number is evenly divided by the second number, and once again it will print a message in either case.</p>
+<h3 id="branch-coverage-1">Branch Coverage</h3>
+<p>To achieve <strong>branch coverage</strong>, we need to come up with a set of inputs that will cause each print statement to be executed. Thankfully, the branches are numbered using comments in the Python code, so it is easy to keep track of them.</p>
+<p>Let&rsquo;s start with an easy input - we&rsquo;ll set <code>a</code> to 
+<span class="math align-center">$ 25 $</span> and <code>b</code> to 
+<span class="math align-center">$ 5 $</span>. This means that <code>a // b</code> is equal to 
+<span class="math align-center">$ 5 $</span>, so we&rsquo;ll go into branch 1 in the first if statement. The second if statement will go into branch 3, since <code>a % b</code> is exactly 
+<span class="math align-center">$ 0 $</span> because 
+<span class="math align-center">$ 5 $</span> stored in <code>b</code> will evenly divide the 
+<span class="math align-center">$ 25 $</span> stored in <code>a</code> without any remainder. So, we&rsquo;ve covered branches 1 and 3 with this input.</p>
+<p>For another input, we can choose 
+<span class="math align-center">$ 21 $</span> for <code>a</code> and 
+<span class="math align-center">$ 5 $</span> for <code>b</code>. In the first if statement, we&rsquo;ll see that <code>a // b</code> is now 
+<span class="math align-center">$ 4 $</span>, so we&rsquo;ll go into branch 2 instead. Likewise, in the second if statement we&rsquo;ll execute branch 4, since <code>a % b</code> is equal to 
+<span class="math align-center">$ 1 $</span> with these inputs. That means we&rsquo;ve covered branches 2 and 4 with these inputs.</p>
+<p>Therefore, we can achieve branch coverage with just two inputs:</p>
+<ul>
+<li>
+<span class="math align-center">$ 25 $</span> and 
+<span class="math align-center">$ 5 $</span></li>
+<li>
+<span class="math align-center">$ 21 $</span> and 
+<span class="math align-center">$ 5 $</span></li>
+</ul>
+<h3 id="path-coverage-1">Path Coverage</h3>
+<p>Recall that there are four paths through a program that consists of two if statements in a row:</p>
+<ol>
+<li>Branch 1 -&gt; Branch 3</li>
+<li>Branch 1 -&gt; Branch 4</li>
+<li>Branch 2 -&gt; Branch 3</li>
+<li>Branch 2 -&gt; Branch 4</li>
+</ol>
+<p>We&rsquo;ve already covered the first and last of these paths, so we must simply find inputs for the other two.</p>
+<p>One input we can try is 
+<span class="math align-center">$ 31 $</span> and 
+<span class="math align-center">$ 5 $</span>. In the first if statement, we&rsquo;ll go to branch 1 since <code>a // b</code> will be 
+<span class="math align-center">$ 6 $</span> this time. However, when we get to the second if statement, we&rsquo;ll find that there is a remainder of 
+<span class="math align-center">$ 1 $</span> after computing <code>a % b</code>, so we&rsquo;ll go to branch 4 instead. This covers the second path.</p>
+<p>The third path can be covered by inputs 
+<span class="math align-center">$ 20 $</span> and 
+<span class="math align-center">$ 5 $</span>. In the first if statement, we&rsquo;ll go to branch 2 because <code>a // b</code> is now 
+<span class="math align-center">$ 4 $</span>, but we&rsquo;ll end up in branch 3 in the second if statement since <code>a % b</code> is exactly 0.</p>
+<p>Therefore, we can achieve path coverage with these four inputs:</p>
+<ul>
+<li>
+<span class="math align-center">$ 25 $</span> and 
+<span class="math align-center">$ 5 $</span></li>
+<li>
+<span class="math align-center">$ 21 $</span> and 
+<span class="math align-center">$ 5 $</span></li>
+<li>
+<span class="math align-center">$ 31 $</span> and 
+<span class="math align-center">$ 5 $</span></li>
+<li>
+<span class="math align-center">$ 20 $</span> and 
+<span class="math align-center">$ 5 $</span></li>
+</ul>
+<h3 id="edge-cases-1">Edge Cases</h3>
+<p>What about edge cases? For the first if statement, we see the statement <code>a // b &gt;= 5</code>, so that clues us into the fact that we&rsquo;ll probably want to try values that result in the numbers 
+<span class="math align-center">$ 4 $</span>, 
+<span class="math align-center">$ 5 $</span>, and 
+<span class="math align-center">$ 6 $</span> for this statement. Thankfully, if we look at the inputs we&rsquo;ve already tried, we can see that this is already covered! By being a bit deliberate with the inputs we&rsquo;ve been choosing, we can not only achieve branch and path coverage, but we can also choose values that test the edge cases for various Boolean expressions as well.</p>
+<p>Likewise, the Boolean statement in the second if statement is <code>a % b == 0</code>, so we&rsquo;ll want to try situations where <code>a % b</code> is exactly 
+<span class="math align-center">$ 0 $</span>, and when it is some other value. Once again, we&rsquo;ve already covered both of these instances in our sample inputs!</p>
+<p>So, with a bit of thinking ahead, we can come up with a set of just 4 inputs that not only achieve full path and branch coverage, but also properly test the various edge cases that are present in the program!</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+    
+    
+          </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </div>
+      </main>
+    
+<div class="git-footer">
+<p>Last modified by: 
+            <i class='fas fa-user'></i> Russell Feldhausen
+            <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cs-textbooks/intro-python/-/commit/f604329dd08da9711f4f148ecdd4112c2a640a57">May 25, 2023</a>
+</p>
+</div>
+
+    
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+
+<a id="logo" href="https://ksu-cs-textbooks.github.io/intro-python/">
+  Introduction to Python
+</a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/auto-complete.js?1685052523" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.min.js?1685052523" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.stemmer.support.min.js?1685052523" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.multi.min.js?1685052523" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/lunr.en.min.js?1685052523" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/intro-python/js/search.js?1685052523" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics collapsible-menu">
+          <li data-nav-id="/01-basic-python/" title="Basic Python" class="dd-item"><input type="checkbox" id="section-82e303f7fc65347508d8ce87c5e811b8" class="toggle"/><label for="section-82e303f7fc65347508d8ce87c5e811b8" ></label><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/"><b>1. </b>Basic Python</a><ul>
+          <li data-nav-id="/01-basic-python/01-learning-to-program/" title="Learning to Program" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/">1. Learning to Program</a></li>
+          <li data-nav-id="/01-basic-python/02-working-in-terminal/" title="Working in the Terminal" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/">2. Working in the Terminal</a></li>
+          <li data-nav-id="/01-basic-python/03-print-statement/" title="Print Statement" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/">3. Print Statement</a></li>
+          <li data-nav-id="/01-basic-python/04-using-print/" title="Using Print" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/">4. Using Print</a></li>
+          <li data-nav-id="/01-basic-python/05-print-practice/" title="Print Practice" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice/">5. Print Practice</a></li>
+          <li data-nav-id="/01-basic-python/06-variables/" title="Variables" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/">6. Variables</a></li>
+          <li data-nav-id="/01-basic-python/07-code-tracing/" title="Code Tracing" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/07-code-tracing/">7. Code Tracing</a></li>
+          <li data-nav-id="/01-basic-python/08-variables-practice/" title="Variables Practice" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/08-variables-practice/">8. Variables Practice</a></li>
+          <li data-nav-id="/01-basic-python/09-summary/" title="Summary" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/09-summary/">9. Summary</a></li></ul></li>
+          <li data-nav-id="/02-numbers/" title="Numbers &amp; Math" class="dd-item"><input type="checkbox" id="section-e9553681a191bd659406336bb7474c40" class="toggle"/><label for="section-e9553681a191bd659406336bb7474c40" ></label><a href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/"><b>2. </b>Numbers &amp; Math</a><ul>
+          <li data-nav-id="/02-numbers/01-integers/" title="Integers" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/01-integers/">1. Integers</a></li>
+          <li data-nav-id="/02-numbers/02-floats/" title="Floats" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/02-floats/">2. Floats</a></li>
+          <li data-nav-id="/02-numbers/03-types/" title="Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/03-types/">3. Types</a></li>
+          <li data-nav-id="/02-numbers/04-basic-operators/" title="Basic Operators" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/04-basic-operators/">4. Basic Operators</a></li>
+          <li data-nav-id="/02-numbers/05-new-operators/" title="New Operators" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/05-new-operators/">5. New Operators</a></li>
+          <li data-nav-id="/02-numbers/06-resulting-types/" title="Resulting Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/06-resulting-types/">6. Resulting Types</a></li>
+          <li data-nav-id="/02-numbers/07-order-of-operations/" title="Order of Operations" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/07-order-of-operations/">7. Order of Operations</a></li>
+          <li data-nav-id="/02-numbers/08-math-practice/" title="Math Practice" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/08-math-practice/">8. Math Practice</a></li>
+          <li data-nav-id="/02-numbers/09-summary/" title="Summary" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/02-numbers/09-summary/">9. Summary</a></li></ul></li>
+          <li data-nav-id="/03-strings-input/" title="Strings &amp; Input" class="dd-item"><input type="checkbox" id="section-84da79d588594d1d09e803497abdf57f" class="toggle"/><label for="section-84da79d588594d1d09e803497abdf57f" ></label><a href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/"><b>3. </b>Strings &amp; Input</a><ul>
+          <li data-nav-id="/03-strings-input/01-input/" title="Input" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/01-input/">1. Input</a></li>
+          <li data-nav-id="/03-strings-input/02-number-input/" title="Numerical Input" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/02-number-input/">2. Numerical Input</a></li>
+          <li data-nav-id="/03-strings-input/03-string-operators/" title="String Operators" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/">3. String Operators</a></li>
+          <li data-nav-id="/03-strings-input/04-f-strings/" title="F-Strings" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/04-f-strings/">4. F-Strings</a></li>
+          <li data-nav-id="/03-strings-input/05-complex-statements/" title="Complex Statements" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/05-complex-statements/">5. Complex Statements</a></li>
+          <li data-nav-id="/03-strings-input/06-input-practice/" title="Input Practice" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/06-input-practice/">6. Input Practice</a></li>
+          <li data-nav-id="/03-strings-input/07-summary/" title="Summary" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/07-summary/">7. Summary</a></li></ul></li>
+          <li data-nav-id="/04-conditionals/" title="Conditionals" class="dd-item parent"><input type="checkbox" id="section-fd49b6c30bfce37e5c71d91cd6e8ffb4" class="toggle" checked/><label for="section-fd49b6c30bfce37e5c71d91cd6e8ffb4" ></label><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/"><b>4. </b>Conditionals</a><ul>
+          <li data-nav-id="/04-conditionals/01-intro/" title="Introduction" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/01-intro/">1. Introduction</a></li>
+          <li data-nav-id="/04-conditionals/02-booleans/" title="Booleans" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/02-booleans/">2. Booleans</a></li>
+          <li data-nav-id="/04-conditionals/03-operators/" title="Boolean Operators" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/03-operators/">3. Boolean Operators</a></li>
+          <li data-nav-id="/04-conditionals/04-comparators/" title="Boolean Comparators" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/04-comparators/">4. Boolean Comparators</a></li>
+          <li data-nav-id="/04-conditionals/05-boolean-practice/" title="Boolean Practice" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/05-boolean-practice/">5. Boolean Practice</a></li>
+          <li data-nav-id="/04-conditionals/06-if/" title="If" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/06-if/">6. If</a></li>
+          <li data-nav-id="/04-conditionals/07-if-else/" title="If-Else" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/07-if-else/">7. If-Else</a></li>
+          <li data-nav-id="/04-conditionals/08-branch-path-testing/" title="Testing Branches &amp; Paths" class="dd-item active"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/">8. Testing Branches &amp; Paths</a></li>
+          <li data-nav-id="/04-conditionals/09-conditionals-practice/" title="Conditionals Practice" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/09-conditionals-practice/">9. Conditionals Practice</a></li>
+          <li data-nav-id="/04-conditionals/10-linear/" title="Linear Conditionals" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/10-linear/">10. Linear Conditionals</a></li>
+          <li data-nav-id="/04-conditionals/11-chaining/" title="Chaining Conditionals" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/11-chaining/">11. Chaining Conditionals</a></li>
+          <li data-nav-id="/04-conditionals/12-nesting/" title="Nesting Conditionals" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/12-nesting/">12. Nesting Conditionals</a></li>
+          <li data-nav-id="/04-conditionals/13-blocks-scope/" title="Blocks &amp; Scope" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/13-blocks-scope/">13. Blocks &amp; Scope</a></li>
+          <li data-nav-id="/04-conditionals/14-example/" title="Worked Example" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/14-example/">14. Worked Example</a></li>
+          <li data-nav-id="/04-conditionals/15-nesting-practice/" title="Nesting Practice" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/15-nesting-practice/">15. Nesting Practice</a></li>
+          <li data-nav-id="/04-conditionals/16-summary/" title="Summary" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/16-summary/">16. Summary</a></li></ul></li>
+          <li data-nav-id="/00-introduction/" title="Introduction" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/intro-python/00-introduction/"><b>0. </b>Introduction</a></li>
+        </ul>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="light-theme" value="light-theme" selected>Light Theme</option>
+                    <option id="dark-theme" value="dark-theme">Dark Theme</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter"><style>
+#footer {
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2rem 1rem;
+	min-width: 230px;
+	max-width: 300px;
+}
+#footer p {
+	margin: 0;
+}
+</style>
+
+<p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a></p>
+
+        </div>
+      </div>
+    </aside>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/clipboard.min.js?1685052523" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/perfect-scrollbar.min.js?1685052523" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/featherlight.min.js?1685052523" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://ksu-cs-textbooks.github.io/intro-python/js/mathjax/tex-mml-chtml.js?1685052523"></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/theme.js?1685052523" defer></script>
+  </body>
+</html>
