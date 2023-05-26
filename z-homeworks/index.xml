@@ -428,5 +428,12 @@
     <description>Recent content in Homeworks on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/z-homeworks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homework 1</title>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/z-homeworks/01-calculator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/z-homeworks/01-calculator/</guid>
+      <description>Homework 1</description>
+    </item>
   </channel>
 </rss>
