@@ -918,7 +918,7 @@ In programming, variable scope refers to the locations in code where variables c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/14-example/</guid>
       <description>Resources Slides Let&amp;rsquo;s go through another worked example to see how we can translate a problem statement into a working program. We&amp;rsquo;ll also take a look at how we can test the program to verify that it is working as intended.
-Problem Statement Here&amp;rsquo;s a short and simple game that can be played by two players:
+Problem Statement Here&amp;rsquo;s a short and simple game that can be played by three players:
 Three players each guess a positive integer greater than $ 0 $, and then share them simultaneously.</description>
     </item>
     <item>
