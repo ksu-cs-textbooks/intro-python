@@ -813,7 +813,8 @@
       <link>https://ksu-cs-textbooks.github.io/intro-python/06-functions/01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/06-functions/01-intro/</guid>
-      <description>Resources Slides As our Python programs continue to get larger and more complex, we may notice that we are reusing certain pieces of code over and over again. A great example is the loop structure to repeatedly get input from the user until a valid input is received.
+      <description>YouTube Video
+Resources Slides As our Python programs continue to get larger and more complex, we may notice that we are reusing certain pieces of code over and over again. A great example is the loop structure to repeatedly get input from the user until a valid input is received.
 x = float(input(&amp;#34;Enter a percentage as a decimal number from 0 to 1: &amp;#34;)) while(x &amp;lt; 0 or x &amp;gt; 1): print(&amp;#34;Invalid Input!</description>
     </item>
     <item>
@@ -821,7 +822,8 @@ x = float(input(&amp;#34;Enter a percentage as a decimal number from 0 to 1: &am
       <link>https://ksu-cs-textbooks.github.io/intro-python/06-functions/02-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/06-functions/02-basics/</guid>
-      <description>Resources Slides Creating a Function A simple function in Python uses the following structure:
+      <description>YouTube Video
+Resources Slides Creating a Function A simple function in Python uses the following structure:
 def function_name(): &amp;lt;block of statements&amp;gt; Let&amp;rsquo;s break this structure down to see how it works:
 First, a function definition in Python begins with the word def, which is short for define. In effect, we are stating that we are defining a new function using the special def keyword. Next, we include the name of the function.</description>
     </item>
@@ -830,7 +832,8 @@ First, a function definition in Python begins with the word def, which is short 
       <link>https://ksu-cs-textbooks.github.io/intro-python/06-functions/03-main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/06-functions/03-main/</guid>
-      <description>Resources Slides Let&amp;rsquo;s review a couple other concepts related to functions in Python.
+      <description>YouTube Video
+Resources Slides Let&amp;rsquo;s review a couple other concepts related to functions in Python.
 Main Function We can also create a main function in Python. The use of a main function in Python is not required at all - Python is designed as a scripting language, meaning we can write code directly in a Python file without using any functions at all. However, it is generally considered good practice to make sure all code is part of a function, and then we can include a main function as the starting point for any program.</description>
     </item>
     <item>
@@ -838,7 +841,8 @@ Main Function We can also create a main function in Python. The use of a main fu
       <link>https://ksu-cs-textbooks.github.io/intro-python/06-functions/04-param-arg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/06-functions/04-param-arg/</guid>
-      <description>Resources Slides Function Parameters Functions in Python can also require parameters. To include a parameter in a function, we simply have to include the name of the parameter in the parentheses () at the end of the function definition. Multiple parameters should be separated by commas ,. For example, we can update our hello_world function to include a couple of parameters:
+      <description>YouTube Video
+Resources Slides Function Parameters Functions in Python can also require parameters. To include a parameter in a function, we simply have to include the name of the parameter in the parentheses () at the end of the function definition. Multiple parameters should be separated by commas ,. For example, we can update our hello_world function to include a couple of parameters:
 def hello_world(first_name, last_name): print(&amp;#34;Hello &amp;#34;, end=&amp;#34;&amp;#34;) print(first_name, end=&amp;#34; &amp;#34;) print(last_name) Here, we are defining two parameters, named first_name and last_name, that are used as part of the function.</description>
     </item>
     <item>
@@ -846,7 +850,8 @@ def hello_world(first_name, last_name): print(&amp;#34;Hello &amp;#34;, end=&amp
       <link>https://ksu-cs-textbooks.github.io/intro-python/06-functions/05-return/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/06-functions/05-return/</guid>
-      <description>Resources Slides Python functions are also capable of returning a value, In Python, we use the return keyword.
+      <description>YouTube Video
+Resources Slides Python functions are also capable of returning a value, In Python, we use the return keyword.
 Let&amp;rsquo;s look at a quick example of a full Python program that includes a function that returns a value:
 def square_sum(one, two): one = one * one two = two * two total = one + two return total def main(): text_one = input(&amp;#34;Enter the first number: &amp;#34;) one = int(text_one) text_two = input(&amp;#34;Enter the second number: &amp;#34;) two = int(text_two) total = square_sum(one, two) print(f&amp;#34;The sum of squares of {one} and {two} is {total}&amp;#34;) main() To truly understand how this program works, let&amp;rsquo;s use Python Tutor to explore it step by step.</description>
     </item>
@@ -855,7 +860,8 @@ def square_sum(one, two): one = one * one two = two * two total = one + two retu
       <link>https://ksu-cs-textbooks.github.io/intro-python/06-functions/06-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/06-functions/06-example/</guid>
-      <description>Resources Slides Now that we&amp;rsquo;ve explored how to create functions, let&amp;rsquo;s work through a one of our previous worked examples to see how we could approach building that same program, but this time using some functions to simplify our code a bit.
+      <description>YouTube Video
+Resources Slides Now that we&amp;rsquo;ve explored how to create functions, let&amp;rsquo;s work through a one of our previous worked examples to see how we could approach building that same program, but this time using some functions to simplify our code a bit.
 Consider the following problem statement:
 Write a program to print the sum of the first n prime numbers, where n is provided as input from the user.</description>
     </item>
