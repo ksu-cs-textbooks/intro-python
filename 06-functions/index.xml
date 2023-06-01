@@ -765,6 +765,16 @@
 		
 		
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
 		
 
 	
@@ -828,7 +838,7 @@ def hello_world(first_name, last_name): print(&amp;#34;Hello &amp;#34;, end=&amp
       <guid>https://ksu-cs-textbooks.github.io/intro-python/06-functions/05-return/</guid>
       <description>Resources Slides Python functions are also capable of returning a value, In Python, we use the return keyword.
 Let&amp;rsquo;s look at a quick example of a full Python program that includes a function that returns a value:
-def square_sum(one, two): one = one * one two = two * two total = one + two return total def main(): text_one = input(&amp;#34;Enter the first number: &amp;#34;) one = int(text_one) text_two = input(&amp;#34;Enter the second number: &amp;#34;) two = int(text_two) total = square_sum(one, two) print(&amp;#34;The sum of squares of {} and {} is {}&amp;#34;.</description>
+def square_sum(one, two): one = one * one two = two * two total = one + two return total def main(): text_one = input(&amp;#34;Enter the first number: &amp;#34;) one = int(text_one) text_two = input(&amp;#34;Enter the second number: &amp;#34;) two = int(text_two) total = square_sum(one, two) print(f&amp;#34;The sum of squares of {one} and {two} is {total}&amp;#34;) main() To truly understand how this program works, let&amp;rsquo;s use Python Tutor to explore it step by step.</description>
     </item>
     <item>
       <title>Worked Example</title>
