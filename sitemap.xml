@@ -580,6 +580,86 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
 		
 
 	
@@ -699,6 +779,10 @@
     <lastmod>2023-06-01T11:38:39-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/07-lists/01-intro/</loc>
+    <lastmod>2023-06-01T13:22:37-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/</loc>
     <lastmod>2023-05-30T17:39:56-05:00</lastmod>
   </url>
@@ -713,6 +797,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/06-functions/02-basics/</loc>
     <lastmod>2023-06-01T11:38:39-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/07-lists/02-lists/</loc>
+    <lastmod>2023-06-01T13:22:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/02-number-input/</loc>
@@ -735,6 +823,10 @@
     <lastmod>2023-06-01T09:12:13-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/07-lists/03-loops-lists/</loc>
+    <lastmod>2023-06-01T13:22:37-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/06-functions/03-main/</loc>
     <lastmod>2023-06-01T11:38:39-05:00</lastmod>
   </url>
@@ -744,7 +836,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/</loc>
-    <lastmod>2023-06-01T09:12:13-05:00</lastmod>
+    <lastmod>2023-06-01T13:22:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/03-types/</loc>
@@ -765,6 +857,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/05-loops/04-input-loops/</loc>
     <lastmod>2023-06-01T09:12:13-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/07-lists/04-list-functions/</loc>
+    <lastmod>2023-06-01T13:22:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/06-functions/04-param-arg/</loc>
@@ -795,12 +891,16 @@
     <lastmod>2023-06-01T11:38:39-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/07-lists/05-slicing-lists/</loc>
+    <lastmod>2023-06-01T13:22:37-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/05-loops/05-testing-loops/</loc>
     <lastmod>2023-06-01T09:12:13-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/06-if/</loc>
-    <lastmod>2023-06-01T11:38:39-05:00</lastmod>
+    <lastmod>2023-06-01T13:22:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/06-input-practice/</loc>
@@ -809,6 +909,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/06-resulting-types/</loc>
     <lastmod>2023-05-31T12:24:27-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/07-lists/06-strings-lists/</loc>
+    <lastmod>2023-06-01T13:22:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/</loc>
@@ -847,6 +951,14 @@
     <lastmod>2023-05-23T17:37:01-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/07-lists/07-example/</loc>
+    <lastmod>2023-06-01T13:22:37-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/07-lists/08-lists-practice/</loc>
+    <lastmod>2023-06-01T13:22:37-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/08-math-practice/</loc>
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
   </url>
@@ -881,6 +993,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/09-summary/</loc>
     <lastmod>2023-05-23T14:49:19-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/intro-python/07-lists/09-summary/</loc>
+    <lastmod>2023-06-01T13:22:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/10-linear/</loc>

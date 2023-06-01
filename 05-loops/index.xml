@@ -580,6 +580,86 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
 		
 
 	
@@ -653,8 +733,7 @@
       <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/01-intro/</guid>
-      <description>YouTube Video
-Resources Slides Over the last few labs, we&amp;rsquo;ve explored how we can change the control flow of our programs using conditional statements. A program that doesn&amp;rsquo;t contain any conditional statements will have a linear control flow. Each time we run the program, it will execute the same steps in the same order, but it may use different data based on input from the user.
+      <description>Resources Slides Over the last few labs, we&amp;rsquo;ve explored how we can change the control flow of our programs using conditional statements. A program that doesn&amp;rsquo;t contain any conditional statements will have a linear control flow. Each time we run the program, it will execute the same steps in the same order, but it may use different data based on input from the user.
 When a program contains a conditional statement, its control flow can split into different branches.</description>
     </item>
     <item>
@@ -662,32 +741,28 @@ When a program contains a conditional statement, its control flow can split into
       <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/02-while-loops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/02-while-loops/</guid>
-      <description>YouTube Video
-Resources Slides The first type of loop to explore in Python is the while loop. A while loop uses a Boolean expression, and will repeat the code inside of the loop as long as the Boolean expression evaluates to True. These loops are typically used when we want to repeat some steps, but we aren&amp;rsquo;t sure exactly how many times it must be done. Instead, we typically know that there is some condition that must be True while we repeat the code, and once it turns False we can stop looping and continue with the program.</description>
+      <description>Resources Slides The first type of loop to explore in Python is the while loop. A while loop uses a Boolean expression, and will repeat the code inside of the loop as long as the Boolean expression evaluates to True. These loops are typically used when we want to repeat some steps, but we aren&amp;rsquo;t sure exactly how many times it must be done. Instead, we typically know that there is some condition that must be True while we repeat the code, and once it turns False we can stop looping and continue with the program.</description>
     </item>
     <item>
       <title>For Loops</title>
       <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/03-for-loops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/03-for-loops/</guid>
-      <description>YouTube Video
-Resources Slides Python also includes a second type of loop that is very useful, the for loop. A for loop is used when we want to repeat the steps a certain number of times. However, in Python, we can&amp;rsquo;t just say that we want to repeat something $ 10 $ times. Instead, we use the built-in range() function in Python to generate a list of numbers that we use in our loop.</description>
+      <description>Resources Slides Python also includes a second type of loop that is very useful, the for loop. A for loop is used when we want to repeat the steps a certain number of times. However, in Python, we can&amp;rsquo;t just say that we want to repeat something $ 10 $ times. Instead, we use the built-in range() function in Python to generate a list of numbers that we use in our loop.</description>
     </item>
     <item>
       <title>Input with Loops</title>
       <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/04-input-loops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/04-input-loops/</guid>
-      <description>YouTube Video
-Resources Slides Loops in Python are also a great way to handle situations where a user must input a value that meets certain criteria. Previously, we used an if statement to determine if the input was valid, but if it wasn&amp;rsquo;t valid all we could do was print an error and end the program. If we use a loop instead, we can prompt the user to provide additional input until we receive a valid value.</description>
+      <description>Resources Slides Loops in Python are also a great way to handle situations where a user must input a value that meets certain criteria. Previously, we used an if statement to determine if the input was valid, but if it wasn&amp;rsquo;t valid all we could do was print an error and end the program. If we use a loop instead, we can prompt the user to provide additional input until we receive a valid value.</description>
     </item>
     <item>
       <title>Testing Loops</title>
       <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/05-testing-loops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/05-testing-loops/</guid>
-      <description>YouTube Video
-Resources Slides Another important aspect of working with loops in code is learning how to properly test programs that contain loops. So, let&amp;rsquo;s look at some of the methods we can use when testing our programs containing loops to make sure they work correctly and won&amp;rsquo;t run into any problems.
+      <description>Resources Slides Another important aspect of working with loops in code is learning how to properly test programs that contain loops. So, let&amp;rsquo;s look at some of the methods we can use when testing our programs containing loops to make sure they work correctly and won&amp;rsquo;t run into any problems.
 Branch and Path Coverage Loops, like conditional statements, introduce different branches and paths into our programs. So, one of the first steps when testing these programs is to develop a set of inputs that will execute each branch of the code, as well as finding inputs that will execute multiple different paths through the program.</description>
     </item>
     <item>
@@ -695,8 +770,7 @@ Branch and Path Coverage Loops, like conditional statements, introduce different
       <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/06-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/06-example/</guid>
-      <description>YouTube Video
-Resources Slides Now that we&amp;rsquo;ve learned all about using loops in Python, let&amp;rsquo;s go through a complete worked example to see how all the pieces fit together. As we continue to develop larger and more complex programs, it is helpful to observe the entire process from start to finish so we can see how to easily develop a program one step at a time. Once we&amp;rsquo;ve created our program, we&amp;rsquo;ll also perform a bit of testing to make sure that it works correctly.</description>
+      <description>Resources Slides Now that we&amp;rsquo;ve learned all about using loops in Python, let&amp;rsquo;s go through a complete worked example to see how all the pieces fit together. As we continue to develop larger and more complex programs, it is helpful to observe the entire process from start to finish so we can see how to easily develop a program one step at a time. Once we&amp;rsquo;ve created our program, we&amp;rsquo;ll also perform a bit of testing to make sure that it works correctly.</description>
     </item>
     <item>
       <title>Loops Practice</title>
@@ -712,16 +786,14 @@ x = int(input(&amp;#34;Enter a positive integer: &amp;#34;)) while(x &amp;lt;= 0
       <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/08-nested-while/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/08-nested-while/</guid>
-      <description>YouTube Video
-Resources Slides Up to this point, we explored how we can use iterative structures in our code, such as while loops and for loops, to repeat steps a certain number of times or while a Boolean condition is true. This is a very powerful tool, since it allows us to build programs that can repeatedly ask the user to provide input until a valid value is received, or even perform a repeated calculation until it reaches a desired result.</description>
+      <description>Resources Slides Up to this point, we explored how we can use iterative structures in our code, such as while loops and for loops, to repeat steps a certain number of times or while a Boolean condition is true. This is a very powerful tool, since it allows us to build programs that can repeatedly ask the user to provide input until a valid value is received, or even perform a repeated calculation until it reaches a desired result.</description>
     </item>
     <item>
       <title>Nested For Loops</title>
       <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/09-nested-for/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/09-nested-for/</guid>
-      <description>YouTube Video
-Resources Slides For loops can also be nested, just like while loops. In fact, nesting for loops is often much simpler than nesting while loops, since it is very easy to predict exactly how many times a for loop will iterate, and also because it is generally easier to determine if a for loop will properly terminate instead of a while loop.
+      <description>Resources Slides For loops can also be nested, just like while loops. In fact, nesting for loops is often much simpler than nesting while loops, since it is very easy to predict exactly how many times a for loop will iterate, and also because it is generally easier to determine if a for loop will properly terminate instead of a while loop.
 A great way to explore using nested for loops is by printing ASCII Art shapes.</description>
     </item>
     <item>
@@ -729,8 +801,7 @@ A great way to explore using nested for loops is by printing ASCII Art shapes.</
       <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/</guid>
-      <description>YouTube Video
-Resources Slides Testing nested loops can also be very tricky, especially because they can make our program&amp;rsquo;s control flow even more complex. So, let&amp;rsquo;s briefly go through an example to see how to determine what inputs we can use to test nested loops.
+      <description>Resources Slides Testing nested loops can also be very tricky, especially because they can make our program&amp;rsquo;s control flow even more complex. So, let&amp;rsquo;s briefly go through an example to see how to determine what inputs we can use to test nested loops.
 Consider the following example program:
 x = int(input(&amp;#34;Enter a positive integer: &amp;#34;)) while x &amp;lt;= 0: print(&amp;#34;Invalid input!&amp;#34;) x = int(input(&amp;#34;Enter a positive integer: &amp;#34;)) y = int(input(&amp;#34;Enter a positive integer: &amp;#34;)) while y &amp;lt;= 0: print(&amp;#34;Invalid input!</description>
     </item>
@@ -739,8 +810,7 @@ x = int(input(&amp;#34;Enter a positive integer: &amp;#34;)) while x &amp;lt;= 0
       <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/11-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/11-example/</guid>
-      <description>YouTube Video
-Resources Slides Now that we&amp;rsquo;ve explored how to create programs that contain nested loops, let&amp;rsquo;s work through a complete example problem to see how we can convert a problem statement into working code.
+      <description>Resources Slides Now that we&amp;rsquo;ve explored how to create programs that contain nested loops, let&amp;rsquo;s work through a complete example problem to see how we can convert a problem statement into working code.
 Consider the following problem statement:
 Write a program to print the sum of the first n prime numbers, where n is provided as input from the user.
 This is a very simple problem statement, but it can be very complex to build a program that satisfies it.</description>
