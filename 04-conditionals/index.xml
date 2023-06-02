@@ -813,8 +813,7 @@
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/01-intro/</guid>
-      <description>YouTube Video
-Resources Slides In this lab, we&amp;rsquo;re going to introduce another data type in Python, the Boolean data type. Working with Boolean values in programming is a very important skill to learn.
+      <description>Resources Slides In this lab, we&amp;rsquo;re going to introduce another data type in Python, the Boolean data type. Working with Boolean values in programming is a very important skill to learn.
 Elsewhere in this course, we&amp;rsquo;ve already learned about Boolean values and how they work, so we won&amp;rsquo;t cover that information again here. Feel free to refer to other areas in this course for more background on Booleans, Boolean Logic, Boolean Algebra, and other related topics.</description>
     </item>
     <item>
@@ -822,8 +821,7 @@ Elsewhere in this course, we&amp;rsquo;ve already learned about Boolean values a
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/02-booleans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/02-booleans/</guid>
-      <description>YouTube Video
-Resources Slides In Python, Boolean values are stored in the bool data type. Variables of the bool data type can only store one of two values, True or False. So, a Boolean value is really the simplest data value we can imagine - it is a single binary bit representing a value of True or False.
+      <description>Resources Slides In Python, Boolean values are stored in the bool data type. Variables of the bool data type can only store one of two values, True or False. So, a Boolean value is really the simplest data value we can imagine - it is a single binary bit representing a value of True or False.
 To create a Boolean variable in Python, we can simply assign those values to a variable in an assignment statement:</description>
     </item>
     <item>
@@ -831,8 +829,7 @@ To create a Boolean variable in Python, we can simply assign those values to a v
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/03-operators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/03-operators/</guid>
-      <description>YouTube Video
-Resources Slides Python also includes several operators that can be applied to one or two Boolean values. These operators make up the basis of Boolean logic, and allow us to construct complex expressions of Boolean values. Let&amp;rsquo;s quickly review the three basic Boolean operators present in Python.
+      <description>Resources Slides Python also includes several operators that can be applied to one or two Boolean values. These operators make up the basis of Boolean logic, and allow us to construct complex expressions of Boolean values. Let&amp;rsquo;s quickly review the three basic Boolean operators present in Python.
 And Operator In Python, we use the keyword and to perform the Boolean and operation. This operator will return True if both input values are also True, otherwise it will return False.</description>
     </item>
     <item>
@@ -840,8 +837,7 @@ And Operator In Python, we use the keyword and to perform the Boolean and operat
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/04-comparators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/04-comparators/</guid>
-      <description>YouTube Video
-Resources Slides Python also uses various comparators to allow us to compare values of many different data types to produce a Boolean value. We can compare numbers, strings, and many other data types in Python using these comparators.
+      <description>Resources Slides Python also uses various comparators to allow us to compare values of many different data types to produce a Boolean value. We can compare numbers, strings, and many other data types in Python using these comparators.
 The basic comparators in Python are:
 == equal != not equal &amp;lt; less than &amp;lt;= less than or equal to &amp;gt; greater than &amp;gt;= greater than or equal to Notice that the equal comparator in Python now uses two equals signs == instead of a single one.</description>
     </item>
@@ -859,16 +855,14 @@ a = 5 b = 10 c = 15 x = b &amp;gt; a and c &amp;lt; b or (not (a + b &amp;gt; c)
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/06-if/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/06-if/</guid>
-      <description>YouTube Video
-Resources Slides Now that we understand how to use Boolean values in our programs, it&amp;rsquo;s time to put those values to use. One way to think of the result of a Boolean expression is that it helps us make a decision in our programs. For example, if we want to do something special in our program when the user inputs the value $ 42 $ into the variable x, then we can write the Boolean expression x == 42 to help us decide if the user input the correct value.</description>
+      <description>Resources Slides Now that we understand how to use Boolean values in our programs, it&amp;rsquo;s time to put those values to use. One way to think of the result of a Boolean expression is that it helps us make a decision in our programs. For example, if we want to do something special in our program when the user inputs the value $ 42 $ into the variable x, then we can write the Boolean expression x == 42 to help us decide if the user input the correct value.</description>
     </item>
     <item>
       <title>If-Else</title>
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/07-if-else/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/07-if-else/</guid>
-      <description>YouTube Video
-Resources Slides Python also supports another kind of conditional statement, the if-else statement. An if-else statement contains a single Boolean expression, but two blocks of code. If the Boolean expression evaluates to True, then one block of statements is executed. If it is False, then the other block will be executed.
+      <description>Resources Slides Python also supports another kind of conditional statement, the if-else statement. An if-else statement contains a single Boolean expression, but two blocks of code. If the Boolean expression evaluates to True, then one block of statements is executed. If it is False, then the other block will be executed.
 The general structure of an if-else statement in Python is shown below:
 if &amp;lt;boolean expression&amp;gt;: &amp;lt;block of statements 1&amp;gt; else: &amp;lt;block of statements 2&amp;gt; Notice that the else keyword is followed by a colon, just like the first line of the if-else statement.</description>
     </item>
@@ -877,8 +871,7 @@ if &amp;lt;boolean expression&amp;gt;: &amp;lt;block of statements 1&amp;gt; els
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/08-branch-path-testing/</guid>
-      <description>YouTube Video YouTube Video
-Resources Slides One important concept to understand when writing if statements and if-else statements is the control flow of the program. Before we learned about conditional statements, our programs had a linear control flow - there was exactly one pathway through the program, no matter what. Each time we ran the program, the same code would be executed each time in the same order. However, with the introduction of conditional statements, this is no longer the case.</description>
+      <description>Resources Slides One important concept to understand when writing if statements and if-else statements is the control flow of the program. Before we learned about conditional statements, our programs had a linear control flow - there was exactly one pathway through the program, no matter what. Each time we ran the program, the same code would be executed each time in the same order. However, with the introduction of conditional statements, this is no longer the case.</description>
     </item>
     <item>
       <title>Conditionals Practice</title>
@@ -894,16 +887,14 @@ a = int(input(&amp;#34;Enter a whole number: &amp;#34;)) b = int(input(&amp;#34;
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/10-linear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/10-linear/</guid>
-      <description>YouTube Video
-Resources Slides Conditional statements are a very powerful tool for programmers to use. So far in this lab, we&amp;rsquo;ve explored simple conditional statements, including the if statement and if-else statement in Python. However, up to this point we&amp;rsquo;ve only looked at how we can use a single conditional statement at a time in a program, which can be very limiting. Now we&amp;rsquo;re going to explore how we can combine conditional statements in a variety of different ways to build even more complex programs.</description>
+      <description>Resources Slides Conditional statements are a very powerful tool for programmers to use. So far in this lab, we&amp;rsquo;ve explored simple conditional statements, including the if statement and if-else statement in Python. However, up to this point we&amp;rsquo;ve only looked at how we can use a single conditional statement at a time in a program, which can be very limiting. Now we&amp;rsquo;re going to explore how we can combine conditional statements in a variety of different ways to build even more complex programs.</description>
     </item>
     <item>
       <title>Chaining Conditionals</title>
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/11-chaining/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/11-chaining/</guid>
-      <description>YouTube Video
-Resources Slides In the previous example, we saw a set of linear if statements to represent a Rock Paper Scissors game. As we discussed on that page, the Boolean expressions are meant to be mutually exclusive, meaning that only one of the Boolean expressions will be true no matter what input the user provides.
+      <description>Resources Slides In the previous example, we saw a set of linear if statements to represent a Rock Paper Scissors game. As we discussed on that page, the Boolean expressions are meant to be mutually exclusive, meaning that only one of the Boolean expressions will be true no matter what input the user provides.
 When we have mutually exclusive Boolean expressions like this, we can instead use if-else statements to make the mutually exclusive structure of the program clearer to the user.</description>
     </item>
     <item>
@@ -911,25 +902,22 @@ When we have mutually exclusive Boolean expressions like this, we can instead us
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/12-nesting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/12-nesting/</guid>
-      <description>YouTube Video
-Resources Slides We&amp;rsquo;ve already seen how we can chain conditional statements by placing a new conditional statement inside of the False branch of another conditional statement. If we think about that, however, that implies that we probably should be able to place conditional statements inside of the True branch as well, or really anywhere. As it turns out, that&amp;rsquo;s exactly correct. We call this nesting, and it is really quite similar to what we&amp;rsquo;ve already seen in this lab.</description>
+      <description>Resources Slides We&amp;rsquo;ve already seen how we can chain conditional statements by placing a new conditional statement inside of the False branch of another conditional statement. If we think about that, however, that implies that we probably should be able to place conditional statements inside of the True branch as well, or really anywhere. As it turns out, that&amp;rsquo;s exactly correct. We call this nesting, and it is really quite similar to what we&amp;rsquo;ve already seen in this lab.</description>
     </item>
     <item>
       <title>Blocks &amp; Scope</title>
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/13-blocks-scope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/13-blocks-scope/</guid>
-      <description>YouTube Video
-Resources Slides Now that we&amp;rsquo;ve seen how we can chain and nest multiple conditional statements in our code, we need to address a very important concept: variable scope.
-In programming, variable scope refers to the locations in code where variables can be accessed. Contrary to what we may think based on our experience, when we declare a variable in our code, it may not always be available everywhere.</description>
+      <description>Resources Slides Now that we&amp;rsquo;ve seen how we can chain and nest multiple conditional statements in our code, we need to address a very important concept: variable scope.
+In programming, variable scope refers to the locations in code where variables can be accessed. Contrary to what we may think based on our experience, when we declare a variable in our code, it may not always be available everywhere. Instead, we need to learn the rules that determine where variables are available and why.</description>
     </item>
     <item>
       <title>Worked Example</title>
       <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/14-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/14-example/</guid>
-      <description>YouTube Video
-Resources Slides Let&amp;rsquo;s go through another worked example to see how we can translate a problem statement into a working program. We&amp;rsquo;ll also take a look at how we can test the program to verify that it is working as intended.
+      <description>Resources Slides Let&amp;rsquo;s go through another worked example to see how we can translate a problem statement into a working program. We&amp;rsquo;ll also take a look at how we can test the program to verify that it is working as intended.
 Problem Statement Here&amp;rsquo;s a short and simple game that can be played by three players:
 Three players each guess a positive integer greater than $ 0 $, and then share them simultaneously.</description>
     </item>
