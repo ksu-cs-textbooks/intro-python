@@ -10,6 +10,11 @@
 	
 	
 		
+		
+
+	
+	
+		
 
 	
 	
@@ -729,7 +734,6 @@
 
 	
 	
-		
 		
 
 	
@@ -744,7 +748,14 @@
 
 	
 	
+		
+
+	
+	
+		
+		
 		
+		
 
 	
 	
@@ -754,6 +765,10 @@
 	
 		
 		
+		
+
+	
+	
 		
 
 	
@@ -792,7 +807,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -806,73 +820,30 @@
 		
 		
 		
+		
+
+	
+	
+		
 
 	
 	
+		
 		
 [
+  {
+    "content": "Chapter 0 Introduction Welcome to the Introduction to Python textbook!\n",
+    "description": "",
+    "tags": null,
+    "title": "Introduction",
+    "uri": "/00-introduction/"
+  },
   {
     "content": "",
     "description": "",
     "tags": null,
     "title": "Basic Python",
     "uri": "/01-basic-python/"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Numbers \u0026 Math",
-    "uri": "/02-numbers/"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Strings \u0026 Input",
-    "uri": "/03-strings-input/"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Conditionals",
-    "uri": "/04-conditionals/"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Loops",
-    "uri": "/05-loops/"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Functions",
-    "uri": "/06-functions/"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Lists",
-    "uri": "/07-lists/"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Dictionaries",
-    "uri": "/08-dictionaries/"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Classes",
-    "uri": "/09-classes/"
   },
   {
     "content": " Resources Slides The Python programs we’ve written up to this point are very static - each time we run the program, it will perform the same exact operations. Since we’re running these programs on a real computer, it might be helpful to build programs that can read and respond to input from the user, making them much more useful overall. Python includes many different ways to handle user input, but in this lab we’ll just focus on the simple input() function.\nInput in Python The input() function is used to display a prompt the user and then record input. Let’s look at a quick example:\nname = input(\"Enter your name: \") print(\"Hello \", end=\"\") print(name) Here, we see that the input() function actually accepts a message as an argument, which will be displayed to the user. After the message is printed, the user will be given a cursor to enter text immediately after it. Once the user presses the ENTER key, the input() function will read the input that was entered and store it as a string value or str data type in the variable called name.\nFor example, if the user inputs Willie Wildcat at the prompt, this program’s output will look like this:\nEnter your name: Willie Wildcat Hello Willie Wildcat We can see this even more clearly in the terminal. When we first run the program, we’ll see the prompt \"Enter your name:\" printed, followed by a cursor prompting the user to enter something:\nOnce the user types the input and presses ENTER, the rest of the program will run:\nNow we see the cursor is at the next command prompt, ready to run another program.\n",
@@ -973,6 +944,13 @@
     "uri": "/07-lists/02-lists/"
   },
   {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Numbers \u0026 Math",
+    "uri": "/02-numbers/"
+  },
+  {
     "content": " Resources Slides Of course, we can also read numerical input in Python using the input() function. To do this, we must simply use either the int() or float() function to convert the input received as a string to the correct data type.\nHere’s a quick example program that requires two inputs for the price and quantity of an item being purchased:\ntext_one = input(\"Enter the price of one item: \") price = float(text_one) text_two = input(\"Enter the quantity of items: \") quantity = int(text_two) cost = price * quantity print(\"The total cost is $\", end=\"\") print(cost) If the user wishes to purchase $ 3 $ items at the price of $ 2.75 $ per item, then the program’s output would look like this:\nEnter the price of one item: 2.75 Enter the quantity of items: 3 The total cost is $8.25 In the program, we simply read each input from the user as a string value, then use the appropriate conversion function to convert it to the correct data type. For numbers including a decimal point, we use float(), but for whole numbers we use the int() function.\nThis works well if the user enters values that make sense. But, what if the user wishes to purchase a fraction of an item? Will this program work? Unfortunately, if the user enters a value with a decimal point for the second input, it can no longer be converted to an integer and we’ll get an error:\nEnter the price of one item: 2.75 Enter the quantity of items: 3.5 Traceback (most recent call last): File \"tutor.py\", line 4, in \u003cmodule\u003e quantity = int(text_two) ValueError: invalid literal for int() with base 10: '3.5' For right now, there’s not much we can do about that error other than write programs that clearly tell the user what type of data is expected, but later we’ll learn how to handle errors like this and prompt the user for input again.\n",
     "description": "",
     "tags": null,
@@ -1043,6 +1021,13 @@
     "uri": "/03-strings-input/03-string-operators/"
   },
   {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Strings \u0026 Input",
+    "uri": "/03-strings-input/"
+  },
+  {
     "content": " Resources Slides Determining Variable Type One thing that is very useful to know how to do in Python is determining the type of data stored in a variable. Python is very flexible, and we can store any type of data in any variable. In fact, a variable’s data type can even change in Python, which is something that many other programming languages won’t allow. Technically speaking, we would say that Python uses strong typing, which means that each variable has a known data type that we can find, and dynamic typing, meaning that the type of the variable can change while the program is running.\nTo determine the type of a variable, we can use the type(expression) function in Python. We can simply place any variable or expression in the expression argument, and then it will tell us the type of the value that results from evaluating that expression. Then, we can simply use the print() function to print it to the screen. We won’t use this in our programs themselves, but it can be helpful for debugging purposes or to just better understand what is going on with data types.\nHere’s a quick example program showing the type() function in Python:\nx = \"Hello\" y = 5 z = 6.7 print(type(x)) print(type(y)) print(type(z)) When we execute this code in Python, we should see the following output:\n\u003cclass 'str'\u003e \u003cclass 'int'\u003e \u003cclass 'float'\u003e Based on that output, we can assume that the variable x is the str data type for strings, y is the int data type for whole numbers, and z is the float data type for decimal numbers. The type() function is pretty handy!\nConverting Between Data Types We can also convert values between the various data types in Python. To do this, there are special functions that match the name of the data types themselves. So, to convert any value to a string, we can use the str() function. Likewise, to convert anything to an integer, we can use the int() function. And finally, to convert anything to a floating-point value, we can use the float() function.\nSo, we can extend the previous example a bit by showing how we can convert values between different data types:\nx = \"5.7\" print(x) print(type(x)) print() y = float(x) print(y) print(type(y)) print() z = int(y) print(z) print(type(z)) When we run this program, we’ll get this output:\n5.7 \u003cclass 'str'\u003e 5.7 \u003cclass 'float'\u003e 5 \u003cclass 'int'\u003e In this program, we’re starting with the string value \"5.7\" stored in variable x. So, the first two print() statements will print that string value, and show that x is indeed storing a str data type. Then, we’ll use the float() function to convert the string value \"5.7\" stored in x to the floating-point value $ 5.7 $ and store that in y. The next two print statements will print that value, and show that y is storing a float data type. Notice that the value printed for both variables x and y looks identical, but the data type of each variable is different!\nFinally, we can use the int() function to convert the floating-point value $ 5.7 $ to an integer. In math, when we are asked to convert the number $ 5.7 $ to a whole number, our first instinct is probably to just round up to $ 6 $, since that is the closest value. However, in Python, as in most other programming languages, this function will simply truncate the value instead. Truncating a value simply means we take off the end of the value, so to convert $ 5.7 $ to an integer we just remove the decimal portion, and we’re left with the value $ 5 $. So, in the output above, we see that z stores the integer value $ 5 $, and it is the int data type.\nNotice that we are careful to say that the int() function will truncate the value, and not that it will round down. This is due to how Python handles negative numbers like $ -5.7 $. When converting that to an integer, it will also truncate it to $ -5 $ instead of rounding down to $ -6 $. So, we use the word truncate as the best way to describe the int() function.\nExceptions Since we are running our Python programs on a real computer, we have to be a bit careful about how we use these functions. Specifically, if we try to convert a value to a different data type and Python can’t figure out how to do that, we’ll cause an exception to occur. An exception in programming is any error that happens when the computer tries to run our code.\nFor example, what if we try to convert the string value \"5.7\" directly to an int data type, as in this example:\na = \"5.7\" print(a) print(type(a)) print() b = int(a) print(b) print(type(b)) When we try to run this code in a file, such as the tutor.py file shown here, we’ll see this output printed on the terminal:\n5.7 \u003cclass 'str'\u003e Traceback (most recent call last): File \"tutor.py\", line 5, in \u003cmodule\u003e b = int(a) ValueError: invalid literal for int() with base 10: '5.7' Uh oh! That’s not good. In the output, we can see that we’ve caused a ValueError, which is an exception that happens when we try to use a value in an incorrect way. So, we’ll need to carefully look at our code to see if we can find and fix the error.\nThankfully, in the output, it will tell us that the error occurred on line 5 of the file tutor.py, so we can open that file and scroll to that line of code:\nb = int(a) This is where the error occurred. There are several ways we can fix it. The easiest would be to simply convert a to a floating-point value using the float() function instead.\nLearning how to find and fix these exceptions is a key part of learning how to program. We’ll inevitably run into a few exceptions as we start to build larger and more complex programs. In this course, most exceptions can be easily handled simply by working carefully through the code, but every once in a while we may run into an exception that is truly difficult to solve. That’s one of the important things to remember when learning how to program - it is sometimes much easier to cause an exception than it is to figure out how to fix it, and sometimes you may need to reach out for help to get past a particularly tricky exception. So, don’t be afraid to ask the instructors or TAs for help if you get stuck on an exception. Many times, it’s a great chance for you to learn some new programming skills.\n",
     "description": "",
     "tags": null,
@@ -1062,6 +1047,13 @@
     "tags": null,
     "title": "Boolean Comparators",
     "uri": "/04-conditionals/04-comparators/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Conditionals",
+    "uri": "/04-conditionals/"
   },
   {
     "content": " Resources Slides Finally, let’s briefly look at how dictionaries operate when used as parameters to functions in Python. As we can probably guess from the earlier example in Python Tutor, dictionaries also use call by reference, just like lists.\nHere’s a short example program in Python that demonstrates the use of dictionaries with functions.\ndef add_score(scores): name = input(\"Enter a name: \") score = int(input(\"Enter a score: \")) scores[name] = score def average_score(scores): total = 0 for key, value in scores.items(): total = total + value return total / len(scores) def main(): scores = {} for i in range(4): add_score(scores) print(average_score(scores)) main() Let’s take a look at this program using Python Tutor to see how it works. As always, you can copy and paste this code into Python Tutor, or click this Python Tutor link in the lab to open it in a web browser.\nFirst, Python Tutor will iterate through the code and record all of the functions in the objects area. Once it reaches the call to the main() function at the bottom, it will jump to the code inside of that function. At that point, we should see this state:\nThe first thing that this program will do is create an empty dictionary in the scores variable. So, after executing that line of code, we’ll see a new dictionary in the objects area in memory as shown here:\nNext, we’ll reach a simple for loop that will iterate $ 4 $ times, so we’ll enter that loop:\nInside of the loop, we are calling the add_score() function and providing the scores dictionary as an argument. So, when Python Tutor jumps to execute that function’s code, we’ll see it create a new frame for the function and populate that frame with the arguments provided as part of the function call:\nSince dictionaries in Python also use call by reference, we’ll see that the scores parameter in the add_score() function’s frame is just a reference back to the same empty dictionary that was created earlier. The scores variable in the main() function’s frame also points to the same object in memory.\nThe add_scores() function will prompt the user to input a name and a score. So, if we assume that the user inputs the string \"Name\" as the name, and \"95\" as the score, we should see this state in Python Tutor:\nThe last line of the function will add a new key-value pair to the dictionary, with the name used as the key and the score as the value. So, when the function is ready to return, we should see this state:\nAt this point, the control flow will return back to the main function, so our frame for the add_score() function will be removed. Thankfully, we can see that the new item we added to the dictionary is present in the one dictionary object in memory, which is also referenced from the main() function’s frame. So, once we are back in the main() function, we’ll see this state:\nAs we can see, dictionaries properly follow call by reference, so if we modify a dictionary that is passed to a function as an argument, we don’t have to return it back if we are just working with the same object.\nAt this point, the program will repeat that process three more times. We’ll skip ahead a bit to the end of the for loop in the main function, which will be this state:\nHere, our program will call the average_score() function to get the average of all of the scores in the dictionary. So, we’ll jump up to that function and provide the current dictionary as an argument, as shown here:\nThis function is very straightforward. However, let’s skip ahead a bit to when we are inside of the for loop, just to see what that looks like:\nIn our code, we are using the items() function of the dictionary to allow us to iterate over a list of the key-value pairs in the dictionary. So, inside of that for loop, we see both a key and a value variable, and they are populated with the first key and value from within our dictionary.\nOnce we’ve iterated through the entire dictionary, we’ll be at this state:\nWe’re ready to return from the function, and we’ve computed that our return value will be $ 92.5 $, as seen the frame for the average_score() function. Once we are back in the main() function, we’ll simply print that value to the output:\nAs we’ve seen in this example, working with dictionaries and functions in Python is practically identical to what we saw with lists - both data structures use call by reference when they are passed as arguments to a function. So, as long as we understand how Python is storing the data in memory, we can effectively build programs that operate the way we expect them to.\n",
@@ -1120,6 +1112,13 @@
     "uri": "/03-strings-input/05-complex-statements/"
   },
   {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Loops",
+    "uri": "/05-loops/"
+  },
+  {
     "content": " Resources Slides Modulo Operator The Python programming language also includes a few math operators that are not commonly used outside of programming.\nThe first one is the modulo operator. The modulo operator is used to find the remainder of a division operation. If we think back to math again, we’ve probably learned how to perform long division when dividing two values. At the end, we might be left with a remainder, or a portion of the first number that is left over after the operation is complete. In many computer programs, that value is very useful, so we have a special operator we can use to find that value. In Python, we use the percent symbol % as the modulo operator.\nFor example, if we want to find the remainder after dividing $ 19 $ by $ 5 $, we would use the following code:\nx = 19 y = 5 z = x % y print(z) When we run this code, we would get the following output:\n4 This is because the value $ 5 $ will fit into the value $ 19 $ only $ 3 $ times, and then we’ll have the value $ 4 $ left over. Mathematically, we are saying that $ 19 / 5 = (3 * 5) + 4 $. Since $ 4 $ is the leftover portion, it is the resulting value when we use the modulo operator.\nIn this course, we’ll only worry about how the modulo operator works when applied to positive whole numbers. In practice, it can be applied to any numerical value, including decimal values and negative numbers, but those values are not really useful in most cases. So, to keep things simple, we’ll only use positive whole numbers with this operator.\nExponentiation Operator The next operator introduced by Python is the exponentiation operator. The double star ** operator is used to represent exponentiation, sometimes referred to the power operator. In Python, the expression 2 ** 3 would be written mathematically as $ 2^3 $, which is the operation of taking $ 2 $ to the power of $ 3 $, or multiplying $ 2 $ by itself $ 3 $ times.\nHere’s a quick example of using the ** operator in code:\nx = 5 ** 3 print(x) print(type(x)) When this code is run, we see the following output:\n125 \u003cclass 'int'\u003e ||| growthhack\nDon’t Use the Carat ^! Many other programming languages and tools use the carat ^ character to represent the exponentiation operation. However, in Python, the carat ^ character is used to represent the bitwise XOR operation. So, we must be careful not to accidentally use the ^ operator when we actually mean to use the ** operator for exponentiation.\n|||\nInteger Division Operator Finally, Python also includes the integer division operator, represented by two forward slashes //, which is used to perform division that truncates the result to an integer. However, as we’ll see on the next page, if either of the values in the operation is a float value, it will return a value that is a float data type, even though the result is an integer value.\nLet’s look at an example with that operator in code:\na = 17.5 // 4.5 print(a) print(type(a)) As we expect, when we run this program, we’ll get the following output:\n3.0 \u003cclass 'float'\u003e So, we see that this operator will return a float value, even though it is truncating the result to an integer, simply because the input values contained a float.\n",
     "description": "",
     "tags": null,
@@ -1167,6 +1166,13 @@
     "tags": null,
     "title": "Dictionaries Practice",
     "uri": "/08-dictionaries/06-dictionaries-practice/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Functions",
+    "uri": "/06-functions/"
   },
   {
     "content": " Resources Slides Now that we understand how to use Boolean values in our programs, it’s time to put those values to use. One way to think of the result of a Boolean expression is that it helps us make a decision in our programs. For example, if we want to do something special in our program when the user inputs the value $ 42 $ into the variable x, then we can write the Boolean expression x == 42 to help us decide if the user input the correct value.\nOnce we have that decision made, we need some way to tell our program to run a different piece of code based on the outcome of that decision. In Python, as well as most other programming languages, we can use a special construct called an if statement to do this. If statements are one example of a conditional statement in programming.\nThese conditional statements allow us to affect the control flow of our programs. Effectively, we can use a Boolean expression to determine whether a particular piece of code should be executed or not. In an if statement, we include a Boolean expression and a block of statements. If the Boolean expression evaluates to True, then we execute the code in the block of statements. If it is False, then we skip the block and continue with the rest of the program.\nThe structure of an if statement in Python is shown below:\nif \u003cboolean expression\u003e: \u003cblock of statements\u003e In this structure, we have a \u003cboolean expression\u003e that is evaluated. After the Boolean expression is a colon :.\nThen, the \u003cblock of statements\u003e is included below the if statement’s first line, and it must be indented one level. In Python, the \u003cblock of statements\u003e must include at least one line of code, otherwise Python won’t be able to understand it.\nIndentation in Python Let’s briefly discuss indentation in Python, since it is very important and is usually something that trips up new Python developers. Most programming languages use symbols such as curly braces {} to surround blocks of statements in code, making it easy to tell where one block ends and another begins. Similarly, those languages also use symbols such as semicolons ; at the end of each line of code, indicating the end of a particular statement.\nThese programming languages use those symbols to make it clear to both the developer and the computer where a particular line or block of code begins and ends, and it makes it very easy for tools to understand and run the code. As an interesting side effect, it also means that the code doesn’t need to follow any particular structure beyond the use of those symbols - many of the languages allow developers to place multiple statements, or even entire programs, on a single line of code. Likewise, indentation is completely optional, and only done to help make the code more readable.\nPython takes a different approach. Instead of using symbols like semicolons ; and curly braces {} to show the structure of the code, Python uses newlines and indentation for this purpose. By doing so, Python is simultaneously simpler (since it has fewer symbols to learn) and more complex (the indentation has meaning) than other languages. It’s really a tradeoff, though most Python programmers will admit that not having to deal with special symbols in Python is well worth the effort of making sure that the indentation is correct, especially since most other languages follow the same conventions anyway, even if it isn’t strictly required.\nSo, how can we indent code in Python? Typically, we use four consecutive spaces for each level of indentation. So, below the conditional statement if \u003cboolean expression\u003e: shown above, we would place four spaces before the first line of the \u003cblock of statements\u003e, and then continue to do so for each line below that should be included in the block of code.\nThankfully, most text editors used for programming, such as Codio, Atom, Visual Studio Code, and more, are all configured to convert tabs to spaces. So, we can simply press the Tab key on the keyboard to insert the correct amount of spaces for one level of indentation. Likewise, we can usually use Shift+Tab to remove four spaces.\nFinally, it is worth noting that there is a special symbol that actually is a tab in text, which is represented as \\t in a string. Like the newline symbol, we can’t see it in our UI in most cases, but it is there. Some non-programming text editors, such as Notepad in Windows, will insert that symbol instead of four spaces when we press the Tab key. If we try to run a program that contains those symbols, the Python interpreter may not be able to read our program and will give us an error about inconsistent use of tabs and spaces. If that happens, we’ll need to make sure our program is consistently using only tabs or spaces for indentation. Most editors used for programming have a special function for converting tabs to spaces, and there are lots of online tools available for this as well.\nCode Tracing Example - False Let’s go through a couple of code tracing examples in Python Tutor to see how an if statement works in code.\nConsider this program in Python:\nx = int(input(\"Enter a number: \")) if x == 7: print(\"That's a lucky number!\") print(\"Thanks for playing!\") We can see this example by clicking on this Python Tutor link. At first, our window should look something like this:\nWhen we step through the program, the first line of code will ask the user to input a number, so Python Tutor will show an input box at the bottom of the window:\nFor this first time through the program, let’s assume the user inputs the string \"42\" as input:\nSo, when we click Submit, we’ll see the integer value $ 42 $ stored in the variable x in the Global frame:\nAt this point, we’ve reached the if statement. The first step is to evaluate the Boolean expression x == 7. Since x is actually storing the value $ 42 $, this statement will evaluate to False. So, when we click the Next button on the state below:\nWe’ll see that the program arrow jumps past the block of statements in the if statement. So, the next line will simply print the goodbye message:\nThe entire process is shown in the animation below:\nAs we can see, when the Boolean expression evaluates to False, we’ll just skip the block of statements inside of the if statement.\nCode Tracing Example - True Now let’s see what happens when the Boolean expression evaluates to True instead. To see that, we can go back to the point where our program is asking for input, as shown below:\nThis time, we’ll assume the user inputs the string \"7\" as input.\nSo, when we click Submit, we’ll see the integer value $ 7 $ stored in the variable x in the Global frame:\nThis time, when we reach the if statement, we’ll see that the Boolean expression x == 7 will evaluate to True. So, when we click the Next button, we’ll be taken to the block of statements inside of the if statement:\nHere, we’ll print the special message for finding a lucky number:\nThen, we’ll print the program’s goodbye message:\nThe entire process can be seen in this animation:\nSo, when the Boolean expression evaluates to True, we’ll run the code inside the if statement. If it is False, then we’ll just skip past the if statement and continue with the rest of our program.\nIf Statement Flowchart Another way to visualize an if statement is using a flowchart. Consider the following Python code:\nx = int(input(\"Input: \")) if x \u003e 0: print(x) print(\"Goodbye\") This Python code can also be represented as the flowchart shown below:\nWhen we read flowcharts like this, we typically go from top to bottom, starting with the circle labeled “START”. The first step is to read input from the user, and store that value in the variable x.\nThen, we reach a decision node, which uses a diamond shape. This node asks if the value in the variable x is greater than 0. Notice that there are two lines coming from the decision node: one labeled “True” and another labeled “False”. They correspond to the possible values that can result from evaluating the Boolean expression x \u003e 0. So, if the result of that expression is True, then we’ll follow the path that exits the diamond from the side labeled “True”, and we’ll output the value x to the terminal. Once that is done, we can follow that path around to the next box that will output the string \"Goodbye\".\nIf that result is False, then we’ll follow the downward path labeled “False” and skip the path to the side. Instead, we’ll just reach the line that prints \"Goodbye\" and then end the program.\nAs we learn how to use if statements in our code, we might find it easier to use flowcharts or other tools to help understand exactly what our program will do. The path that a program takes through a flowchart like this is called the control flow of the program. We’ll discuss that topic a bit more toward the end of this lab.\n",
@@ -1239,6 +1245,13 @@
     "uri": "/04-conditionals/07-if-else/"
   },
   {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Lists",
+    "uri": "/07-lists/"
+  },
+  {
     "content": "Let’s try some simple practice problems. These problems are not graded - they are just for you to practice before doing the real exercises in the lab itself. You can find the answers below each question by clicking the button below each question.\n5.1 Reading Code Consider the following pseudocode program:\nx = int(input(\"Enter a positive integer: \")) while(x \u003c= 0): print(\"Invalid Input!\") x = int(input(\"Enter a positive integer: \")) a = 1 for i in range(9): if x % a == 0: print(f\"{a}\") a = a + 1 Explain, in your own words, the output that this program produces in relation to the input provided.\nA fully correct answer is a succinct description of the output as it relates to the input. A partially correct answer is a step-by-step description of each line in the program and the output it will produce based on the input.\nAnswer 5.1 Answer This program receives a positive number as input, and then will check to see if that number is evenly divisible by the numbers $ 1 $ through $ 9 $. If so, it will print that number.\nFor example, if the input provided is $ 60 $, then the output should be:\n1 2 3 4 5 6 since $ 60 $ is divisible by the first $ 6 $ integers.\n5.2 Testing Code Consider the program above. Devise a set of inputs that will cause each of the 9 possible numerical outputs to print at least once, and for each input, list the numbers that will be printed as output.\nAnswer 5.2 Answer There are many ways to answer this. A quick and easy way is to simply provide the numbers $ 1 $ through $ 9 $ as inputs. In the previous answer, we already know that $ 60 $ covers six of the nine possible outputs, so two or three additional inputs can cover the rest.\nMathematically, the number $ 2520 $ is the lowest common multiple of the first ten integers, so that single value as input will produce all nine possible outputs.\n5.3 Reading Code Consider the following Python program:\nx = int(input(\"Enter a positive integer: \")) while(x \u003c= 0): print(\"Invalid Input!\") x = int(input(\"Enter a positive integer: \")) a = \"\" while x \u003e 0: if x % 2 == 0: a = \"0\" + a else: a = \"1\" + a x = x // 2 print(a) Explain, in your own words, the output that this program produces in relation to the input provided.\nA fully correct answer is a succinct description of the output as it relates to the input. A partially correct answer is a step-by-step description of each line in the program and the output it will produce based on the input.\nHint: when numbers are stored digitally on a computer, what numerical format is used?\nAnswer 5.3 Answer Simply put, this program will convert any positive integer into its binary representation. For example, the input $ 42 $ will generate the output 101010, which is in binary is the value $ 42 $.\n5.4 Testing Code Consider the Python program above. Devise a set of inputs that you feel are sufficient to test the program, and briefly explain why those inputs are sufficient.\nHint: Achieving coverage is very simple, but providing enough input to be confident that the program is generating the correct output should also be considered.\nAnswer 5.4 Answer To achieve full coverage, a sufficient set of inputs would be something similar to:\n0 1 2 That should be enough to exercise all possible code branches and paths. However, in order to truly determine if the program is producing the correct output, it would be useful to choose a couple of larger inputs. Some good choices would be numbers near a power of $ 2 $, such as:\n15 16 Many other answers are possible here.\n5.5 Writing Code Write a complete Python program that meets the specification below.\nThe Fibonacci Sequence is a sequence of numbers where the next number is the sum of the previous two numbers. The sequence starts with the numbers $ 1 $ and $ 1 $, making the next number $ 2 $. The following number is $ 3 $, since it is the sum of the second and third number of the sequence. The sequence continues indefinitely.\nFor this program, ask the user to input a number that must be greater than $ 5 $. If the user inputs a number that is $ 5 $ or less, display an error and prompt the user for another input until a valid input is received.\nThen, determine if the number provided as input is part of the Fibonacci Sequence. This can be done by computing the sequence one number at a time until the desired number is reached or passed. Print either \"In sequence\" or \"Not in sequence\" depending on the result found.\nAnswer 5.5 Answer One possible solution is given below:\nx = int(input(\"Enter a positive integer greater than 5: \")) while(x \u003c= 5): print(\"Invalid Input!\") x = int(input(\"Enter a positive integer greater than 5: \")) a = 1 b = 1 while b \u003c x: c = a + b a = b b = c if b == x: print(\"In sequence\") else: print(\"Not in sequence\") There are many other valid approaches as well.\n5.6 Writing Code Write a complete Python program that meets the specification below.\nWrite a program that will print the first $ 30 $ multiples of a given number, but only multiples where the last digit is equal to a second given number.\nFor this program, ask the user to provide two integers - the first between $ 1 $ and $ 100 $, inclusive, and the second between $ 0 $ and $ 9 $, inclusive. If the user provides an invalid value for either input, print an error message and prompt the user for another input until a valid input is received.\nThen, the program should compute the first $ 30 $ multiples of the first given number. This would be equivalent to multiplying the number by $ 1 $ all the way through multiplying the number by $ 30 $. Then, if that computed multiple ends with the same digit as the second number, it should be printed. Otherwise, no output is produced for that number.\nFor example, if the first given number is $ 9 $ and the second number is $ 1 $, then the output should be:\n81 171 261 Your program should make use of a for loop and the Python range() function.\nHint: what is the value of 81 % 10? What about 27 % 10? Does that value help you determine whether the number should be printed or not?\nAnswer 5.5 Answer One possible solution is given below:\nx = int(input(\"Enter an integer between 1 and 100: \")) while(x \u003c 1 or x \u003e 100): print(\"Invalid Input!\") x = int(input(\"Enter an integer between 1 and 100: \")) first = x x = int(input(\"Enter an integer between 0 and 9: \")) while(x \u003c 0 or x \u003e 9): print(\"Invalid Input!\") x = int(input(\"Enter an integer between 0 and 9: \")) second = x for i in range(first, first * 30 + 1, first): if i % 10 == second: print(i) This solution uses the range() function directly to compute the multiples. It is also possible to use range() to generate a list of numbers from $ 1 $ to $ 30 $ and compute the multiples using those values.\n",
     "description": "",
     "tags": null,
@@ -1272,6 +1285,13 @@
     "tags": null,
     "title": "Worked Example",
     "uri": "/07-lists/07-example/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Dictionaries",
+    "uri": "/08-dictionaries/"
   },
   {
     "content": "Let’s try some simple practice problems. These problems are not graded - they are just for you to practice before doing the real exercises in the lab itself. You can find the answers below each question by clicking the button below each question.\n7.1 Reading Code Consider the following Python program:\ndef positive_input(): x = int(input(\"Enter a positive integer: \")) while x \u003c= 0: print(\"Invalid input!\") x = int(input(\"Enter a positive integer: \")) return x def foo(numbers): output = [] for i in range(0, len(numbers) - 1, 2): output.append(numbers[i] + numbers[i+1]) if len(numbers) % 2 == 1: output.append(numbers[-1]) return output def main(): print(\"First, we need the number of inputs.\") n = positive_input() print(f\"Now enter {n} numbers:\") numbers = [] for i in range(n): numbers.append(positive_input()) while len(numbers) \u003e 1: numbers = foo(numbers) print(numbers[0]) main() Explain, in your own words, how the output that is eventually printed relates to the list of numbers that user inputs.\nA fully correct answer is a succinct description of the output as it relates to the input. A partially correct answer is a step-by-step description of each line in the program and the output it will produce based on the input.\nHint: work through this code as if the user inputs a few unique numbers, and see what is being stored at each step along the way.\nAnswer 7.1 Answer This program will prompt the user to input a list of numbers, then it will print the sum of that list. It does so by repeatedly calling the foo() function, which will create a new list of the sums of each pair of adjacent numbers in the original list.\nThis is effectively the “reduce” portion of the MapReduce programming model.\n7.2 Reading Code Consider the following Python program:\ndef positive_input(): x = int(input(\"Enter a positive integer: \")) while x \u003c= 0: print(\"Invalid input!\") x = int(input(\"Enter a positive integer: \")) return x def main(): n = positive_input() numbers = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] while n \u003e 0: numbers[n % 10] = numbers[n % 10] + 1 n = n // 10 print(numbers) main() Explain, in your own words, how the output that is eventually printed relates to the number that the user inputs.\nA fully correct answer is a succinct description of the output as it relates to the input. A partially correct answer is a step-by-step description of each line in the program and the output it will produce based on the input.\nHint: try inputting a number with many digits.\nAnswer 7.2 Answer This program will create a list that contains the count of each digit in the number. Index $ 0 $ in the list contains the number of 0s in the number, index $ 1 $ will contain the number of 1s, and so on.\n7.3 Writing Code Write a complete Python program that meets the specification below.\nWrite a program that will require the user to input $ 10 $ positive integers that are in ascending order and stored in a list. If the user inputs a number that is not strictly greater than the previous number stored in the list, the program should simply print an error message and prompt for input again.\nOnce the list is populated with $ 10 $ positive integers in ascending order, it should print the list to the terminal. Then, it should compute and print the difference between the first and last value in the list.\nOne possible output is shown below:\n[1, 3, 5, 6, 7, 8, 12, 13, 15, 16] 15 Answer 7.3 Answer One possible solution is shown here:\ndef positive_input(n): x = int(input(f\"Enter a positive integer greater than {n}: \")) while x \u003c= n: print(\"Invalid input!\") x = int(input(f\"Enter a positive integer greater than {n}: \")) return x def main(): nums = [] nums.append(positive_input(0)) for i in range(1, 10): nums.append(positive_input(nums[i-1])) print(nums) print(nums[-1] - nums[0]) main() It uses a tweaked version of the positive_input() function to prompt for input based on the previous value. To make that work, the first value must be done separately, outside of the for loop, but the other 9 values can be done easily inside of the loop.\nTo access the last item in the list, we can use negative indexing.\n",
@@ -1440,13 +1460,6 @@
     "tags": null,
     "title": "Categories",
     "uri": "/categories/"
-  },
-  {
-    "content": "Chapter 0 Introduction Welcome to the Introduction to Python textbook!\n",
-    "description": "",
-    "tags": null,
-    "title": "Introduction",
-    "uri": "/00-introduction/"
   },
   {
     "content": "This textbook is used by CIS 115, CC 111, CC 711, and the Cyber Pipeline outreach program to teach basic Python programming to first-time programmers.\n",

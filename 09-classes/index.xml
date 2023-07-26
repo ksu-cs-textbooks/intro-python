@@ -10,6 +10,11 @@
 	
 	
 		
+		
+
+	
+	
+		
 
 	
 	
@@ -729,7 +734,6 @@
 
 	
 	
-		
 		
 
 	
@@ -744,7 +748,14 @@
 
 	
 	
+		
+
+	
+	
+		
+		
 		
+		
 
 	
 	
@@ -754,6 +765,10 @@
 	
 		
 		
+		
+
+	
+	
 		
 
 	
@@ -792,7 +807,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -806,9 +820,15 @@
 		
 		
 		
+		
+
+	
+	
+		
 
 	
 	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -818,5 +838,12 @@
     <description>Recent content in Classes on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/09-classes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/09-classes/01-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/09-classes/01-intro/</guid>
+      <description>Resources Slides We&amp;rsquo;ve explored many ways to store data in our programs, from simple variables all the way to complex data structures such as lists and dictionaries. The real world, however, isn&amp;rsquo;t made up of lists and dictionaries, but objects that may have several attributes that describe the object, as well as several functions that the object can perform or that can be performed using the object. So, it would be very useful for us to have a way to represent those concepts directly in our programs.</description>
+    </item>
   </channel>
 </rss>
