@@ -10,6 +10,31 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
 		
 
 	
@@ -838,5 +863,26 @@
     <description>Recent content in Introduction on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/00-introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Introduction - Spring 2022</title>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/01-introduction/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/01-introduction/</guid>
+      <description>Resources Slides Previous Versions Video Script [Slide 1]
+Hello and welcome to the Computational Core program!
+My name is Emily Alfs-Votipka, and I&amp;rsquo;ll be one of the instructors for this program. My contact information is shown here, and is also listed on the syllabus.
+[Slide 2]
+There are many other instructors and TAs for this program that you may interact with or see in the tutorial videos. They all have been instrumental in the development of this program.</description>
+    </item>
+    <item>
+      <title>CC 111 Syllabus - Fall 2023</title>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/06-cc111-syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/06-cc111-syllabus/</guid>
+      <description>Info This is the official syllabus for the concurrent enrollment version of this course. It is subject to change as we work on building our overall concurrent enrollment program. Any changes will be clearly communicated to all teachers and students.
+Your teachers may give you a syllabus that includes additional information that is specific to your class.
+CC 111 - Elements of Computer Programming HS (2023-2024) Previous Versions
+Instructor Contact Information Instructor: Russell Feldhausen (russfeld AT ksu DOT edu)</description>
+    </item>
   </channel>
 </rss>
