@@ -856,33 +856,33 @@
 		
 		
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.101.0">
-    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="generator" content="Hugo 0.117.0">
+    <meta name="generator" content="Relearn 5.18.0">
     <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="Introduction to Python">
     <meta name="author" content="K-State CS Faculty">
     <title>Vending Machine :: Introduction to Python</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1691519953" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1691519953" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1691519953" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1691519953" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1691519953" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1691519953" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/perfect-scrollbar.min.css?1691519953" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/nucleus.css?1691519953" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1691519953" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1691519953" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme.css?1691519953" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme-light-theme.css?1691519953" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/ie.css?1691519953" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/variant.css?1691519953" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/print.css?1691519953" rel="stylesheet" media="print">
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/variant.js?1691519953"></script>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1691703539" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1691703539" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/nucleus.css?1691703539" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1691703539" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1691703539" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/perfect-scrollbar.min.css?1691703539" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1691703539" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1691703539" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme.css?1691703539" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme-auto.css?1691703539" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/variant.css?1691703539" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/print.css?1691703539" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/ie.css?1691703539" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/url.js?1691703539"></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/variant.js?1691703539"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
-      var index_url="https://ksu-cs-textbooks.github.io/intro-python/index.json";
+      window.index_js_url="https://ksu-cs-textbooks.github.io/intro-python/index.search.js";
       var root_url="https://ksu-cs-textbooks.github.io/intro-python/";
       var baseUri=root_url.replace(/\/$/, '');
       // translations
@@ -890,13 +890,14 @@
       window.T_Copied_to_clipboard = 'Copied to clipboard!';
       window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
       window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
       // some further base stuff
       var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/intro-python/';
-      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/custom.css?1691519953" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/jquery.min.js?1691519953" defer></script>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/custom.css?1691703539" rel="stylesheet">
 
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/z-homeworks/03-statemachine/a-vending-machine/embed.html">
@@ -906,8 +907,6 @@
       
       <main id="body-inner" class="highlightable default" tabindex="-1">
         <div class="flex-block-wrapper">
-          <div id="head-tags">
-          </div>
           <article class="default">
     
     
@@ -918,8 +917,9 @@
   
   
 <div class="box notices cstyle note">
-    <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Learning Objectives</div>
-    <div class="box-content">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Learning Objectives</div>
+  <div class="box-content">
+
 <p>The goal of this assignment is to demonstrate understanding of the following topics in Python:</p>
 <ul>
 <li>Boolean Logic</li>
@@ -928,14 +928,20 @@
 <li>Nested Loops &amp; Conditional Statements</li>
 <li>Loops for Input</li>
 </ul>
-    </div>
+</div>
 </div>
 <h3 id="finite-state-machine-in-code">Finite State Machine in Code</h3>
 <p>A finite state machine is a simple representation of a real-world system that has a defined set of states and transitions between those states. Finite state machines can be described using diagrams that show the various states and transitions. Consider the following example of a finite state machine for a coin-operated turnstile:</p>
-<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/turnstile.svg?classes=border,shadow" alt="Finite State Machine Turnstile"><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>
+<a href="#image-4d1a320d4843cad7f2cc582526f4943b" class="lightbox-link">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/turnstile.svg?classes=border,shadow" alt="Finite State Machine Turnstile" class="border shadow" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-4d1a320d4843cad7f2cc582526f4943b">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/turnstile.svg?classes=border,shadow" alt="Finite State Machine Turnstile" class="lightbox-image" loading="lazy">
+</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The turnstile is initially in the <strong>locked</strong> state. If someone tries to push the turnstile, it will go through the <em>push</em> transition but it will arrive back at the <strong>locked</strong> state. However, if someone inserts a coin, the <em>coin</em> transition will cause the turnstile to move to the <strong>unlocked</strong> state. From there, any additional coins will not change the state, but if someone pushes on the turnstile, it will allow them through and transition back to the <strong>locked</strong> state.</p>
 <p>In code, we could represent this turnstile using the following Python code:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># initial state</span>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># initial state</span>
 </span></span><span style="display:flex;"><span>state <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;locked&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># initial state transition</span>
@@ -988,8 +994,7 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
 </span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;Error! Unexpected State&#34;</span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Goodbye&#34;</span>)
-</span></span></code></pre></div><p>This code uses a while loop so that the program will repeat indefinitely as long as the user does not input the <code>&quot;quit&quot;</code> command. Inside of the loop, there is a set of if statements that determine the current state. Each state has a prompt for input, which can be customized with the transitions allowed in that state. Then, there is a second set of if statements that will analyze the user&rsquo;s input and determine if a state transition is required.</p>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Goodbye&#34;</span>)</span></span></code></pre></div><p>This code uses a while loop so that the program will repeat indefinitely as long as the user does not input the <code>&quot;quit&quot;</code> command. Inside of the loop, there is a set of if statements that determine the current state. Each state has a prompt for input, which can be customized with the transitions allowed in that state. Then, there is a second set of if statements that will analyze the user&rsquo;s input and determine if a state transition is required.</p>
 <p>Notice that some of the inputs do nothing, so we just print a message letting the user know that nothing has changed. These may be carefully removed without affecting the overall program, but they are included here for clarity.</p>
 <p>There are many ways to implement a finite state machine in Python, and this is just one example. However, hopefully this example is a helpful structure that you can use to build the solution to this assignment.</p>
 <h2 id="the-assignment">The Assignment</h2>
@@ -1006,7 +1011,13 @@
 </ol>
 <h3 id="finite-state-machine-diagram">Finite State Machine Diagram</h3>
 <p>Your program should conform to the following finite state machine diagram:</p>
-<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/vending_fsm.png?classes=border,shadow" alt="Finite State Machine"></p>
+<p>
+<a href="#image-c725ab91170ece803e21aebb3e03b17a" class="lightbox-link">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/vending_fsm.png?classes=border,shadow" alt="Finite State Machine" class="border shadow" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-c725ab91170ece803e21aebb3e03b17a">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/vending_fsm.png?classes=border,shadow" alt="Finite State Machine" class="lightbox-image" loading="lazy">
+</a></p>
 <h3 id="required-variables">Required Variables</h3>
 <p>Your program should contain the following variables:</p>
 <ul>
@@ -1025,10 +1036,11 @@
   
   
 <div class="box notices cstyle warning">
-    <div class="box-label"><i class="fa-fw fas fa-exclamation-triangle"></i> Is this real life?</div>
-    <div class="box-content">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-triangle"></i> Is this real life?</div>
+  <div class="box-content">
+
 <p>The vending machine we are simulating is provided by the &ldquo;Cheap but Not Quite Right&rdquo; vending machine company. Because of this, their vending machines have a few quirks that are not (usually) present in real-world vending machines. So, make sure you read the state descriptions below carefully and implement them as described here, even if you don&rsquo;t think a <em>real</em> vending machine would be built this way.</p>
-    </div>
+</div>
 </div>
 <ul>
 <li><strong>State A:</strong> Start/Idle. This state will wait for the user to input <code>&quot;start&quot;</code> to transition to state B. The user can also input <code>&quot;restock&quot;</code> to transition to state F. If the user inputs <code>&quot;quit&quot;</code> at this state only, the program will transition to state G and exit.</li>
@@ -1056,38 +1068,48 @@
   
   
 <div class="box notices cstyle tip">
-    <div class="box-label"><i class="fa-fw fas fa-lightbulb"></i> Checking for Digits</div>
-    <div class="box-content">
+  <div class="box-label"><i class="fa-fw fas fa-lightbulb"></i> Checking for Digits</div>
+  <div class="box-content">
+
 <p>You may find it useful to be able to determine if a user has input a string that consists solely of digits. In Python, we can use the <code>.isdigit()</code> function as shown below:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter an integer: &#34;</span>)
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter an integer: &#34;</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> x<span style="color:#f92672">.</span>isdigit():
 </span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">&#34;Your input is a valid number&#34;</span>)
 </span></span><span style="display:flex;"><span>  value <span style="color:#f92672">=</span> int(x)
 </span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;your number is </span><span style="color:#e6db74">{</span>value<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
-</span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">&#34;Your input is not a number&#34;</span>)
-</span></span></code></pre></div><p>This can also be done using a try-catch statement, which we haven&rsquo;t covered in this class.</p>
-    </div>
+</span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">&#34;Your input is not a number&#34;</span>)</span></span></code></pre></div><p>This can also be done using a try-catch statement, which we haven&rsquo;t covered in this class.</p>
+</div>
 </div>
 <h2 id="documentation--comments">Documentation &amp; Comments</h2>
 <p>You may add any comments to your code to help explain how it works. In Python, you can use the hash symbol <code>#</code> (also known as a pound sign or octothorpe) in front of a line of text in a Python file to make it a comment:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># This is a code comment</span>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># This is a code comment</span>
 </span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span>
-</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> <span style="color:#ae81ff">7</span>  <span style="color:#75715e"># comments can be at the end of lines, too</span>
-</span></span></code></pre></div><h2 id="required-documentation-comment">Required Documentation Comment</h2>
+</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> <span style="color:#ae81ff">7</span>  <span style="color:#75715e"># comments can be at the end of lines, too</span></span></span></code></pre></div><h2 id="required-documentation-comment">Required Documentation Comment</h2>
 <p>Your file must include a <strong>documentation comment</strong>, also known as a <strong>docstring</strong> at the top of your file. The <strong>docstring</strong> should be formatted like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">File Name: &lt;filename&gt;
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Author: &lt;your name&gt;
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Version: &lt;submission date&gt;
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Section: &lt;your section&gt;
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Description: &lt;detailed description of this program&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;</span>
-</span></span></code></pre></div><p>Notice that the start and end of the documentation comment uses three double-quotes <code>&quot;&quot;&quot;</code> on a single line.</p>
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;</span></span></span></code></pre></div><p>Notice that the start and end of the documentation comment uses three double-quotes <code>&quot;&quot;&quot;</code> on a single line.</p>
 <h2 id="sample-execution">Sample Execution</h2>
 <p>Below are a couple of screenshots showing a sample execution of the model solution for this homework assignment. Your submission should have similar functionality and output, but the text for input prompts may differ slightly:</p>
-<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/hw3a.png?classes=border,shadow" alt="Sample Run 1"></p>
-<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/hw3b.png?classes=border,shadow" alt="Sample Run 2"></p>
+<p>
+<a href="#image-1c3b216e43f7ce4d5a4bb2b0f9a44113" class="lightbox-link">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/hw3a.png?classes=border,shadow" alt="Sample Run 1" class="border shadow" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-1c3b216e43f7ce4d5a4bb2b0f9a44113">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/hw3a.png?classes=border,shadow" alt="Sample Run 1" class="lightbox-image" loading="lazy">
+</a></p>
+<p>
+<a href="#image-4738b578162dd6a87ebee47fbe080695" class="lightbox-link">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/hw3b.png?classes=border,shadow" alt="Sample Run 2" class="border shadow" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-4738b578162dd6a87ebee47fbe080695">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/hw3/hw3b.png?classes=border,shadow" alt="Sample Run 2" class="lightbox-image" loading="lazy">
+</a></p>
 <h2 id="grading-rubric">Grading Rubric</h2>
 <p>Your project will be graded according to the following rubric:</p>
 <ul>
@@ -1103,14 +1125,14 @@
 <hr>
 <ol>
 <li id="fn:1">
-<p>File:Turnstile state machine colored.svg. (2023, February 8). Wikimedia Commons. Retrieved 17:19, May 30, 2023 from 
-
-<a href="https://commons.wikimedia.org/w/index.php?title=File:Turnstile_state_machine_colored.svg&amp;oldid=731038380" target="_blank" rel="noopener">https://commons.wikimedia.org/w/index.php?title=File:Turnstile_state_machine_colored.svg&oldid=731038380</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>File:Turnstile state machine colored.svg. (2023, February 8). Wikimedia Commons. Retrieved 17:19, May 30, 2023 from <a href="https://commons.wikimedia.org/w/index.php?title=File:Turnstile_state_machine_colored.svg&amp;oldid=731038380" target="_blank">https://commons.wikimedia.org/w/index.php?title=File:Turnstile_state_machine_colored.svg&oldid=731038380</a>
+.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
 
             <footer class="footline">
+
             </footer>
           </article>
         </div>
@@ -1119,12 +1141,8 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/clipboard.min.js?1691519953" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/perfect-scrollbar.min.js?1691519953" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/featherlight.min.js?1691519953" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/theme.js?1691519953" defer></script>
-    
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/embed-iframe.js?1691519953 defer"></script>
-    
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/clipboard.min.js?1691703539" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/perfect-scrollbar.min.js?1691703539" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/theme.js?1691703539" defer></script>
   </body>
 </html>

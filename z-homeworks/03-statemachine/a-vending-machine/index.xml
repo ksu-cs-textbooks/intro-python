@@ -859,7 +859,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vending Machine on Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/intro-python/z-homeworks/03-statemachine/a-vending-machine/</link>
+    <link>https://ksu-cs-textbooks.github.io/intro-python/z-homeworks/03-statemachine/a-vending-machine/index.html</link>
     <description>Recent content in Vending Machine on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/z-homeworks/03-statemachine/a-vending-machine/index.xml" rel="self" type="application/rss+xml" />

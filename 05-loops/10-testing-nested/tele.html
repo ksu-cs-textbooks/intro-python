@@ -856,36 +856,36 @@
 		
 		
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.101.0">
-    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="generator" content="Hugo 0.117.0">
+    <meta name="generator" content="Relearn 5.18.0">
     <meta name="description" content="Introduction to Python">
     <meta name="author" content="K-State CS Faculty">
     <title>Testing Nested Loops :: Introduction to Python</title>
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/" rel="canonical" type="text/html" title="Introduction to Python">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Python">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/index.print.html" rel="alternate" type="text/html" title="Introduction to Python">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/embed.html" rel="alternate" type="text/html" title="Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/index.html" rel="canonical" type="text/html" title="Testing Nested Loops :: Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/index.xml" rel="alternate" type="application/rss+xml" title="Testing Nested Loops :: Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/index.print.html" rel="alternate" type="text/html" title="Testing Nested Loops :: Introduction to Python">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/embed.html" rel="alternate" type="text/html" title="Testing Nested Loops :: Introduction to Python">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1691519963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1691519963" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1691519963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/featherlight.min.css?1691519963" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1691519963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1691519963" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/perfect-scrollbar.min.css?1691519963" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/nucleus.css?1691519963" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1691519963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1691519963" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme.css?1691519963" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme-light-theme.css?1691519963" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/ie.css?1691519963" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/variant.css?1691519963" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/print.css?1691519963" rel="stylesheet" media="print">
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/variant.js?1691519963"></script>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1691703543" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fontawesome-all.min.css?1691703543" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/nucleus.css?1691703543" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1691703543" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/auto-complete.css?1691703543" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/perfect-scrollbar.min.css?1691703543" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1691703543" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/intro-python/css/fonts.css?1691703543" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme.css?1691703543" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/theme-auto.css?1691703543" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/variant.css?1691703543" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/print.css?1691703543" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/ie.css?1691703543" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/url.js?1691703543"></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/variant.js?1691703543"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
-      var index_url="https://ksu-cs-textbooks.github.io/intro-python/index.json";
+      window.index_js_url="https://ksu-cs-textbooks.github.io/intro-python/index.search.js";
       var root_url="https://ksu-cs-textbooks.github.io/intro-python/";
       var baseUri=root_url.replace(/\/$/, '');
       // translations
@@ -893,16 +893,17 @@
       window.T_Copied_to_clipboard = 'Copied to clipboard!';
       window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
       window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
       // some further base stuff
       var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/intro-python/';
-      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/custom.css?1691519963" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/jquery.min.js?1691519963" defer></script>
+    <link href="https://ksu-cs-textbooks.github.io/intro-python/css/custom.css?1691703543" rel="stylesheet">
 
   </head>
-  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/">
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/intro-python/05-loops/10-testing-nested/index.html">
     
     <div id="tele" class="tele mirror">
     
@@ -912,10 +913,11 @@
       
       <main id="body-inner" class="highlightable default" tabindex="-1">
         <div class="flex-block-wrapper">
-          <div id="head-tags">
-          </div>
           <article class="default">
-<h1>Testing Nested Loops</h1>
+            <header class="headline">
+            </header>
+<h1 id="testing-nested-loops">Testing Nested Loops</h1>
+
 <p><a href="https://www.youtube.com/watch?v=nDJQVPUwnb4">YouTube Video</a></p>
 <!-- Old: 1TngxJQL0Ac -->
 <h4 id="resources">Resources</h4>
@@ -924,7 +926,7 @@
 </ul>
 <p>Testing nested loops can also be very tricky, especially because they can make our program&rsquo;s control flow even more complex. So, let&rsquo;s briefly go through an example to see how to determine what inputs we can use to test nested loops.</p>
 <p>Consider the following example program:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Enter a positive integer: &#34;</span>))
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Enter a positive integer: &#34;</span>))
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> x <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">0</span>:
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Invalid input!&#34;</span>)
 </span></span><span style="display:flex;"><span>    x <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Enter a positive integer: &#34;</span>))
@@ -940,14 +942,19 @@
 </span></span><span style="display:flex;"><span>        y <span style="color:#f92672">=</span> y <span style="color:#f92672">+</span> <span style="color:#ae81ff">2</span>
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;&#34;</span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Complete!&#34;</span>)
-</span></span></code></pre></div><p>Let&rsquo;s work through the process of generating some test cases for this program to see if it runs without any errors. As always, our biggest concern is to make sure that we don&rsquo;t reach a situation where the program enters an infinite loop, and that we also try to provide inputs that will enter each loop at least once, and also bypass each loop if possible.</p>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Complete!&#34;</span>)</span></span></code></pre></div><p>Let&rsquo;s work through the process of generating some test cases for this program to see if it runs without any errors. As always, our biggest concern is to make sure that we don&rsquo;t reach a situation where the program enters an infinite loop, and that we also try to provide inputs that will enter each loop at least once, and also bypass each loop if possible.</p>
 <h2 id="input-loop">Input Loop</h2>
 <p>First, we see that the code uses a loop twice to make sure the user inputs only positive values. So, some of our first test cases could involve trying values such as 
 <span class="math align-center">$ -1 $</span>, 
 <span class="math align-center">$ 0 $</span> and 
 <span class="math align-center">$ 1 $</span> to check the edge cases of that while loop&rsquo;s Boolean expression. When we run the program and provide those inputs, we should see it enter the loop in that function at least once.</p>
-<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output2.png?classes=border,shadow" alt="Output 2"></p>
+<p>
+<a href="#image-5ca53b00297ea883a11e34ded998f074" class="lightbox-link">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output2.png?classes=border,shadow" alt="Output 2" class="border shadow" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-5ca53b00297ea883a11e34ded998f074">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output2.png?classes=border,shadow" alt="Output 2" class="lightbox-image" loading="lazy">
+</a></p>
 <p>We can also bypass that loop by simply making sure we enter a positive integer each time. So, we know we have a few test cases available that will achieve branch coverage for that loop.</p>
 <h2 id="outer-while-loop">Outer While Loop</h2>
 <p>Next, let&rsquo;s consider the outermost while loop after the input loops. That loop uses the Boolean expression <code>y &lt;= x</code> to determine if the loop should be entered or not. So, we want to come up with a few tests that check the edge cases of that Boolean expression. We can start by choosing a value to use for <code>x</code>, such as 
@@ -957,15 +964,33 @@
 <span class="math align-center">$ 6 $</span>.</p>
 <p>If <code>y</code> is 
 <span class="math align-center">$ 6 $</span>, the Boolean expression would be <code>False</code> and it should bypass the loop. We can easily test this to make sure that is the case:</p>
-<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output3.png?classes=border,shadow" alt="Output 3"></p>
+<p>
+<a href="#image-eb52b69ead9d252732b89fc24a84660b" class="lightbox-link">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output3.png?classes=border,shadow" alt="Output 3" class="border shadow" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-eb52b69ead9d252732b89fc24a84660b">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output3.png?classes=border,shadow" alt="Output 3" class="lightbox-image" loading="lazy">
+</a></p>
 <p>Likewise, if <code>y</code> is 
 <span class="math align-center">$ 4 $</span>, we know that it should enter the outermost loop. Inside, we see a for loop that will iterate based on the expression <code>x - y</code>. Effectively, it will compute the difference between <code>x</code> and <code>y</code> and then iterate that many times. So, if <code>x</code> is 
 <span class="math align-center">$ 5 $</span> and <code>y</code> is 
 <span class="math align-center">$ 4 $</span>, the difference between those values will be 
 <span class="math align-center">$ 1 $</span>. So, we&rsquo;ll enter the innermost for loop at least once. When we run the program with these inputs, we&rsquo;ll see the following output:</p>
-<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output4.png?classes=border,shadow" alt="Output 4"></p>
+<p>
+<a href="#image-18eecd67e80c2e9c632f1587b84eed7e" class="lightbox-link">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output4.png?classes=border,shadow" alt="Output 4" class="border shadow" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-18eecd67e80c2e9c632f1587b84eed7e">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output4.png?classes=border,shadow" alt="Output 4" class="lightbox-image" loading="lazy">
+</a></p>
 <p>What if we set both <code>x</code> and <code>y</code> to be the same value? We know that the inner for loop will run <code>x - y</code> times, so if both <code>x</code> and <code>y</code> are the same value, this would be a way to bypass that loop, while still entering the outermost while loop since <code>y &lt;= x</code> will be <code>True</code>. However, when we try to run the program with these inputs, we&rsquo;ll see something interesting happen:</p>
-<p><img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output5.png?classes=border,shadow" alt="Output 5"></p>
+<p>
+<a href="#image-397b07b21c1f5f4a253fb39949924efd" class="lightbox-link">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output5.png?classes=border,shadow" alt="Output 5" class="border shadow" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-397b07b21c1f5f4a253fb39949924efd">
+<img src="https://ksu-cs-textbooks.github.io/intro-python/images/05/output5.png?classes=border,shadow" alt="Output 5" class="lightbox-image" loading="lazy">
+</a></p>
 <p>Our program will quickly start printing blank lines of output to the terminal. So quickly, in fact, that it is hard to even see what happens. As it turns out, we accidentally caused our program to enter an <strong>infinite loop</strong>! When this happens, the only way to stop the program is to close the terminal window it is running in, or use the CTRL+C keyboard command to interrupt it. So, let&rsquo;s see why this infinite loop is occurring, and figure out how we can fix it.</p>
 <h2 id="infinite-loop">Infinite Loop</h2>
 <p>Did you spot the infinite loop when you first read the program&rsquo;s code? It can be really tricky to find, which is why we have to be very good about choosing test cases that will explore many different ways to run the program.</p>
@@ -974,20 +999,20 @@
 <p>So, as this example shows, testing nested loops is just like testing regular loops - we want to try and find inputs that will enter the loop at least once, as well as inputs that will bypass the loops if possible, just to make sure there aren&rsquo;t any strange situations that may arise. While this won&rsquo;t find all errors that are present in code containing nested loops, it is a great way to start testing your programs.</p>
 
             <footer class="footline">
+
             </footer>
           </article>
         </div>
       </main>
     </div>
     
-  </div>
+    </div>
     
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/clipboard.min.js?1691519963" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/perfect-scrollbar.min.js?1691519963" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/featherlight.min.js?1691519963" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/clipboard.min.js?1691703543" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/perfect-scrollbar.min.js?1691703543" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -1016,10 +1041,10 @@
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="https://ksu-cs-textbooks.github.io/intro-python/js/mathjax/tex-mml-chtml.js?1691519963"></script>
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/theme.js?1691519963" defer></script>
+    <script id="MathJax-script" async src="https://ksu-cs-textbooks.github.io/intro-python/js/mathjax/tex-mml-chtml.js?1691703543"></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/theme.js?1691703543" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/tele-scroll.js?1691519963 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/intro-python/js/tele-scroll.js?1691703543 defer"></script>
     
   </body>
 </html>

@@ -859,7 +859,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homework 2 on Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/intro-python/z-homeworks/02-register/</link>
+    <link>https://ksu-cs-textbooks.github.io/intro-python/z-homeworks/02-register/index.html</link>
     <description>Recent content in Homework 2 on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/z-homeworks/02-register/index.xml" rel="self" type="application/rss+xml" />

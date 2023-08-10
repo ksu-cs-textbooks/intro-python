@@ -859,7 +859,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>String Operators on Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/</link>
+    <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/index.html</link>
     <description>Recent content in String Operators on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/index.xml" rel="self" type="application/rss+xml" />

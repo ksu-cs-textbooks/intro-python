@@ -859,78 +859,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/intro-python/</link>
+    <link>https://ksu-cs-textbooks.github.io/intro-python/index.html</link>
     <description>Recent content on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/</link>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/</guid>
-      <description>Chapter 0 Introduction Welcome to the Introduction to Python textbook!</description>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/index.html</guid>
+      <description>Welcome to the Introduction to Python textbook!</description>
     </item>
     <item>
       <title>Basic Python</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/</link>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Numbers &amp; Math</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/</link>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/02-numbers/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Strings &amp; Input</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/</link>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Conditionals</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/</link>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Loops</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/</link>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/05-loops/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/05-loops/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Functions</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/06-functions/</link>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/06-functions/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/06-functions/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/06-functions/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Lists</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/07-lists/</link>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/07-lists/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/07-lists/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/07-lists/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Dictionaries</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/08-dictionaries/</link>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/08-dictionaries/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/08-dictionaries/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/08-dictionaries/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Extras</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/x-extras/</link>
+      <link>https://ksu-cs-textbooks.github.io/intro-python/x-extras/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/x-extras/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/intro-python/x-extras/index.html</guid>
       <description>Extra Content!</description>
     </item>
   </channel>

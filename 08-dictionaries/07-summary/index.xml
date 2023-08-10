@@ -859,7 +859,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Summary on Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/intro-python/08-dictionaries/07-summary/</link>
+    <link>https://ksu-cs-textbooks.github.io/intro-python/08-dictionaries/07-summary/index.html</link>
     <description>Recent content in Summary on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/08-dictionaries/07-summary/index.xml" rel="self" type="application/rss+xml" />

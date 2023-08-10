@@ -859,7 +859,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Boolean Practice on Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/05-boolean-practice/</link>
+    <link>https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/05-boolean-practice/index.html</link>
     <description>Recent content in Boolean Practice on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/04-conditionals/05-boolean-practice/index.xml" rel="self" type="application/rss+xml" />
