@@ -858,14 +858,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/index.html</loc>
-    <lastmod>2023-08-10T16:38:29-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/01-introduction/index.html</loc>
-    <lastmod>2023-08-08T13:37:31-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/index.html</loc>
     <lastmod>2023-08-10T16:38:29-05:00</lastmod>
   </url>
@@ -1084,10 +1076,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/06-functions/06-example/index.html</loc>
     <lastmod>2023-06-01T22:21:20-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/06-cc111-syllabus/index.html</loc>
-    <lastmod>2023-08-08T13:38:43-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/07-code-tracing/index.html</loc>
