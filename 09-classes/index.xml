@@ -53,6 +53,26 @@
 	
 	
 		
+
+	
+	
+		
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 		
 
@@ -873,14 +893,16 @@
       <link>https://ksu-cs-textbooks.github.io/intro-python/09-classes/01-intro/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/09-classes/01-intro/index.html</guid>
-      <description>Resources Slides We&amp;rsquo;ve explored many ways to store data in our programs, from simple variables all the way to complex data structures such as lists and dictionaries. The real world, however, isn&amp;rsquo;t made up of lists and dictionaries, but objects that may have several attributes that describe the object, as well as several functions that the object can perform or that can be performed using the object. So, it would be very useful for us to have a way to represent those concepts directly in our programs.</description>
+      <description>YouTube Video
+Resources Slides We&amp;rsquo;ve explored many ways to store data in our programs, from simple variables all the way to complex data structures such as lists and dictionaries. The real world, however, isn&amp;rsquo;t made up of lists and dictionaries, but objects that may have several attributes that describe the object, as well as several functions that the object can perform or that can be performed using the object. So, it would be very useful for us to have a way to represent those concepts directly in our programs.</description>
     </item>
     <item>
       <title>Classes</title>
       <link>https://ksu-cs-textbooks.github.io/intro-python/09-classes/02-classes/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/09-classes/02-classes/index.html</guid>
-      <description>Resources Slides First, let&amp;rsquo;s look at how we can create our own classes in Python. A class is a special construct in programming that forms the blueprint for something that represents a some sort of object, such as real-world objects like a person, car, or even abstract objects such as a user interface in a video game. Classes contain two different types of content, the attributes, or variables, that store data related to the class, and the methods, or functions, that describe the behavior of the class.</description>
+      <description>YouTube Video
+Resources Slides First, let&amp;rsquo;s look at how we can create our own classes in Python. A class is a special construct in programming that forms the blueprint for something that represents a some sort of object, such as real-world objects like a person, car, or even abstract objects such as a user interface in a video game. Classes contain two different types of content, the attributes, or variables, that store data related to the class, and the methods, or functions, that describe the behavior of the class.</description>
     </item>
   </channel>
 </rss>
