@@ -893,8 +893,8 @@
       <link>https://ksu-cs-textbooks.github.io/intro-python/07-lists/01-intro/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/intro-python/07-lists/01-intro/index.html</guid>
-      <description>Resources Slides As our Python programs continue to get larger and more complex, we may notice that we are reusing certain pieces of code over and over again. A great example is the loop structure to repeatedly get input from the user until a valid input is received.
-x = float(input(&amp;#34;Enter a percentage as a decimal number from 0 to 1: &amp;#34;)) while(x &amp;lt; 0 or x &amp;gt; 1): print(&amp;#34;Invalid Input!</description>
+      <description>Resources Slides So far, we&amp;rsquo;ve worked with many different programming structures, including functions, if statements, loops, and more. However, so far we&amp;rsquo;ve been a bit limited in how much data we can easily store. This is because a traditional variable can only store one value at a time!
+If we want to store lots of data, it would be much easier if we had a way to store it in a structured way so that we can access it using a single variable name and possibly some other identifier.</description>
     </item>
     <item>
       <title>Lists</title>
