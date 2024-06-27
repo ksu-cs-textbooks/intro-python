@@ -884,9 +884,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CIS 116 Syllabus - Fall 2024 on Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/intro-python/z-courses/116/syllabus/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/intro-python/z-courses/116/syllabus/index.html</link>
     <description>Recent content in CIS 116 Syllabus - Fall 2024 on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/z-courses/116/syllabus/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/intro-python/z-courses/116/syllabus/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

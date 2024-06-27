@@ -884,16 +884,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/intro-python/00-introduction/index.html</link>
     <description>Recent content in Introduction on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/00-introduction/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/intro-python/00-introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Course Introduction - Spring 2022</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/01-introduction/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/00-introduction/01-introduction/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/01-introduction/index.html</guid>
-      <description>Resources Slides Previous Versions Video Script [Slide 1]
+      <guid>https://textbooks.cs.ksu.edu/intro-python/00-introduction/01-introduction/index.html</guid>
+      <description>YouTube Video Resources Slides Previous Versions Video Script [Slide 1]
 Hello and welcome to the Computational Core program!
 My name is Emily Alfs-Votipka, and I&amp;rsquo;ll be one of the instructors for this program. My contact information is shown here, and is also listed on the syllabus.
 [Slide 2]
@@ -901,9 +901,9 @@ There are many other instructors and TAs for this program that you may interact 
     </item>
     <item>
       <title>CC 111 Syllabus - Fall 2023</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/06-cc111-syllabus/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/00-introduction/06-cc111-syllabus/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/00-introduction/06-cc111-syllabus/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/intro-python/00-introduction/06-cc111-syllabus/index.html</guid>
       <description>CC 111 - Elements of Computer Programming HS (2023-2024) Previous Versions Instructor Contact Information Instructor: Safia Malallah (safia AT ksu DOT edu)
 I use she/her pronouns. Feel free to share your own pronouns with me, and I&amp;rsquo;ll do my best to use them! Office: DUE 2161 Virtual Office Hours: Schedule a meeting with me: https://calendly.com/safiamalallah Appointments held via Zoom . Preferred Methods of Communication: High School Teacher: Students should primarily contact your high school teacher for any assistance in the course.</description>
     </item>

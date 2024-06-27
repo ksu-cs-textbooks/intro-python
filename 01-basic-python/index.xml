@@ -884,80 +884,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basic Python on Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/index.html</link>
     <description>Recent content in Basic Python on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/intro-python/01-basic-python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning to Program</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/01-learning-to-program/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/01-learning-to-program/index.html</guid>
-      <description>Resources Slides Learning to program involves learning not only the syntax and rules of a new language, but also a new way of thinking. Not only do we want to write code that is understandable by the computer, we must also understand what the computer will do when it tries to run that code.
+      <guid>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/01-learning-to-program/index.html</guid>
+      <description>YouTube Video
+Resources Slides Learning to program involves learning not only the syntax and rules of a new language, but also a new way of thinking. Not only do we want to write code that is understandable by the computer, we must also understand what the computer will do when it tries to run that code.
 A key part of that is learning to think like a computer thinks. We sometimes call this our &amp;ldquo;mental model&amp;rdquo; of a computer.</description>
     </item>
     <item>
       <title>Working in the Terminal</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/02-working-in-terminal/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/02-working-in-terminal/index.html</guid>
-      <description>Resources Slides First, let&amp;rsquo;s start with the basics of writing Python code in a file and running those files. This is the first major step toward actually writing a real program, but it can definitely be difficult the first time without prior experience to rely on. So, let&amp;rsquo;s go through it step by step and make sure we know how to run our programs in Python.
+      <guid>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/02-working-in-terminal/index.html</guid>
+      <description>YouTube Video
+Resources Slides First, let&amp;rsquo;s start with the basics of writing Python code in a file and running those files. This is the first major step toward actually writing a real program, but it can definitely be difficult the first time without prior experience to rely on. So, let&amp;rsquo;s go through it step by step and make sure we know how to run our programs in Python.
 At this point, we should already have Python installed on our system.</description>
     </item>
     <item>
       <title>Print Statement</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/03-print-statement/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/03-print-statement/index.html</guid>
-      <description>Resources Slides Before we learn to write our first program, let&amp;rsquo;s start by introducing some important vocabulary terms:
+      <guid>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/03-print-statement/index.html</guid>
+      <description>YouTube Video
+Resources Slides Before we learn to write our first program, let&amp;rsquo;s start by introducing some important vocabulary terms:
 string: A string in programming is any text that is stored as a value. We typically represent strings by placing them inside double quotes &amp;quot;&amp;quot; in our code and elsewhere. value: A value is a piece of data that our program is storing and manipulating. In our pseudocode, values consist of either numbers or strings.</description>
     </item>
     <item>
       <title>Using Print</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/04-using-print/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/04-using-print/index.html</guid>
-      <description>Resources Slides One important key to remember: by default, the print(expression) statement in Python will add a newline to the end of the output by default. This means that multiple print(expression) statements will print on multiple lines. Let&amp;rsquo;s look at some examples!
+      <guid>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/04-using-print/index.html</guid>
+      <description>YouTube Video
+Resources Slides One important key to remember: by default, the print(expression) statement in Python will add a newline to the end of the output by default. This means that multiple print(expression) statements will print on multiple lines. Let&amp;rsquo;s look at some examples!
 Throughout this course, we&amp;rsquo;ll show many different code examples and their output here in the lab. To test them out, feel free to copy the code examples to a Python file and run it yourself.</description>
     </item>
     <item>
       <title>Print Practice</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/05-print-practice/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/05-print-practice/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/05-print-practice/index.html</guid>
       <description>Let&amp;rsquo;s try some simple practice problems. These problems are not graded - they are just for you to practice before doing the real exercises in the lab itself. You can find the answers below each question by clicking the button below each question.
 1.1 Reading Code What is the output that is displayed to the user after running the following Python code:
 print(&amp;#34;Kansas State University&amp;#34;) print(&amp;#34;Manhattan &amp;#34;, end=&amp;#34;&amp;#34;) print(&amp;#34;KS&amp;#34;, end=&amp;#34; &amp;#34;) print(&amp;#34;66506&amp;#34;) print(&amp;#34;KSU!</description>
     </item>
     <item>
       <title>Variables</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/06-variables/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/06-variables/index.html</guid>
-      <description>Resources Slides Now that we&amp;rsquo;ve learned how to use the print(expression) statement, let&amp;rsquo;s focus on the next major concept in Python, as well as any other programming language: variables.
+      <guid>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/06-variables/index.html</guid>
+      <description>YouTube Video
+Resources Slides Now that we&amp;rsquo;ve learned how to use the print(expression) statement, let&amp;rsquo;s focus on the next major concept in Python, as well as any other programming language: variables.
 The word variable is traditionally defined as a value that can change. We&amp;rsquo;ve seen variables like $ x $ used in Algebraic equations like $ x + 4 = 7 $ to represent unknown values that we can try to work out.</description>
     </item>
     <item>
       <title>Code Tracing</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/07-code-tracing/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/07-code-tracing/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/07-code-tracing/index.html</guid>
-      <description>Resources Slides As we learn to write more complex programs in Python, it is important to make sure we can still mentally execute the code we are writing in our &amp;ldquo;mental model&amp;rdquo; of a computer before we actually run it on a computer. After all, if we don&amp;rsquo;t have at least an idea of what the code actually does before we write it, we really haven&amp;rsquo;t learned much about programming!</description>
+      <guid>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/07-code-tracing/index.html</guid>
+      <description>YouTube Video
+Resources Slides As we learn to write more complex programs in Python, it is important to make sure we can still mentally execute the code we are writing in our &amp;ldquo;mental model&amp;rdquo; of a computer before we actually run it on a computer. After all, if we don&amp;rsquo;t have at least an idea of what the code actually does before we write it, we really haven&amp;rsquo;t learned much about programming!</description>
     </item>
     <item>
       <title>Variables Practice</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/08-variables-practice/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/08-variables-practice/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/08-variables-practice/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/08-variables-practice/index.html</guid>
       <description>Let&amp;rsquo;s try some simple practice problems. These problems are not graded - they are just for you to practice before doing the real exercises in the lab itself. You can find the answers below each question by clicking the button below each question.
 1.4 Reading Code Write the output that is displayed to the user after running the following Python code:
 a = &amp;#34;two&amp;#34; b = a c = a print(c, end=&amp;#34; &amp;#34;) c = &amp;#34;one&amp;#34; b = c a = &amp;#34;three&amp;#34; print(a, end=&amp;#34; &amp;#34;) print(c) Answer 1.</description>
     </item>
     <item>
       <title>Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/09-summary/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/09-summary/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/01-basic-python/09-summary/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/intro-python/01-basic-python/09-summary/index.html</guid>
       <description>Python We introduced some basic statements and structures in the Python programming language. Let&amp;rsquo;s quickly review them!
 Print Statement The print(expression) statement is used to print output on the terminal.
 It will evaluate expression to a value, then display it to the screen. By default, it will add a newline to the end of the output. We can change that using the end parameter, such as print(expression, end=&amp;quot;&amp;quot;) to remove the newline.</description>

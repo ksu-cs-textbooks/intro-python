@@ -884,67 +884,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Strings &amp; Input on Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/index.html</link>
     <description>Recent content in Strings &amp; Input on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/intro-python/03-strings-input/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Input</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/01-input/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/01-input/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/01-input/index.html</guid>
-      <description>Resources Slides The Python programs we&amp;rsquo;ve written up to this point are very static - each time we run the program, it will perform the same exact operations. Since we&amp;rsquo;re running these programs on a real computer, it might be helpful to build programs that can read and respond to input from the user, making them much more useful overall. Python includes many different ways to handle user input, but in this lab we&amp;rsquo;ll just focus on the simple input() function.</description>
+      <guid>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/01-input/index.html</guid>
+      <description>YouTube Video
+Resources Slides The Python programs we&amp;rsquo;ve written up to this point are very static - each time we run the program, it will perform the same exact operations. Since we&amp;rsquo;re running these programs on a real computer, it might be helpful to build programs that can read and respond to input from the user, making them much more useful overall. Python includes many different ways to handle user input, but in this lab we&amp;rsquo;ll just focus on the simple input() function.</description>
     </item>
     <item>
       <title>Numerical Input</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/02-number-input/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/02-number-input/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/02-number-input/index.html</guid>
-      <description>Resources Slides Of course, we can also read numerical input in Python using the input() function. To do this, we must simply use either the int() or float() function to convert the input received as a string to the correct data type.
+      <guid>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/02-number-input/index.html</guid>
+      <description>YouTube Video
+Resources Slides Of course, we can also read numerical input in Python using the input() function. To do this, we must simply use either the int() or float() function to convert the input received as a string to the correct data type.
 Here&amp;rsquo;s a quick example program that requires two inputs for the price and quantity of an item being purchased:
 text_one = input(&amp;#34;Enter the price of one item: &amp;#34;) price = float(text_one) text_two = input(&amp;#34;Enter the quantity of items: &amp;#34;) quantity = int(text_two) cost = price * quantity print(&amp;#34;The total cost is $&amp;#34;, end=&amp;#34;&amp;#34;) print(cost) If the user wishes to purchase $ 3 $ items at the price of $ 2.</description>
     </item>
     <item>
       <title>String Operators</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/03-string-operators/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/03-string-operators/index.html</guid>
-      <description>Resources Slides Concatenate Python includes an operator that can be used to concatenate, or combine, two strings together, one after another. We can use the plus symbol + between two strings to concatenate them together into a single string, making it much simpler to build more complex strings and outputs.
+      <guid>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/03-string-operators/index.html</guid>
+      <description>YouTube Video
+Resources Slides Concatenate Python includes an operator that can be used to concatenate, or combine, two strings together, one after another. We can use the plus symbol + between two strings to concatenate them together into a single string, making it much simpler to build more complex strings and outputs.
 A simple example is shown below:
 first = &amp;#34;Hello&amp;#34; second = &amp;#34;World&amp;#34; print(first + second) When executed, this code will display this output:</description>
     </item>
     <item>
       <title>F-Strings</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/04-f-strings/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/04-f-strings/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/04-f-strings/index.html</guid>
-      <description>Resources Slides Python also includes another method of building strings, which are known as &amp;ldquo;F-strings&amp;rdquo;. F-strings allow us to put placeholders in strings that are later replaced with values from variables, effectively creating a way to build &amp;ldquo;templates&amp;rdquo; that can be used throughout our program.
+      <guid>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/04-f-strings/index.html</guid>
+      <description>YouTube Video
+Resources Slides Python also includes another method of building strings, which are known as &amp;ldquo;F-strings&amp;rdquo;. F-strings allow us to put placeholders in strings that are later replaced with values from variables, effectively creating a way to build &amp;ldquo;templates&amp;rdquo; that can be used throughout our program.
 The easiest way to see how this works is looking at a few examples. Let&amp;rsquo;s start with a simple one:
 name = input(&amp;#34;Enter your name: &amp;#34;) print(f&amp;#34;Hello {name}&amp;#34;) If the user inputs &amp;quot;Willie Wildcat&amp;quot; when prompted, then this code will produce this output:</description>
     </item>
     <item>
       <title>Complex Statements</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/05-complex-statements/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/05-complex-statements/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/05-complex-statements/index.html</guid>
-      <description>Resources Slides Finally, let&amp;rsquo;s look at how we can rewrite some of our previous Python programs by combining expressions into more complex statements. Python allows us to perform multiple actions on a single line of code, provided they can all be combined in some way to create a single statement.
+      <guid>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/05-complex-statements/index.html</guid>
+      <description>YouTube Video
+Resources Slides Finally, let&amp;rsquo;s look at how we can rewrite some of our previous Python programs by combining expressions into more complex statements. Python allows us to perform multiple actions on a single line of code, provided they can all be combined in some way to create a single statement.
 Let&amp;rsquo;s consider the example on the previous page, shown here:
 text_one = input(&amp;#34;Enter the first number: &amp;#34;) one = int(text_one) text_two = input(&amp;#34;Enter the second number: &amp;#34;) two = int(text_two) one = one * one two = two * two total = one + two print(f&amp;#34;The sum of squares of {one} and {two} is {total}&amp;#34;) There are many ways we can write this program to perform the same work.</description>
     </item>
     <item>
       <title>Input Practice</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/06-input-practice/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/06-input-practice/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/06-input-practice/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/06-input-practice/index.html</guid>
       <description>Let&amp;rsquo;s try some simple practice problems. These problems are not graded - they are just for you to practice before doing the real exercises in the lab itself. You can find the answers below each question by clicking the button below each question.
 3.1 Reading Code Write the output that is displayed to the user after running the following Python code:
 x = input(&amp;#34;Enter a number: &amp;#34;) y = x + &amp;#34;00&amp;#34; z = int(y) a = int(z + (z / 100)) print(f&amp;#34;The result is {a}&amp;#34;)Assume the user inputs the string &amp;quot;4&amp;quot; when prompted.</description>
     </item>
     <item>
       <title>Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/07-summary/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/07-summary/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/intro-python/03-strings-input/07-summary/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/intro-python/03-strings-input/07-summary/index.html</guid>
       <description>Python input input(expression) will display the expression to the user as a prompt, then return what was typed by the user as a string value. input(expression) is terminated by the user pressing ENTER, so next output starts on a new line. Python String Operators + Concatenation (join strings together). May only be applied to two strings. * Repeat (duplicate strings) \ Escape Operator for special characters f-string are used to format output.</description>
     </item>
   </channel>

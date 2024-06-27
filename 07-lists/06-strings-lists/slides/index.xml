@@ -884,9 +884,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction to Python</title>
-    <link>https://ksu-cs-textbooks.github.io/intro-python/07-lists/06-strings-lists/slides/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/intro-python/07-lists/06-strings-lists/slides/index.html</link>
     <description>Recent content on Introduction to Python</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/intro-python/07-lists/06-strings-lists/slides/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/intro-python/07-lists/06-strings-lists/slides/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
