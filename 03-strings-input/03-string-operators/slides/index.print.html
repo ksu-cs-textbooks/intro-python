@@ -1,191 +1,56 @@
-
-
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title></title>
-
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/reset.css">
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/reveal.css">
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/theme/black.css">
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/css/reveal-theme.css">
-
-		
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-    <h3>String Concatenation</h3>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-python stretch">first = "Hello"
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
+<link rel=stylesheet href=/intro-python/reveal/dist/reset.css><link rel=stylesheet href=/intro-python/reveal/dist/reveal.css><link rel=stylesheet href=/intro-python/reveal/dist/theme/black.css><link rel=stylesheet href=/intro-python/css/reveal-theme.css><link rel=stylesheet href=/intro-python/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h3>String Concatenation</h3><pre><code style=font-size:70px;line-height:80px class="language-python stretch">first = "Hello"
 second = "World"
 print(first + second)
-</code></pre>
-    <br>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-plaintext"> 
-</code></pre>
-</section>
-<section>
-    <h3>String Concatenation</h3>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-python stretch">first = "Hello"
+</code></pre><br><pre><code style=font-size:70px;line-height:80px class=language-plaintext> 
+</code></pre></section><section><h3>String Concatenation</h3><pre><code style=font-size:70px;line-height:80px class="language-python stretch">first = "Hello"
 second = "World"
 print(first + second)
-</code></pre>
-    <br>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-plaintext">HelloWorld
-</code></pre>
-</section>
-<section>
-    <h3>Concatenating Numbers</h3>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-python stretch">text = "Your total is $"
+</code></pre><br><pre><code style=font-size:70px;line-height:80px class=language-plaintext>HelloWorld
+</code></pre></section><section><h3>Concatenating Numbers</h3><pre><code style=font-size:70px;line-height:80px class="language-python stretch">text = "Your total is $"
 value = 2.75
 print(text + str(value))
-</code></pre>
-    <br>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-plaintext"> 
-</code></pre>
-</section>
-<section>
-    <h3>Concatenating Numbers</h3>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-python stretch">text = "Your total is $"
+</code></pre><br><pre><code style=font-size:70px;line-height:80px class=language-plaintext> 
+</code></pre></section><section><h3>Concatenating Numbers</h3><pre><code style=font-size:70px;line-height:80px class="language-python stretch">text = "Your total is $"
 value = 2.75
 print(text + str(value))
-</code></pre>
-    <br>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-plaintext">Your total is $2.75
-</code></pre>
-</section>
-<section>
-    <h3>Concatenating Numbers</h3>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-python stretch">text = "Your total is $"
+</code></pre><br><pre><code style=font-size:70px;line-height:80px class=language-plaintext>Your total is $2.75
+</code></pre></section><section><h3>Concatenating Numbers</h3><pre><code style=font-size:70px;line-height:80px class="language-python stretch">text = "Your total is $"
 value = 2.75
 print(text + <mark>value</mark>)
-</code></pre>
-    <br>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-plaintext"> 
-</code></pre>
-</section>
-<section>
-    <h3>Concatenating Numbers</h3>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-python stretch">text = "Your total is $"
+</code></pre><br><pre><code style=font-size:70px;line-height:80px class=language-plaintext> 
+</code></pre></section><section><h3>Concatenating Numbers</h3><pre><code style=font-size:70px;line-height:80px class="language-python stretch">text = "Your total is $"
 value = 2.75
-print(text + <mark style="color:red">value</mark>)
-</code></pre>
-    <br>
-    <pre><code style="font-size: 50px; line-height: 60px" class="language-plaintext">Traceback (most recent call last):
+print(text + <mark style=color:red>value</mark>)
+</code></pre><br><pre><code style=font-size:50px;line-height:60px class=language-plaintext>Traceback (most recent call last):
 File "tutor.py", line 3, in &lt;module>
     print(text + value)
 TypeError: must be str, not float
-</code></pre>
-</section>
-<section>
-    <h3>Repeat</h3>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-python stretch">word = "repeat"
+</code></pre></section><section><h3>Repeat</h3><pre><code style=font-size:70px;line-height:80px class="language-python stretch">word = "repeat"
 print(word * 2)
 print(word * 4)
-</code></pre>
-    <br>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-plaintext"><br>
-</code></pre>
-</section>
-<section>
-    <h3>Repeat</h3>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-python stretch">word = "repeat"
+</code></pre><br><pre><code style=font-size:70px;line-height:80px class=language-plaintext><br>
+</code></pre></section><section><h3>Repeat</h3><pre><code style=font-size:70px;line-height:80px class="language-python stretch">word = "repeat"
 print(word * 2)
 print(word * 4)
-</code></pre>
-    <br>
-    <pre><code style="font-size: 70px; line-height: 80px" class="language-plaintext">repeatrepeat
+</code></pre><br><pre><code style=font-size:70px;line-height:80px class=language-plaintext>repeatrepeat
 repeatrepeatrepeatrepeat
-</code></pre>
-</section>
-<section>
-    <h3>Escape</h3>
-    <pre><code style="font-size: 50px; line-height: 55px" class="language-python stretch">sentence = "Hello from "the little apple!""
+</code></pre></section><section><h3>Escape</h3><pre><code style=font-size:50px;line-height:55px class="language-python stretch">sentence = "Hello from "the little apple!""
 print(sentence)
-</code></pre>
-    <br>
-    <pre><code style="font-size: 50px; line-height: 55px" class="language-plaintext"><br><br><br>
-</code></pre>
-</section>
-<section>
-    <h3>Escape</h3>
-    <pre><code style="font-size: 50px; line-height: 55px" class="language-python stretch">sentence = "Hello from "the little apple!""
+</code></pre><br><pre><code style=font-size:50px;line-height:55px class=language-plaintext><br><br><br>
+</code></pre></section><section><h3>Escape</h3><pre><code style=font-size:50px;line-height:55px class="language-python stretch">sentence = "Hello from "the little apple!""
 print(sentence)
-</code></pre>
-    <br>
-    <pre><code style="font-size: 50px; line-height: 55px" class="language-plaintext">File test.py, line 1
+</code></pre><br><pre><code style=font-size:50px;line-height:55px class=language-plaintext>File test.py, line 1
   sentence = "Hello from "the little apple!""
                           ^
 SyntaxError: invalid syntax
-</code></pre>
-</section>
-<section>
-    <h3>Escape</h3>
-    <pre><code style="font-size: 50px; line-height: 55px" class="language-python stretch">sentence = "Hello from \"the little apple!\""
+</code></pre></section><section><h3>Escape</h3><pre><code style=font-size:50px;line-height:55px class="language-python stretch">sentence = "Hello from \"the little apple!\""
 print(sentence)
-</code></pre>
-    <br>
-    <pre><code style="font-size: 50px; line-height: 55px" class="language-plaintext">
-</code></pre>
-</section>
-<section>
-    <h3>Escape</h3>
-    <pre><code style="font-size: 50px; line-height: 55px" class="language-python stretch">sentence = "Hello from \"the little apple!\""
+</code></pre><br><pre><code style=font-size:50px;line-height:55px class=language-plaintext>
+</code></pre></section><section><h3>Escape</h3><pre><code style=font-size:50px;line-height:55px class="language-python stretch">sentence = "Hello from \"the little apple!\""
 print(sentence)
-</code></pre>
-    <br>
-    <pre><code style="font-size: 50px; line-height: 55px" class="language-plaintext">Hello from "the little apple!"
-</code></pre>
-</section>
-<section>
-    <h3>Single & Double Quotes</h3>
-    <pre><code style="font-size: 50px; line-height: 55px" class="language-python stretch">sentence = 'Hello from "the little apple!"'
+</code></pre><br><pre><code style=font-size:50px;line-height:55px class=language-plaintext>Hello from "the little apple!"
+</code></pre></section><section><h3>Single & Double Quotes</h3><pre><code style=font-size:50px;line-height:55px class="language-python stretch">sentence = 'Hello from "the little apple!"'
 print(sentence)
-</code></pre>
-    <br>
-    <pre><code style="font-size: 50px; line-height: 55px" class="language-plaintext">Hello from "the little apple!"
-</code></pre>
-</section>
-			</div>
-		</div>
-
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/reveal.js"></script>
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/markdown/markdown.js"></script>
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/highlight/highlight.js"></script>
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/math/math.js"></script>
-		<script>
-			
-			
-			
-			Reveal.initialize({
-				hash: true,
-				controls: false,
-				controlsTutorial:false,
-				progress: false,
-				transition: 'fade',
-				width: 1440,
-				height: 1080,
-				highlight: {
-					escapeHTML: false
-				},
-
-				
-				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
-			});
-
-			window.addEventListener("mousedown", handleClick, false);
-			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
-
-			function handleClick(e) {
-				e.preventDefault();
-				if(e.button === 0) Reveal.next();
-				if(e.button === 2) Reveal.prev();
-			}
-		</script>
-	</body>
-</html>
+</code></pre><br><pre><code style=font-size:50px;line-height:55px class=language-plaintext>Hello from "the little apple!"
+</code></pre></section></div></div><script src=/intro-python/reveal/dist/reveal.js></script><script src=/intro-python/reveal/plugin/markdown/markdown.js></script><script src=/intro-python/reveal/plugin/highlight/highlight.js></script><script src=/intro-python/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>

@@ -1,80 +1,30 @@
-
-
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title></title>
-
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/reset.css">
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/reveal.css">
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/theme/black.css">
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/css/reveal-theme.css">
-
-		
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-    <h3>Problem Statement</h3>
-    <p style="font-size: 55px">Write a program to print the sum of the first <code>n</code> prime numbers, where <code>n</code> is provided as input from the user. </p>
-</section>
-<section>
-	<h3>Handling Input</h3>
-    <pre><code style="font-size: 40px; line-height: 45px" class="language-python stretch">x = int(input("Enter a positive integer: "))
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
+<link rel=stylesheet href=/intro-python/reveal/dist/reset.css><link rel=stylesheet href=/intro-python/reveal/dist/reveal.css><link rel=stylesheet href=/intro-python/reveal/dist/theme/black.css><link rel=stylesheet href=/intro-python/css/reveal-theme.css><link rel=stylesheet href=/intro-python/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h3>Problem Statement</h3><p style=font-size:55px>Write a program to print the sum of the first <code>n</code> prime numbers, where <code>n</code> is provided as input from the user.</p></section><section><h3>Handling Input</h3><pre><code style=font-size:40px;line-height:45px class="language-python stretch">x = int(input("Enter a positive integer: "))
 while x <= 0:
     print("Invalid input!")
     x = int(input("Enter a positive integer: "))
 n = x
-</code></pre>
-</section>
-<section>
-	<h3>Prime Numbers</h3>
-    <pre><code style="font-size: 40px; line-height: 45px" class="language-python stretch">for i in range(2, x):
-</code></pre>
-</section>
-<section>
-	<h3>Prime Numbers</h3>
-    <pre><code style="font-size: 40px; line-height: 45px" class="language-python stretch">for i in range(2, x):
+</code></pre></section><section><h3>Prime Numbers</h3><pre><code style=font-size:40px;line-height:45px class="language-python stretch">for i in range(2, x):
+</code></pre></section><section><h3>Prime Numbers</h3><pre><code style=font-size:40px;line-height:45px class="language-python stretch">for i in range(2, x):
     if x % i == 0:
         # i equally divides x
-</code></pre>
-</section>
-<section>
-	<h3>Prime Numbers</h3>
-    <pre><code style="font-size: 40px; line-height: 45px" class="language-python stretch">is_prime = True
+</code></pre></section><section><h3>Prime Numbers</h3><pre><code style=font-size:40px;line-height:45px class="language-python stretch">is_prime = True
 for i in range(2, x):
     if x % i == 0:
         is_prime = False
 # what if we get here?
-</code></pre>
-</section>
-<section>
-	<h3>Prime Numbers</h3>
-    <pre><code style="font-size: 40px; line-height: 45px" class="language-python stretch">is_prime = True
+</code></pre></section><section><h3>Prime Numbers</h3><pre><code style=font-size:40px;line-height:45px class="language-python stretch">is_prime = True
 for i in range(2, x):
     if x % i == 0:
         is_prime = False
         <<mark>break</mark>
 # what if we get here?
-</code></pre>
-</section>
-<section>
-	<h3>Prime Numbers</h3>
-    <pre><code style="font-size: 40px; line-height: 45px" class="language-python stretch">is_prime = True
+</code></pre></section><section><h3>Prime Numbers</h3><pre><code style=font-size:40px;line-height:45px class="language-python stretch">is_prime = True
 for i in range(2, x):
     if x % i == 0:
         is_prime = False
 # is_prime stores whether nx is prime or not
-</code></pre>
-</section>
-<section>
-	<h3>Full Program</h3>
-    <pre><code style="font-size: 40px; line-height: 45px" class="language-python stretch">x = int(input("Enter a positive integer: "))
+</code></pre></section><section><h3>Full Program</h3><pre><code style=font-size:40px;line-height:45px class="language-python stretch">x = int(input("Enter a positive integer: "))
 while x <= 0:
     print("Invalid input!")
     x = int(input("Enter a positive integer: "))
@@ -92,56 +42,4 @@ while count < n:
         count = count + 1
     x = x + 1
 print(f"The sum of the first {n} prime numbers is {total}")
-</code></pre>
-</section>
-<section>
-	<h3>Testing</h3>
-	<ul>
-	    <li>Input Code</li>
-		<li>Outer While Loop</li>
-        <li>Inner For Loop</li>
-	</ul>
-	<br><br>
-	<p style="font-size: 60px;" class="fragment">2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 = 100</p>
-</section>
-<section>
-	<img class="stretch plain" src="https://textbooks.cs.ksu.edu/intro-python/images/05/output6.png">
-</section>
-			</div>
-		</div>
-
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/reveal.js"></script>
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/markdown/markdown.js"></script>
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/highlight/highlight.js"></script>
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/math/math.js"></script>
-		<script>
-			
-			
-			
-			Reveal.initialize({
-				hash: true,
-				controls: false,
-				controlsTutorial:false,
-				progress: false,
-				transition: 'fade',
-				width: 1440,
-				height: 1080,
-				highlight: {
-					escapeHTML: false
-				},
-
-				
-				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
-			});
-
-			window.addEventListener("mousedown", handleClick, false);
-			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
-
-			function handleClick(e) {
-				e.preventDefault();
-				if(e.button === 0) Reveal.next();
-				if(e.button === 2) Reveal.prev();
-			}
-		</script>
-	</body>
-</html>
+</code></pre></section><section><h3>Testing</h3><ul><li>Input Code</li><li>Outer While Loop</li><li>Inner For Loop</li></ul><br><br><p style=font-size:60px class=fragment>2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 = 100</p></section><section><img class="stretch plain" src=/intro-python/images/05/output6.png></section></div></div><script src=/intro-python/reveal/dist/reveal.js></script><script src=/intro-python/reveal/plugin/markdown/markdown.js></script><script src=/intro-python/reveal/plugin/highlight/highlight.js></script><script src=/intro-python/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>

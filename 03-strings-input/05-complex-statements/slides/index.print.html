@@ -1,26 +1,5 @@
-
-
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title></title>
-
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/reset.css">
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/reveal.css">
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/theme/black.css">
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/css/reveal-theme.css">
-
-		
-		<link rel="stylesheet" href="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-    <pre><code style="font-size: 35px; line-height: 40px" class="language-python stretch">text_one = input("Enter the first number: ")
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
+<link rel=stylesheet href=/intro-python/reveal/dist/reset.css><link rel=stylesheet href=/intro-python/reveal/dist/reveal.css><link rel=stylesheet href=/intro-python/reveal/dist/theme/black.css><link rel=stylesheet href=/intro-python/css/reveal-theme.css><link rel=stylesheet href=/intro-python/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><pre><code style=font-size:35px;line-height:40px class="language-python stretch">text_one = input("Enter the first number: ")
 one = int(text_one)
 text_two = input("Enter the second number: ")
 two = int(text_two)
@@ -28,10 +7,7 @@ one = one * one
 two = two * two
 total = one + two
 print(f"The sum of squares of {one} and {two} is {total}")
-</code></pre>
-</section>
-<section>
-    <pre><code style="font-size: 35px; line-height: 40px" class="language-python stretch">text_one = input("Enter the first number: ")
+</code></pre></section><section><pre><code style=font-size:35px;line-height:40px class="language-python stretch">text_one = input("Enter the first number: ")
 one = int(text_one)
 text_two = input("Enter the second number: ")
 two = int(text_two)
@@ -39,100 +15,28 @@ two = int(text_two)
 <mark>two = two * two</mark>
 <mark>total = one + two</mark>
 print(f"The sum of squares of {one} and {two} is {total}")
-</code></pre>
-</section>
-<section>
-    <pre><code style="font-size: 35px; line-height: 40px" class="language-python stretch">text_one = input("Enter the first number: ")
+</code></pre></section><section><pre><code style=font-size:35px;line-height:40px class="language-python stretch">text_one = input("Enter the first number: ")
 one = int(text_one)
 text_two = input("Enter the second number: ")
 two = int(text_two)
 <mark>total = (one * one) + (two * two)</mark>
 print(f"The sum of squares of {one} and {two} is {total}")
-</code></pre>
-</section>
-<section>
-    <pre><code style="font-size: 35px; line-height: 40px" class="language-python stretch"><mark>text_one = input("Enter the first number: ")</mark>
+</code></pre></section><section><pre><code style=font-size:35px;line-height:40px class="language-python stretch"><mark>text_one = input("Enter the first number: ")</mark>
 <mark>one = int(text_one)</mark>
 <mark>text_two = input("Enter the second number: ")</mark>
 <mark>two = int(text_two)</mark>
 total = (one * one) + (two * two)
 print(f"The sum of squares of {one} and {two} is {total}")
-</code></pre>
-</section>
-<section>
-    <pre><code style="font-size: 35px; line-height: 40px" class="language-python stretch"><mark>one = int(input("Enter the first number: "))</mark>
+</code></pre></section><section><pre><code style=font-size:35px;line-height:40px class="language-python stretch"><mark>one = int(input("Enter the first number: "))</mark>
 <mark>two = int(input("Enter the second number: "))</mark>
 total = (one * one) + (two * two)
 print(f"The sum of squares of {one} and {two} is {total}")
-</code></pre>
-</section>
-<section>
-    <pre><code style="font-size: 35px; line-height: 40px" class="language-python stretch">one = int(input("Enter the first number: "))
+</code></pre></section><section><pre><code style=font-size:35px;line-height:40px class="language-python stretch">one = int(input("Enter the first number: "))
 two = int(input("Enter the second number: "))
 <mark>total = (one * one) + (two * two)</mark>
 print(f"The sum of squares of {one} and {two} is {<mark>total</mark>}")
-</code></pre>
-</section>
-<section>
-    <pre><code style="font-size: 35px; line-height: 40px" class="language-python stretch">one = int(input("Enter the first number: "))
+</code></pre></section><section><pre><code style=font-size:35px;line-height:40px class="language-python stretch">one = int(input("Enter the first number: "))
 two = int(input("Enter the second number: "))
 print(f"The sum of squares of {one} and {two} is
         {<mark>(one * one) + (two * two)</mark>}")
-</code></pre>
-</section>
-<section>
-    <h3>Style</h3>
-    <ul>
-        <li>More lines and variables?<br>Simpler?</li>
-        <li>Fewer lines and variables?<br>More Complex?</li>
-    </ul>
-    <br><br>
-    <h4>&nbsp;</h4>
-</section>
-<section>
-    <h3>Style</h3>
-    <ul>
-        <li>More lines and variables?<br>Simpler?</li>
-        <li>Fewer lines and variables?<br>More Complex?</li>
-    </ul>
-    <br><br>
-    <h4>Focus on Readability!</h4>
-</section>
-			</div>
-		</div>
-
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/dist/reveal.js"></script>
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/markdown/markdown.js"></script>
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/highlight/highlight.js"></script>
-		<script src="https://textbooks.cs.ksu.edu/intro-python/reveal/plugin/math/math.js"></script>
-		<script>
-			
-			
-			
-			Reveal.initialize({
-				hash: true,
-				controls: false,
-				controlsTutorial:false,
-				progress: false,
-				transition: 'fade',
-				width: 1440,
-				height: 1080,
-				highlight: {
-					escapeHTML: false
-				},
-
-				
-				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
-			});
-
-			window.addEventListener("mousedown", handleClick, false);
-			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
-
-			function handleClick(e) {
-				e.preventDefault();
-				if(e.button === 0) Reveal.next();
-				if(e.button === 2) Reveal.prev();
-			}
-		</script>
-	</body>
-</html>
+</code></pre></section><section><h3>Style</h3><ul><li>More lines and variables?<br>Simpler?</li><li>Fewer lines and variables?<br>More Complex?</li></ul><br><br><h4>&nbsp;</h4></section><section><h3>Style</h3><ul><li>More lines and variables?<br>Simpler?</li><li>Fewer lines and variables?<br>More Complex?</li></ul><br><br><h4>Focus on Readability!</h4></section></div></div><script src=/intro-python/reveal/dist/reveal.js></script><script src=/intro-python/reveal/plugin/markdown/markdown.js></script><script src=/intro-python/reveal/plugin/highlight/highlight.js></script><script src=/intro-python/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>
