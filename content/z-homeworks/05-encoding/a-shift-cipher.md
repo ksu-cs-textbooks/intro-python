@@ -65,7 +65,26 @@ The `create_key()` function should create a list of all {{< math >}}$ 26 ${{< /m
 
 One possible way to build this function is to import the `string` library and use the `string.ascii_lowercase` list to get all letters of the alphabet. Then, starting at the index `shift`, append sequential values from `string.ascii_lowercase` to a new list that makes up the key. You can use the modulo operator `%` to wrap back to the first index of the list once the index reaches {{< math >}}$ 26 ${{< /math >}}. 
 
-See the worked example program in Lab 13 to see how to use the `string.ascii_lowercase` list.
+See the worked example
+```python
+import string
+
+# string.ascii_lowercase contains all lowercase letters: 'abcdefghijklmnopqrstuvwxyz'
+alphabet = string.ascii_lowercase
+
+# Example 1: Get the position of the letter 'e'
+position = alphabet.index('e') + 1  # +1 because index starts at 0
+print(f"The position of 'e' is: {position}")
+
+# Example 2: Convert a number (1-26) to its corresponding lowercase letter
+num = 3
+letter = alphabet[num - 1]  # -1 because index starts at 0
+print(f"The letter at position {num} is: {letter}")
+
+# Example 3: Print all letters with their positions
+for i, char in enumerate(alphabet, start=1):
+    print(f"{i}: {char}")
+
 
 ## The Encode Function
 
