@@ -85,6 +85,7 @@ print(f"The letter at position {num} is: {letter}")
 for i, char in enumerate(alphabet, start=1):
     print(f"{i}: {char}")
 
+```
 
 ## The Encode Function
 
