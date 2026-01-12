@@ -74,7 +74,7 @@ Conditional statements are **mutually exclusive** when only one of the many bran
 ```python
 if condition_1:
     print("1")
-else
+else:
     if condition_2:
         print("2")
     else:
