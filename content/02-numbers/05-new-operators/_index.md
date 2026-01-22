@@ -54,13 +54,11 @@ When this code is run, we see the following output:
 <class 'int'>
 ```
 
-||| growthhack
-
-# Don't Use the Carat `^`!
+{{% notice tip "Don't use the Carat ^" %}}
 
 Many other programming languages and tools use the carat `^` character to represent the exponentiation operation. However, in Python, the carat `^` character is used to represent the bitwise XOR operation. So, we must be careful not to accidentally use the `^` operator when we actually mean to use the `**` operator for exponentiation.
 
-|||
+{{% /notice %}}
 
 ## Integer Division Operator
 
