@@ -211,4 +211,4 @@ Your project will be graded according to the following rubric:
 
 ## Submitting
 
-Once you have completed this program, submit your `homework3.py` file via Codio or the assignment on Canvas.
+Once you have completed this program, submit your `homework` file via Codio or the assignment on Canvas.
