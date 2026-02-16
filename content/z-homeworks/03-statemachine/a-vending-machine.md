@@ -97,7 +97,7 @@ There are many ways to implement a finite state machine in Python, and this is j
 
 ## The Assignment
 
-Write your program in a file named `homework3.py`. This should be a complete Python program consisting of the following elements:
+Write your program in a file named and the HW number `homework#.py`. This should be a complete Python program consisting of the following elements:
 
 1. It should represent a finite state machine as described by the diagram below.
 1. It should prompt the user for the inputs required in each state. If an invalid input is provided, it should display an error to the user and prompt for input again.
