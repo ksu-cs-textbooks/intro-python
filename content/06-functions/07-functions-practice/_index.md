@@ -49,7 +49,7 @@ two wrongs don't make a right
 Construct a **function** (not an entire program) that meets the following specification. When the function is called using this line of code:
 
 ```python
-fun("s", "e", "l" "r")
+fun("s", "e", "l", "r")
 ```
 
 it should produce the following output:
