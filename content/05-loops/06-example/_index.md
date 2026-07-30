@@ -6,7 +6,7 @@ weight: 60
 
 <!-- EAV raw complete -->
 
-{{< youtube 1MUxdVRemk4  >}}
+{{< youtube 1MUxdVRemk4 >}}
 
 #### Resources
 
